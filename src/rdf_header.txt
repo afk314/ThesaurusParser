@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE uridef [
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+    <!ENTITY DEFAULT "http://www.healthwise.org/concept/concept_data">
+    <!ENTITY hwcv_sc "http://www.healthwise.org/concept/concept_schema#">
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+]>
+<rdf:RDF
+    xmlns:rdf = "&rdf;"
+    xmlns:rdfs = "&rdfs;"
+    xmlns:xsd = "&xsd;"
+    xmlns:owl = "&owl;"
+    xmlns = "&DEFAULT;#"
+    xml:base = "&DEFAULT;"
+    xmlns:hwcv_sc = "&hwcv_sc;"
+    xmlns:skos = "&skos;"
+>
+  <owl:Ontology rdf:about="">
+    <owl:versionInfo>$Id: HW_Concept_Data.owl, Ver 1.0, July 04, 2015, Mohamed Keshk. $</owl:versionInfo>
+    <owl:imports rdf:resource="file:/C:/1HW/HW_Concept_Schema.owl"/>
+    <owl:imports rdf:resource="file:/C:/1HW/skos.owl"/>
+  </owl:Ontology>
+
+  <skos:Concept rdf:ID="HWCV_00000">
+    <hwcv_sc:concept_id>HWCV_00000</hwcv_sc:concept_id>
+    <rdfs:label>HW Root Concept</rdfs:label>
+  </skos:Concept>
+
+  <skos:Concept rdf:ID="HWCV_10000">
+    <hwcv_sc:concept_id>HWCV_10000</hwcv_sc:concept_id>
+    <rdfs:label>Condition</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <hwcv_sc:has_symptom rdf:resource="#HWCV_10001"/>
+    <hwcv_sc:has_treatment rdf:resource="#HWCV_10002"/>    
+    <hwcv_sc:diagnosed_by rdf:resource="#HWCV_10003"/>        
+    <hwcv_sc:affects rdf:resource="#HWCV_10004"/>    
+    <hwcv_sc:affects rdf:resource="#HWCV_10005"/>    
+    <hwcv_sc:caused_by rdf:resource="#HWCV_10006"/>
+    <hwcv_sc:prevented_by rdf:resource="#HWCV_10007"/>
+    <hwcv_sc:has_specialty rdf:resource="#HWCV_10009"/>
+    <hwcv_sc:has_complication rdf:resource="#HWCV_10010"/>
+    <hwcv_sc:complication_of rdf:resource="#HWCV_10000"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10001">
+    <hwcv_sc:concept_id>HWCV_10001</hwcv_sc:concept_id>
+    <rdfs:label>Symptom</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <hwcv_sc:symptom_of rdf:resource="#HWCV_10000"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10002">
+    <hwcv_sc:concept_id>HWCV_10002</hwcv_sc:concept_id>
+    <rdfs:label>Treatment</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <hwcv_sc:treats rdf:resource="#HWCV_10000"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10300">
+    <hwcv_sc:concept_id>HWCV_10300</hwcv_sc:concept_id>
+    <rdfs:label>Medication</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_10002"/>		
+    <hwcv_sc:treats rdf:resource="#HWCV_10000"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10301">
+    <hwcv_sc:concept_id>HWCV_10301</hwcv_sc:concept_id>
+    <rdfs:label>Procedure</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_10002"/>		
+    <hwcv_sc:treats rdf:resource="#HWCV_10000"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10003">
+    <hwcv_sc:concept_id>HWCV_10003</hwcv_sc:concept_id>
+    <rdfs:label>Test</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <hwcv_sc:diagnoses rdf:resource="#HWCV_10000"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10004">
+    <hwcv_sc:concept_id>HWCV_10004</hwcv_sc:concept_id>
+    <rdfs:label>Body System</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <hwcv_sc:affected_by rdf:resource="#HWCV_10000"/>
+    <hwcv_sc:has_part rdf:resource="#HWCV_10005"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10005">
+    <hwcv_sc:concept_id>HWCV_10005</hwcv_sc:concept_id>
+    <rdfs:label>Body Part</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <hwcv_sc:affected_by rdf:resource="#HWCV_10000"/>
+    <hwcv_sc:part_of rdf:resource="#HWCV_10004"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10006">
+    <hwcv_sc:concept_id>HWCV_10006</hwcv_sc:concept_id>
+    <rdfs:label>Causal Factor</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <hwcv_sc:causes rdf:resource="#HWCV_10000"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10007">
+    <hwcv_sc:concept_id>HWCV_10007</hwcv_sc:concept_id>
+    <rdfs:label>Wellness</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <hwcv_sc:helps_prevent rdf:resource="#HWCV_10000"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10009">
+    <hwcv_sc:concept_id>HWCV_10009</hwcv_sc:concept_id>
+    <rdfs:label>Specialty</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <hwcv_sc:concerned_with rdf:resource="#HWCV_10000"/>
+  </skos:Concept>
+  
+  <skos:Concept rdf:ID="HWCV_10010">
+    <hwcv_sc:concept_id>HWCV_10010</hwcv_sc:concept_id>
+    <rdfs:label>Complication</rdfs:label>
+    <skos:broader rdf:resource="#HWCV_10000"/>		
+    <hwcv_sc:complication_of rdf:resource="#HWCV_10000"/>
+  </skos:Concept>

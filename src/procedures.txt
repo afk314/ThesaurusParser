@@ -1,0 +1,3306 @@
+## Reviewed by Judy Dundas for accuracy in January 2014.
+## Reviewed by Tracy Landauer for plain language in February 2014.
+
+# UF: Used For
+# NF: Not For
+# SA: Subject Area
+# BT: Broader Term
+# NT: Narrower Term
+# RT: Related Term
+# USE: Use
+# SN: Scope Note
+# TT: Top Term
+# DEF: Definition
+# EX: Example
+# ABV: Abbreviation
+# DEV: Device
+# PRO: Procedure
+# MED: Medication
+# SMP: Symptom
+# WEL: Wellness
+# EN:
+# CL:Clinical Label
+# CEL:Canadian English Label
+# AZ:Label for browsing A-Z lists
+
+Pelvic Prolapse Repair
+  TT:Surgery
+  AZ:Pelvic Prolapse Repair
+  CL:Pelvic Prolapse Repair
+  UF:Pelvic Prolapse Surgery
+Pancreatic Cancer Surgery
+  TT:Surgery
+  AZ:Pancreatic Cancer Surgery
+  CL:Pancreatic Cancer Surgery
+Paracentesis
+  TT:Procedure
+  AZ:Paracentesis
+  CL:Paracentesis
+Nose Cautery
+  TT:Procedure
+  AZ:Cautery, Nose
+  CL:Cautery, Nose
+  UF:Nose Cauterization
+  UF:Cauterization of the Nose
+Endoscopic Laser Treatment
+  TT:Surgery
+  AZ:Endoscopic Laser Treatment
+  CL:Endoscopic Laser Treatment
+Retinal Detachment Repair
+  TT:Surgery
+  AZ:Retinal Detachment Repair
+  CL:Retinal Detachment Repair
+  UF:Retinal Detachment Surgery
+  UF:Surgery for Retinal Detachment
+Penile Implant Insertion
+  TT:Surgery
+  AZ:Insertion, Penile Implant
+  CL:Insertion, Penile Implant
+  UF:Penile Implants
+IUD Insertion and Removal
+  TT:Procedure
+  AZ:Insertion and Removal, IUD
+  CL:Insertion and Removal, IUD
+  UF:IUD Implantation
+  UF:Intrauterine Device
+  UF:IUD Insertion
+  UF:IUD Removal
+Cerebral Palsy Orthopedic Surgery
+  TT:Surgery
+  AZ:Cerebral Palsy Orthopedic Surgery
+  CL:Cerebral Palsy Orthopedic Surgery
+  UF:Orthopedic Surgery for Cerebral Palsy
+Endovascular Aneurysm Repair (EVAR)
+  TT:Surgery
+  ABV:EVAR
+  AZ:Aneurysm Repair, Endovascular (EVAR)
+  CL:Aneurysm Repair, Endovascular (EVAR)
+  UF:Endovascular Aortic Repair
+  UF:Endovascular Aneurysm Repair
+  UF:Endovascular Aortic Aneurysm Repair
+  UF:Endovascular Repair
+Abdominal Aortic Aneurysm (AAA) Repair
+  TT:Surgery
+  CL:AAA (Abdominal Aortic Aneurysm) Repair
+  AZ:Aneurysm Repair, Abdominal Aortic (AAA)
+  CL:Aneurysm Repair, Abdominal Aortic (AAA)
+  UF:AAA Repair
+  UF:Abdominal Aortic Aneurysm Surgery
+  UF:Abdominal Aortic Repair
+  UF:Abdominal Aneurysm Repair
+  UF:Abdominal Aortic Aneurysm Repair
+  UF:Abdominal Aortic Aneurysm Open Repair Surgery
+Thoracic Aortic Aneurysm Repair
+  TT:Surgery
+  AZ:Aneurysm Repair, Thoracic Aortic
+  CL:Aneurysm Repair, Thoracic Aortic
+  UF:Thoracic Aortic Repair
+  UF:Thoracic Aneurysm Repair
+  UF:Thoracic Aortic Aneurysm Open Repair Surgery
+Aortic Aneurysm Repair
+  TT:Surgery
+  AZ:Aneurysm Repair, Aortic
+  CL:Aneurysm Repair, Aortic
+Abdominal Hernia Repair
+  TT:Surgery
+  AZ:Abdominal Hernia Repair
+  CL:Abdominal Hernia Repair
+  UF:Abdominal Hernia Surgery
+Vaginal Hysterectomy
+  TT:Surgery
+  AZ:Hysterectomy, Vaginal
+  CL:Hysterectomy, Vaginal
+  NF:Vaginal Hysterectomy (Laparoscopically-Assisted)
+Hysterectomy
+  TT:Surgery
+  AZ:Hysterectomy
+  CL:Hysterectomy
+  UF:Hysterectomy Surgery
+  UF:Operative Hysterectomy
+  NF:Vaginal Hysterectomy
+  NF:Vaginal Hysterectomy (Laparoscopically-Assisted)
+  NF:Abdominal Hysterectomy
+  NF:Abdominal Hysterectomy (Laparoscopic)
+Abdominal Hysterectomy
+  TT:Surgery
+  AZ:Hysterectomy, Abdominal
+  CL:Hysterectomy, Abdominal
+  UF:Total Abdominal Hysterectomy
+  UF:Total Abdominal Hysterectomy (TAH)
+Abortion
+  TT:Procedure
+  AZ:Abortion
+  CL:Abortion
+  UF:Termination of Pregnancy
+  UF:Medical Abortion
+  UF:Surgical Abortion
+  UF:Induction Abortion
+  UF:Abortion by Labor Induction 
+  UF:Labor Induction Abortion
+  UF:Labor Induction Termination of Pregnancy
+  UF:Induced Abortion
+  NF:Threatened Abortion
+  NF:Spontaneous Abortion
+  NF:Miscarriage
+  SN:Do not add "Manual Aspiration" as UF because aspiration can be used for many things (JF).
+Achilles Tendon Repair
+  TT:Surgery
+  AZ:Achilles Tendon Repair
+  CL:Achilles Tendon Repair
+  UF:Achilles Tendon Surgery
+  UF:Achilles Tendon Rupture Surgery
+  UF:Surgery for Achilles Tendon
+  UF:Surgery for an Achilles Tendon
+  UF:Repair of Achilles Tendon
+  UF:Repair of an Achilles Tendon
+ACL Surgery
+  TT:Surgery
+  AZ:ACL Surgery
+  CL:ACL Surgery
+  UF:Anterior Cruciate Ligament Surgery
+  UF:Anterior Cruciate Ligament Reconstruction
+  UF:ACL Reconstruction
+  UF:ACL Reconstruction Surgery
+  UF:Bone and Knee Tissue Graft
+Adenoidectomy
+  TT:Surgery
+  AZ:Adenoidectomy
+  CL:Adenoidectomy
+Adhesions Surgery
+  TT:Surgery
+  CL:Lysis of Adhesions
+  AZ:Adhesions Surgery
+  UF:Lysis of Adhesions
+Stem Cell Transplant
+  TT:Surgery
+  AZ:Transplant, Stem Cell
+  CL:Transplant, Stem Cell
+  UF:Stem Cell Transplantation
+  NF:Autologous Stem Cell Transplant
+  NF:Allogeneic Stem Cell Transplant
+Allogeneic Stem Cell Transplant
+  TT:Surgery
+  AZ:Transplant, Allogeneic Stem Cell
+  CL:Transplant, Allogeneic Stem Cell
+  UF:Allogeneic Stem Cell Transplantation
+Autologous Stem Cell Transplant
+  TT:Surgery
+  AZ:Transplant, Autologous Stem Cell
+  CL:Transplant, Autologous Stem Cell
+  UF:Autologous Stem Cell Transplantation
+Stem Cell Donation
+  TT:Procedure
+  AZ:Donation, Stem Cell
+  CL:Donation, Stem Cell
+Blood Donation
+  TT:Procedure
+  AZ:Donation, Blood
+  CL:Donation, Blood
+Organ Donation
+  TT:Surgery
+  AZ:Donation, Organ
+  CL:Donation, Organ
+Amputation
+  TT:Surgery
+  AZ:Amputation
+  CL:Amputation
+  NT:Foot Amputation
+  NT:Leg Amputation
+  NT:Toe Amputation
+Foot Amputation
+  TT:Surgery
+  AZ:Amputation, Foot
+  CL:Amputation, Foot
+Toe Amputation
+  TT:Surgery
+  AZ:Amputation, Toe
+  CL:Amputation, Toe
+Leg Amputation
+  TT:Surgery
+  AZ:Amputation, Knee
+  CL:Amputation, Knee
+  UF:Knee Amputation
+  UF:AKA Surgery
+  UF:BKA Surgery
+  UF:Below the Knee Amputation
+  UF:Below-the-Knee Amputation
+  UF:Below-the-Knee Leg Amputation
+  UF:Above Knee Amputation
+  UF:Above-the-Knee Amputation
+  UF:Above-the-Knee Leg Amputation
+Anal Fistulotomy
+  TT:Surgery
+  AZ:Fistulotomy, Anal
+  CL:Fistulotomy, Anal
+Angioplasty
+  TT:Surgery
+  AZ:Angioplasty
+  CL:Angioplasty
+  UF:Percutaneous Coronary Intervention (PCI)
+  UF:Percutaneous Coronary Intervention
+  UF:Percutaneous Transluminal Angioplasty (PTA)
+  UF:Percutaneous Transluminal Angioplasty
+  UF:PCI
+Carotid Angioplasty
+  UF:Carotid Artery Angioplasty
+  AZ:Angioplasty, Carotid
+  CL:Angioplasty, Carotid
+Anorectal Abscess Surgery
+  TT:Surgery
+  AZ:Anorectal Abscess Surgery
+  CL:Anorectal Abscess Surgery
+Heart Valve Surgery
+  TT:Surgery
+  AZ:Heart Valve Surgery
+  CL:Heart Valve Surgery
+  UF:Heart Valve Replacement Surgery
+  UF:Heart Valve Replacement
+  UF:Mechanical or Tissue Valve
+  UF:Mechanical Valve
+  UF:Mechanical Heart Valve
+  UF:Tissue Valve
+Aortic Valve Surgery
+  TT:Surgery
+  AZ:Valve Replacement, Aortic
+  CL:Valve Replacement, Aortic
+  UF:Aortic Valve Repair
+  UF:Aortic Valve Repair Surgery
+  UF:Aortic Valve Replacement
+  UF:Aortic Valve Replacement Surgery
+  UF:Aortic Valve Stenosis Surgery
+  UF:Transcatheter Aortic Valve Replacement (TAVR)
+  UF:Transcatheter Aortic Valve Replacement
+Mitral Valve Surgery
+  TT:Surgery
+  AZ:Valve Repair, Mitral
+  CL:Valve Repair, Mitral
+  UF:Mitral Valve Repair
+  UF:Mitral Valve Repair Surgery
+  UF:Mitral Valve Replacement
+  UF:Mitral Valve Replacement Surgery
+  UF:Commissurotomy
+Balloon Valvuloplasty
+  TT:Surgery
+  AZ:Valvuloplasty, Balloon
+  CL:Valvuloplasty, Balloon
+  UF:Balloon Valvotomy
+  UF:Balloon Valvulotomy
+  UF:Percutaneous Balloon Valvuloplasty
+Aortobifemoral Bypass Surgery
+  TT:Surgery
+  AZ:Bypass Surgery, Aortobifemoral
+  CL:Bypass Surgery, Aortobifemoral
+  UF:Aortobifemoral Bypass
+Coronary Artery Bypass Surgery
+  TT:Surgery
+  AZ:Bypass Surgery, Heart
+  CL:Bypass Surgery, Heart
+  UF:Bypass Surgery
+  UF:Coronary Artery Bypass Graft (CABG)
+  UF:CABG Surgery
+  UF:Coronary Artery Bypass Graft
+  UF:Coronary Artery Bypass Graft Surgery
+  UF:Heart Bypass Surgery
+  UF:Coronary Bypass Surgery
+Appendectomy
+  TT:Surgery
+  AZ:Appendectomy
+  CL:Appendectomy
+Arteriovenous Malformation (AVM) Repair
+  TT:Surgery
+  AZ:Arteriovenous Malformation (AVM) Repair
+  CL:Arteriovenous Malformation (AVM) Repair
+  UF:AVM (Arteriovenous Malformation) Repair
+  UF:AVM Repair
+  UF:Arteriovenous Malformation Repair
+Arthroplasty
+  TT:Surgery
+  AZ:Arthroplasty
+  CL:Arthroplasty
+  UF:Open-Joint Arthroplasty
+  NF:Temporomandibular Arthroplasty
+  NF:Hip Resurfacing
+  SN:General term that covers Temporomandibular Arthroplasty and Plangeal Head Resection.
+Temporomandibular Arthroplasty
+  TT:Surgery
+  AZ:Arthroplasty, Temporomandibular
+  CL:Arthroplasty, Temporomandibular
+  UF:Arthroplasty for Temporomandibular
+Artificial Rupture of the Membranes
+  TT:Procedure
+  AZ:Artificial Rupture of the Membranes
+  CL:Artificial Rupture of the Membranes
+Artificial Urinary Sphincter Placement
+  TT:Surgery
+  AZ:Artificial Urinary Sphincter Placement
+  CL:Artificial Urinary Sphincter Placement
+  UF:Artificial Urinary
+  UF:Artificial Sphincter Implantation
+Atherectomy
+  TT:Surgery
+  AZ:Atherectomy
+  CL:Atherectomy
+Aural Atresia Repair
+  TT:Surgery
+  AZ:Aural Atresia Repair
+  CL:Aural Atresia Repair
+Axillary Lymph Node Dissection
+  TT:Surgery
+  AZ:Dissection Axillary Lymph Node
+  CL:Dissection Axillary Lymph Node
+Retroperitoneal Lymph Node Dissection (RPLND)
+  TT:Surgery
+  AZ:Dissection, Retroperitoneal Lymph Node (RPLND)
+  CL:Dissection, Retroperitoneal Lymph Node (RPLND)
+  ABV:RLND
+  UF:Retroperitoneal Lymph Node Dissection
+Bartholin Cyst Surgery
+  TT:Surgery
+  AZ:Bartholin Cyst Surgery
+  CL:Bartholin Cyst Surgery
+  UF:Bartholin Gland Cyst Removal
+  UF:Bartholin Gland Cyst Surgery
+Ganglion Cyst Removal
+  TT:Surgery
+  AZ:Removal, Ganglion Cyst
+  CL:Removal, Ganglion Cyst
+  UF:Ganglion Cyst Surgery
+  UF:Surgical Removal of Ganglions
+  UF:Ganglion Gland Cyst Removal
+  UF:Ganglion Gland Cyst Surgery
+  UF:Synovial Cyst Removal
+  UF:Synovial Cyst Surgery
+  UF:Synovial Gland Cyst Removal
+  UF:Synovial Gland Cyst Surgery
+Biceps Tendon Repair
+  TT:Surgery
+  AZ:Biceps Tendon Repair
+  CL:Biceps Tendon Repair
+  UF:Biceps Tendon Surgery
+  UF:Proximal Biceps Tendon Tear Surgery
+  UF:Distal Biceps Tendon Repair
+Bladder Augmentation
+  TT:Surgery
+  AZ:Bladder Augmentation
+  CL:Bladder Augmentation
+Blood Transfusion
+  TT:Procedure
+  AZ:Transfusion, Blood
+  CL:Transfusion, Blood
+  NF:Fetal Blood Transfusion
+Fetal Blood Transfusion
+  TT:Procedure
+  AZ:Transfusion, Fetal Blood
+  CL:Transfusion, Fetal Blood
+Bone Fracture Reduction
+  TT:Surgery
+  AZ:Reduction, Bone Fracture
+  CL:Reduction, Bone Fracture
+  UF:Fracture Reduction
+  UF:Open Reduction
+  UF:Open Reduction Bone Fracture
+  UF:Bone Fracture, Open Reduction
+  UF:Closed Reduction
+  UF:Bone Fracture, Closed Reduction
+  UF:Closed Reduction Bone Fracture
+  NF:Open Reduction with Internal Fixation (ORIF)
+Bone Marrow Transplant
+  TT:Surgery
+  AZ:Transplant, Bone Marrow
+  CL:Transplant, Bone Marrow
+  UF:Bone Marrow Transplantation
+Intestinal Transplant
+  TT:Surgery
+  AZ:Transplant, Intestinal
+  CL:Transplant, Intestinal
+  UF:Intestinal Transplantation
+Bone Spur Repair
+  TT:Surgery
+  AZ:Bone Spur Repair
+  CL:Bone Spur Repair
+  UF:Bone Spur Surgery
+Bowel Resection
+  TT:Surgery
+  AZ:Resection, Bowel
+  CL:Resection, Bowel
+  UF:Colectomy
+  UF:Laparoscopic Bowel Resection
+  UF:Open Bowel Resection
+  UF:Bowel Resection, Open
+Brain Aneurysm Surgery
+  TT:Surgery
+  AZ:Aneurysm Surgery, Brain
+  CL:Cerebral Aneurysm Surgery
+  UF:Brain Aneurysm Repair
+  UF:Endovascular Embolization
+  UF:Embolization
+  NF:Tumor Embolization
+  NF:Uterine Fibroid Embolization (UFE)
+Mastectomy
+  TT:Surgery
+  AZ:Mastectomy
+  CL:Mastectomy
+  UF:Removal of the Breast
+  NF:Lumpectomy
+  DEF:The surgical removal of one or both breasts, partially or completely.
+Breast Surgery
+  TT:Surgery
+  AZ:Breast Surgery
+  CL:Breast Surgery
+Lumpectomy
+  TT:Surgery
+  AZ:Lumpectomy
+  CL:Lumpectomy
+  UF:Partial Mastectomy
+  UF:Breast Conserving Surgery
+  NF:Mastectomy
+  SN:Does not overlap with Breast Reconstructin Surgery
+Breast Reconstruction Surgery
+  TT:Surgery
+  AZ:Breast Surgery, Reconstruction
+  CL:Breast Surgery, Reconstruction
+  UF:Breast Reconstruction
+  UF:Breast-Conserving
+  UF:Tissue Flap Surgery
+  UF:Surgery for Breast Reconstruction
+  SN:Does not overlap with Lumpectomy
+Breast Enlargement Surgery
+  TT:Surgery
+  AZ:Breast Surgery, Enlargement
+  CL:Breast Surgery, Enlargement
+  UF:Breast Enlargement
+  UF:Breast Implant
+  UF:Breast Implant Surgery
+  NF:Breast Reconstruction Surgery
+Breast Reduction Surgery
+  TT:Surgery
+  AZ:Breast Surgery, Reduction
+  CL:Breast Surgery, Reduction
+  UF:Breast Reduction
+Bunion Surgery
+  TT:Surgery
+  AZ:Bunion Surgery
+  CL:Bunionectomy
+Canaloplasty
+  TT:Surgery
+  AZ:Canaloplasty
+  CL:Canaloplasty
+Radiation Therapy
+  TT:Procedure
+  AZ:Radiation Therapy
+  CL:Radiation Therapy
+  UF:Radiation Treatment
+  UF:Radiation Surgery
+  UF:Radiation (Surgery)
+  UF:Radiation and Surgery
+  UF:Radiation or Surgery
+  UF:Radiotherapy
+Cervical Laser Surgery
+  TT:Surgery
+  AZ:Cervical Laser Surgery
+  CL:Cervical Laser Surgery
+  UF:Carbon Dioxide Laser Surgery
+Cardiac Resynchronization Therapy (Pacemaker)
+  TT:Surgery
+  AZ:Cardiac Resynchronization Therapy (Pacemaker)
+  CL:Cardiac Resynchronization Therapy (Pacemaker)
+  UF:Cardiac Resynchronization Therapy
+  UF:Pacemaker
+  UF:Permanent Pacemaker
+  NF:Pacemaker Placement
+Pacemaker Placement
+  TT:Surgery
+  AZ:Placement, Pacemaker
+  CL:Placement, Pacemaker
+  UF:Pacemaker Surgery
+  UF:Pacemaker Insertion
+  UF:Insertion of Pacemaker
+  UF:Placement of Pacemaker
+Cardioversion
+  TT:Procedure
+  AZ:Cardioversion
+  CL:Cardioversion
+  UF:Chemical Cardioversion
+  UF:Electrical Cardioversion
+Carotid Artery Stenting
+  TT:Surgery
+  AZ:Stenting, Carotid Artery
+  CL:Stenting, Carotid Artery
+  UF:Carotid Stent Placement
+  NF:Endovascular Carotid Stent Placement
+Endovascular Carotid Stent Placement
+  TT:Surgery
+  AZ:Stent Placement, Endovascular Carotid
+  CL:Stent Placement, Endovascular Carotid
+Carpal Tunnel Surgery
+  TT:Surgery
+  AZ:Carpal Tunnel Surgery
+  CL:Carpal Tunnel Surgery
+  UF:Carpal Tunnel Release
+  UF:Carpal Tunnel Release Surgery
+  UF:Open Carpal Tunnel Release
+  UF:Open Carpal Tunnel Release Surgery
+  UF:Open Carpal Tunnel Surgery
+Cataract Surgery
+  TT:Surgery
+  AZ:Cataract Surgery
+  CL:Cataract Surgery
+  UF:Phacoemulsification
+  UF:Phacoemulsification Surgery
+YAG Laser Capsulotomy
+  TT:Surgery
+  AZ:YAG Laser Capsulotomy
+  CL:YAG Laser Capsulotomy
+  UF:Nd:YAG Laser Posterior Capsulotomy
+Catheter Ablation
+  TT:Procedure
+  AZ:Ablation, Catheter
+  CL:Ablation, Catheter
+  UF:Cardiac Ablation
+  DEF:A procedure used to remove a faulty electrical pathway from the hearts of those who are prone to developing cardiac arrhythmias
+Central Venous Catheterization
+  TT:Procedure
+  AZ:Catheterization, Central Venous
+  CL:Catheterization, Central Venous
+  UF:Central Venous Catheter
+  UF:Central Venous Catheter with Port
+  UF:Central Venous Line
+  UF:Central Venous Line with Port
+  UF:Central Line
+  UF:Central Venous Access
+  UF:Central Venous Access with Port
+  UF:Central Venous Access Catheter
+  UF:Central Venous Access Catheter with Port
+  UF:Peripherally Inserted Central Catheter
+  UF:Peripherally Inserted Central Catheterization
+Femoral Vein Catheterization
+  AZ:Catheterization, Femoral Vein
+  CL:Catheterization, Femoral Vein
+  UF:Catheterization of the Femoral Vein 
+Heart Catheterization
+  TT:Unsorted
+  AZ:Catheterization, Heart
+  CL:Cardiac Catheterization
+  UF:Cardiac Catheter
+  UF:Cardiac Cath
+  UF:Catheterization of the Heart
+  UF:Catheterization of the Left Heart
+  UF:Catheterization of the Right Heart
+  UF:Heart Catheter
+  UF:Heart Cath
+  UF:Left Heart Catheterization
+  UF:Left Heart Catheter
+  UF:Left Heart Cath
+  UF:Right Heart Catheterization
+  UF:Right Heart Catheter
+  UF:Right Heart Cath
+#  NF:Urinary Catheterization
+#  NF:Central Venous Catheter
+#  NF:Tunneled Catheter
+#  NF:Umbilical Vein Catheterization
+#  NF:Peripherally Inserted Central Catheter (PICC)
+#  NF:Epidural Catheter
+  SN:Polyhierarchical with the PROCEDURES facet.
+Tunneled Catheterization
+  TT:Procedure
+  AZ:Catheterization, Tunneled
+  CL:Catheterization, Tunneled
+  UF:Tunneled Catheter
+  UF:Tunneled Catheter for Central Line
+  UF:Tunneled Catheterization for Central Line
+Cervical Cerclage
+  TT:Procedure
+  AZ:Cervical Cerclage
+  CL:Cervical Cerclage
+Cervical Myelopathy Surgery
+  TT:Surgery
+  AZ:Cervical Myelopathy Surgery
+  CL:Cervical Myelopathy Surgery
+  UF:Surgery Cervical Myelopathy
+Chemical Peels
+  TT:Procedure
+  AZ:Chemical Peels
+  CL:Chemical Peels
+Chest Tube Insertion
+  TT:Procedure
+  AZ:Insertion, Chest Tube
+  CL:Insertion, Chest Tube
+  UF:Chest Tube
+  UF:Insertion of Chest Tube
+Circumcision
+  TT:Procedure
+  AZ:Circumcision
+  CL:Circumcision
+  UF:Infant Circumcision
+  UF:Infant Circumcision, Infant
+  UF:Infant Circumcision (Infant)
+  UF:Adult Circumcision
+  UF:Adult Circumcision (Adult)
+Cleft Lip Repair
+  TT:Surgery
+  AZ:Cleft Lip Repair
+  CL:Cleft Lip Repair
+Cleft Palate Repair
+  TT:Surgery
+  AZ:Cleft Palate Repair
+  UF:Cleft Palate Surgery
+Closed Reduction of Fractured Bone
+  TT:Procedure
+  AZ:Closed Reduction of Fractured Bone
+  CL:Closed Reduction of Fractured Bone
+  UF:Closed Reduction of a Fractured Bone
+Vaginal Closure
+  TT:Surgery
+  AZ:Closure, Vaginal
+  CL:Closure, Vaginal
+  UF:Closure of the Vagina
+  UF:Vaginal Obliteration
+Clotting Factor Replacement
+  TT:Procedure
+  AZ:Clotting Factor Replacement
+  CL:Clotting Factor Replacement
+Factor Replacement
+  TT:Procedure
+  AZ:Factor Replacement
+  CL:Factor Replacement
+  UF:Factor Replacement Therapy
+  UF:Factor VIII Infusion
+  UF:Factor IX Infusion
+Cochlear Implant Surgery
+  TT:Surgery
+  AZ:Implant Surgery, Cochlear
+  CL:Implant Surgery, Cochlear
+  UF:Cochlear Implants
+Colostomy
+  TT:Surgery
+  AZ:Colostomy
+  CL:Colostomy
+  UF:Colostomy Irrigation
+Congenital Heart Defect Repair
+  TT:Surgery
+  AZ:Heart Defect Repair, Congenital
+  CL:Heart Defect Repair, Congenital
+  UF:Repair a Congenital Heart Defect
+  UF:Surgery to Repair a Congenital Heart Defect
+Heart Defect Repair
+  TT:Surgery
+  AZ:Heart Defect Repair
+  CL:Heart Defect Repair
+Corneal Ring Implants
+  TT:Surgery
+  AZ:Implants, Corneal Ring
+  CL:Implants, Corneal Ring
+Cosmetic Procedures
+  TT:Procedure
+  AZ:Cosmetic Procedures
+  CL:Cosmetic Procedures
+  UF:Filler Injections
+  UF:Cosmetic Treatments
+  UF:Cosmetic Surgery
+Craniotomy
+  TT:Surgery
+  AZ:Craniotomy
+  CL:Craniotomy
+Cryotherapy
+  TT:Procedure
+  AZ:Cryotherapy
+  CL:Cryotherapy
+  UF:Cryosurgery
+  NT:Cryotherapy of the Cervix
+Cryotherapy of the Cervix
+  TT:Procedure
+  AZ:Cryotherapy of the Cervix
+  CL:Cryotherapy of the Cervix
+  UF:Cryotherapy for the Cervix
+  UF:Cryotherapy of Cervix
+  UF:Cryosurgery for Cervix
+  UF:Cryosurgery for the Cervix
+  UF:Cryosurgery of Cervix
+  UF:Cryosurgery of the Cervix
+  UF:Cryotherapy for Cervix
+Cystectomy
+  TT:Surgery
+  AZ:Cystectomy
+  CL:Cystectomy
+  UF:Ileal Conduit Cystectomy
+  UF:Cystectomy Surgery
+Cystocele (Bladder Prolapse) Surgery
+  TT:Surgery
+  AZ:Cystocele (Bladder Prolapse) Surgery
+  CL:Cystocele (Bladder Prolapse) Surgery
+  UF:Cystocele Surgery
+  UF:Bladder Prolapse Surgery
+  UF:Repair of Cystocele
+  UF:Repair of Bladder Prolapse
+Dilation and Curettage (D&C)
+  TT:Procedure
+  AZ:Dilation and Curettage 
+  CL:Dilation and Curettage 
+  ABV:DC
+  UF:Dilation and Curettage
+Curettage and Electrosurgery
+  TT:Surgery
+  AZ:Curettage and Electrosurgery
+  CL:Curettage and Electrosurgery
+  UF:Electrosurgery and Curettage
+Electrosurgery
+  TT:Procedure
+  AZ:Electrosurgery
+  CL:Electrosurgery
+  NF:Curettage and Electrosurgery
+  NF:Dilation and Curettage (DC)
+Curettage
+  TT:Procedure
+  AZ:Curettage
+  CL:Curettage
+  NF:Curettage and Electrosurgery
+  NF:Dilation and Curettage (DC)
+De Quervain's Tendon Surgery
+  TT:Surgery
+  AZ:De Quervain's Tendon Surgery
+  CL:De Quervain's Tendon Surgery
+  UF:Tendon Release
+  UF:Dequervain's Procedure
+  UF:De Quervain's Tendon Release
+Dupuytren's Contracture Surgery
+  TT:Surgery
+  AZ:Dupuytren's Contracture Surgery
+  CL:Dupuytren's Contracture Surgery
+  UF:Dupuytren's Contracture
+  UF:Dupuytren's Disease Surgery
+  UF:Needle Aponeurotomy
+  UF:Fasciotomy
+  UF:Percutaneous Needle Fasciotomy
+  UF:Fasciectomy
+Deep Brain Stimulation (DBS)
+  TT:Procedure
+  AZ:Deep Brain Stimulation (DBS)
+  CL:Deep Brain Stimulation (DBS)
+  UF:Deep Brain Stimulation
+Dermabrasion
+  TT:Procedure
+  AZ:Dermabrasion
+  CL:Dermabrasion
+  UF:Microdermabrasion
+Dialysis
+  TT:Procedure
+  AZ:Dialysis, General
+  CL:Dialysis, General
+Peritoneal Dialysis
+  TT:Procedure
+  AZ:Dialysis, Peritoneal
+  CL:Dialysis, Peritoneal
+Hemodialysis
+  TT:Procedure
+  AZ:Dialysis, Hemodialysis
+  CL:Dialysis, Hemodialysis
+Dilation and Evacuation (DE)
+  TT:Procedure
+  AZ:Dilation and Evacuation (DE)
+  CL:Dilation and Evacuation (DE)
+  ABV:DE
+  UF:Dilation and Evacuation
+Ear Tube Placement
+  TT:Surgery
+  AZ:Placement, Ear Tube
+  CL:Tympanostomy
+  UF:Ear Tube Procedures
+  UF:Ear Tube Surgery
+  UF:Ear Tubes
+  UF:Tubes for Ear Infections
+Electrical Nerve Stimulation
+  TT:Procedure
+  AZ:Electrical Stimulation, Nerve
+  CL:Electrical Stimulation, Nerve
+  UF:Transcutaneous Electrical Nerve Stimulation
+  UF:Transcutaneous Electrical Nerve Stimulation (TENS)
+Functional Electrical Stimulation
+  TT:Procedure
+  AZ:Electrical Stimulation, Functional
+  CL:Electrical Stimulation, Functional
+  UF:Electrical Stimulation
+Electrical Stimulation for Urinary Incontinence
+  TT:Procedure
+  AZ:Electrical Stimulation for Urinary Incontinence
+  CL:Electrical Stimulation for Urinary Incontinence
+Electrocautery
+  TT:Procedure
+  AZ:Electrocautery
+  CL:Electrocautery
+  UF:Electrocauterization
+  UF:Cautery
+  UF:Cauterization
+  NF:Nose Cautery
+Electroconvulsive Therapy (ECT)
+  TT:Procedure
+  AZ:Electroconvulsive Therapy (ECT)
+  CL:Electroconvulsive Therapy (ECT)
+  ABV:ECT
+  UF:Electroconvulsive Therapy
+Electrolysis
+  TT:Procedure
+  AZ:Electrolysis
+  CL:Electrolysis
+Endometrial Ablation
+  TT:Procedure
+  AZ:Ablation, Endometrial
+  CL:Ablation, Endometrial
+Endometriosis Surgery
+  TT:Surgery
+  AZ:Endometriosis Surgery
+  CL:Endometriosis Surgery
+  UF:Surgery for Endometriosis
+  UF:Laparoscopic Endometriosis Surgery
+Endoscopic Carpal Tunnel Surgery
+  TT:Surgery
+  AZ:Endoscopic Carpal Tunnel Surgery
+  CL:Endoscopic Carpal Tunnel Surgery
+Endoscopic Retrograde Cholangiopancreatogram (ERCP)
+  TT:Procedure
+  AZ:Endoscopic Retrograde Cholangiopancreatogram (ERCP)
+  CL:Endoscopic Retrograde Cholangiopancreatogram (ERCP)
+  ABV:ERCP
+  UF:Endoscopic Retrograde Cholangiopancreatogram
+Endoscopic Sinus Surgery
+  TT:Surgery
+  AZ:Sinus Surgery, Endoscopic
+  CL:Sinus Surgery, Endoscopic
+  UF:Sinus Surgery (Endoscopic)
+  UF:Endoscopic Sinusitis Surgery
+  UF:Endoscopic Surgery for Sinusitis
+Sinus Surgery
+  TT:Surgery
+  AZ:Sinus Surgery
+  CL:Sinus Surgery
+  NF:Endoscopic Sinus Surgery
+Sclerotherapy
+  TT:Procedure
+  AZ:Sclerotherapy
+  CL:Sclerotherapy
+  UF:Sclerotherapy for Varicose Veins
+Endoscopic Sclerotherapy
+  TT:Procedure
+  AZ:Sclerotherapy, Endoscopic
+  CL:Sclerotherapy, Endoscopic
+  UF:Esophageal Varices Injection
+  UF:Injection for Esophageal Varices 
+Phlebectomy
+  TT:Surgery
+  AZ:Phlebectomy
+  CL:Phlebectomy
+  UF:Ambulatory Phlebectomy
+  UF:Stab Avulsion
+  UF:Microphlebectomy
+Enterocele (Small Bowel Prolapse) Surgery
+  TT:Surgery
+  AZ:Enterocele (Small Bowel Prolapse) Surgery
+  CL:Enterocele (Small Bowel Prolapse) Surgery
+  UF:Repair Small Bowel Prolapse
+  UF:Repair of Enterocele
+  UF:Small Bowel Prolapse Surgery
+  UF:Small Bowel Prolapse Repair
+  UF:Enterocele Surgery
+  UF:Enterocele Repair
+Episiotomy
+  TT:Procedure
+  AZ:Episiotomy
+  CL:Episiotomy
+  UF:Perineotomy
+  DEF:A surgical incision on the perineum and the posterior vaginal wall during second stage of labor.
+Esophageal Dilation
+  TT:Procedure
+  AZ:Dilation, Esophageal
+  CL:Dilation, Esophageal
+Esophagectomy
+  TT:Surgery
+  AZ:Esophagectomy
+  CL:Esophagectomy
+External Cephalic Version for Breech Position
+  TT:Procedure
+  AZ:External Cephalic Version for Breech Position
+  CL:External Cephalic Version for Breech Position
+  UF:Breech Version
+  UF:External Cephalic Version
+Extracorporeal Membrane Oxygenation (ECMO)
+  TT:Procedure
+  AZ:Extracorporeal Membrane Oxygenation (ECMO)
+  CL:Extracorporeal Membrane Oxygenation (ECMO)
+  ABV:ECMO
+  UF:Extracorporeal Membrane Oxygenation
+Eyelid Surgery
+  TT:Surgery
+  AZ:Eyelid Surgery
+  CL:Eyelid Surgery
+Face-Lift
+  TT:Surgery
+  AZ:Face-Lift
+  CL:Face-Lift
+  UF:Face Lift
+  UF:Face Lift (Rhytidectomy)
+  UF:Face-Lift (Rhytidectomy)
+  UF:Rhytidectomy Face-Lift
+  UF:Rhytidectomy Face Lift
+Facial Trauma Repair
+  TT:Surgery
+  AZ:Facial Trauma Repair
+  CL:Facial Trauma Repair
+Fallopian Tube Procedures
+  TT:Procedure
+  AZ:Fallopian Tube Procedures
+  CL:Fallopian Tube Procedures
+  UF:GIFT
+  UF:Gamete Intrafallopian Transfer
+  UF:Gamete Intrafallopian Transfer (GIFT)
+  UF:ZIFT
+  UF:Zygote Intrafallopian Transfer
+  UF:Zygote Intrafallopian Transfer (ZIFT)
+  UF:GGT Test
+  UF:Gamma-Glutamyl Transferase
+  UF:Gamma-Glutamyl Transferase (GGT Test)
+Femoral Endarterectomy
+  TT:Surgery
+  AZ:Endarterectomy, Femoral
+  CL:Endarterectomy, Femoral
+Carotid Endarterectomy (CEA)
+  TT:Surgery
+  AZ:Endarterectomy, Carotid (CEA)
+  CL:Endarterectomy, Carotid (CEA)
+  ABV:CEA
+  UF:Carotid Endarterectomy
+  UF:Endarterectomy for Stenosis
+  UF:Endarterectomy for Unknown Stenosis
+Femoral-Tibial Bypass Surgery
+  TT:Surgery
+  AZ:Bypass Surgery, Femoral-Tibial
+  CL:Bypass Surgery, Femoral-Tibial
+  UF:Femoral-Tibial Bypass
+Femoropopliteal Bypass (Fem-Pop Bypass)
+  TT:Surgery
+  AZ:Bypass (Fem-Pop Bypass), Femoropopliteal
+  CL:Bypass (Fem-Pop Bypass), Femoropopliteal
+  UF:Femoropopliteal Bypass Surgery
+  UF:Femoropopliteal Bypass
+Flap Procedure for Gum Disease
+  TT:Procedure
+  AZ:Flap Procedure for Gum Disease
+  CL:Flap Procedure for Gum Disease
+Forceps-Assisted Delivery
+  TT:Procedure
+  AZ:Delivery, Forceps-Assisted
+  CL:Delivery, Forceps-Assisted
+Gastrectomy
+  TT:Surgery
+  AZ:Gastrectomy
+  CL:Gastrectomy
+Gingivectomy
+  TT:Surgery
+  AZ:Gingivectomy
+  CL:Gingivectomy
+Goniotomy
+  TT:Surgery
+  AZ:Goniotomy
+  CL:Goniotomy
+Hair Transplant Surgery
+  TT:Surgery
+  AZ:Transplant Surgery, Hair
+  CL:Transplant Surgery, Hair
+  UF:Hair Transplantation
+  UF:Hair Transplantation Surgery
+Hammer Toe Surgery
+  TT:Surgery
+  AZ:Hammer Toe Surgery
+  CL:Hammer Toe Surgery
+  UF:Surgery for Hammer Toe
+Hemorrhoid Infrared Photocoagulation
+  TT:Procedure
+  AZ:Hemorrhoid Infrared Photocoagulation
+  CL:Hemorrhoid Infrared Photocoagulation
+  UF:Infrared Photocoagulation
+Hemorrhoid Rubber Band Ligation
+  TT:Procedure
+  AZ:Ligation, Hemorrhoid Rubber Band
+  CL:Ligation, Hemorrhoid Rubber Band
+  UF:Rubber Band Ligation
+Hemorrhoidectomy
+  TT:Surgery
+  AZ:Hemorrhoidectomy
+  CL:Hemorrhoidectomy
+Hepatic Artery Infusion Pump Placement
+  TT:Surgery
+  AZ:Placement, Hepatic Artery Infusion Pump
+  CL:Placement, Hepatic Artery Infusion Pump
+  UF:Hepatic Artery Infusion Pump
+Hernia Repair
+  TT:Surgery
+  AZ:Hernia Repair
+  CL:Hernia Repair
+  UF:Hernia Surgery
+Herniated Disc Repair
+  TT:Surgery
+  AZ:Herniated Disc Repair
+  CL:Herniated Disc Repair
+  UF:Herniated Disc Surgery
+Hip Fracture Surgery
+  TT:Surgery
+  AZ:Hip Fracture Surgery
+  CL:Hip Fracture Surgery
+  UF:Hip Repair Surgery
+  UF:Hip Pinning
+  UF:Hip Fracture Repair
+  UF:Hip Surgery
+  UF:Surgery to Repair a Hip Fracture
+Hip Replacement Surgery
+  TT:Surgery
+  AZ:Hip Replacement Surgery
+  CL:Hip Replacement Surgery
+  UF:Hip Replacement
+Hydrocelectomy
+  TT:Surgery
+  AZ:Hydrocelectomy
+  CL:Hydrocelectomy
+Hypospadias Repair
+  TT:Surgery
+  AZ:Hypospadias Repair
+  CL:Hypospadias Repair
+  UF:Hypospadias Surgery
+Ileoanal Anastomosis
+  TT:Surgery
+  AZ:Ileoanal Anastomosis
+  CL:Ileoanal Anastomosis
+Ileostomy
+  TT:Surgery
+  AZ:Ileostomy
+  CL:Ileostomy
+Iliofemoral Artery Angioplasty
+  TT:Surgery
+  AZ:Angioplasty, Iliofemoral Artery
+  CL:Angioplasty, Iliofemoral Artery
+Immunotherapy
+  TT:Procedure
+  AZ:Immunotherapy
+  CL:Immunotherapy
+  DEF:Treatment of disease by inducing, enhancing, or suppressing an immune response"
+In Vitro Fertilization (IVF)
+  TT:Procedure
+  AZ:In Vitro Fertilization (IVF)
+  CL:In Vitro Fertilization (IVF)
+  ABV:IVF
+  UF:In Vitro Fertilization
+Inguinal Hernia Repair
+  TT:Surgery
+  AZ:Inguinal Hernia Repair
+  CL:Inguinal Hernia Repair
+  UF:Hernioplasty
+  UF:Herniorrhaphy
+  UF:Inguinal Hernia Surgery
+  UF:Open Inguinal Hernia Repair
+  UF:Open Inguinal Hernia Surgery
+  UF:Laparoscopic Inguinal Hernia Repair
+  UF:Laparoscopic Inguinal Hernia Surgery
+Port Implantation
+  TT:Procedure
+  AZ:Implantation, Port
+  CL:Implantation, Port
+  UF:Implanted Port
+Insemination Procedures
+  TT:Procedure
+  AZ:Insemination Procedures
+  CL:Insemination Procedures
+Intra-Aortic Balloon Pump Implantation
+  TT:Surgery
+  AZ:Implantation, Intra-Aortic Balloon Pump
+  CL:Implantation, Intra-Aortic Balloon Pump
+  UF:Implantation of Intra-Aortic Balloon Pump
+Intracytoplasmic Sperm Injection
+  TT:Procedure
+  AZ:Injection, Intracytoplasmic Sperm
+  CL:Injection, Intracytoplasmic Sperm
+Intradiscal Electrothermal Therapy (IDET)
+  TT:Procedure
+  AZ:Intradiscal Electrothermal Therapy (IDET)
+  CL:Intradiscal Electrothermal Therapy (IDET)
+  ABV:IDET
+  UF:Intradiscal Electrothermal Therapy
+Intramuscular (IM) Injection
+  TT:Procedure
+  AZ:Injection, Intramuscular (IM)
+  CL:Injection, Intramuscular (IM)
+  UF:Intramuscular Injection
+  UF:Intramuscular Shot
+  UF:IM Injection
+  UF:IM Shot
+Joint Fusion Surgery
+  TT:Surgery
+  AZ:Fusion Surgery, Joint
+  CL:Fusion Surgery, Joint
+  UF:Joint Fusion
+  UF:Bone Fusion Surgery
+  UF:Syndesis
+  UF:Artificial Ankylosis
+  UF:Toe Joint Fusion Surgery
+  UF:Arthrodesis
+  NF:Spinal Fusion
+Joint Injections
+  TT:Procedure
+  AZ:Injections, Joint
+  CL:Injections, Joint
+Knee Replacement Surgery
+  TT:Surgery
+  AZ:Replacement Surgery, Knee
+  CL:Replacement Surgery, Knee
+  UF:Knee Replacement
+  UF:TKR Surgery
+  UF:Total Knee Replacement
+  UF:Total Knee Replacement Surgery
+  UF:Partial Knee Replacement
+  UF:Partial Knee Replacement Surgery
+Joint Surgery
+  TT:Surgerie
+  AZ:Joint Surgerys
+  CL:Joint Surgerys
+  UF:Joint Replacement
+  UF:Joint Replacement Surgery
+  UF:Multiple Joint Replacements
+  UF:Multiple Joint Replacement Surgery
+  UF:Total Joint Replacement
+  UF:Total Joint Replacement Surgery
+  UF:Small Joint Surgery
+Kyphoplasty
+  TT:Surgery
+  AZ:Kyphoplasty
+  CL:Kyphoplasty
+Labor and Delivery
+  TT:Procedure
+  AZ:Delivery, Labor and
+  CL:Delivery, Labor and
+  CEL:Labour and Delivery
+  UF:Childbirth
+  UF:Birth
+  UF:Preterm Labor
+  UF:Labor and Contractions
+  UF:Signs of Labor
+  UF:Placental Abruption
+  NF:Newborn Care
+  NF:Birth Control
+  NF:Well Visit
+  NF:Birth Defects
+  NF:Newborns
+  NF:Mastitis
+  NF:Epidural Anesthesia
+  NF:Birth To
+  NF:External Cephalic Version for Breech Position
+  NF:Screening Tests
+  NF:After Childbirth
+  NF:Cesarean Section
+  NF:Vacuum-Assisted Delivery
+  NF:Labor Induction
+  NF:Vaginal Birth After Cesarean (VBAC)
+  NF:Vaginal Delivery
+After Childbirth
+  TT:
+  AZ:After Childbirth
+  CL:After Childbirth
+  UF:Childbirth Afterpains
+  NF:Preeclampsia after Childbirth
+Cesarean Section
+  TT:Surgery
+  AZ:Cesarean Section
+  CL:Cesarean Section
+  CEL:Caesarean Section
+  UF:C-Section
+  NF:Labor and Delivery
+  NF:After Childbirth
+  NF:Vacuum-Assisted Delivery
+  NF:Labor Induction
+  NF:Vaginal Birth After Cesarean (VBAC)
+  NF:Vaginal Delivery
+Vacuum-Assisted Delivery
+  TT:Procedure
+  AZ:Delivery, Vacuum-Assisted
+  CL:Delivery, Vacuum-Assisted
+  UF:Vacuum-Assisted Vaginal Delivery
+  UF:Vacuum-Assisted Labor
+  UF:Vacuum-Extraction Delivery
+  UF:Vacuum-Extraction Vaginal Delivery
+  UF:Vacuum-Extraction Labor
+  NF:Labor and Delivery
+  NF:After Childbirth
+  NF:Cesarean Section
+  NF:Labor Induction
+  NF:Vaginal Birth After Cesarean (VBAC)
+  NF:Vaginal Delivery
+Labor Induction
+  AZ:Labor Induction
+  CL:Labor Induction
+  UF:Labour Induction
+  UF:VBAC
+  NF:Labor and Delivery
+  NF:After Childbirth
+  NF:Cesarean Section
+  NF:Vacuum-Assisted Delivery
+  NF:Vaginal Birth After Cesarean (VBAC)
+  NF:Vaginal Delivery
+Vaginal Birth After Cesarean (VBAC)
+  TT:Procedure
+  AZ:Vaginal Birth After Cesarean (VBAC)
+  CL:Vaginal Birth After Cesarean (VBAC)
+  CEL:Vaginal Birth After Caesarean (VBAC)
+  ABV:VBAC
+  UF:Vaginal Birth After Caesarean
+  UF:Vaginal Birth After Cesarean
+  NF:Labor and Delivery
+  NF:After Childbirth
+  NF:Cesarean Section
+  NF:Vacuum-Assisted Delivery
+  NF:Labor Induction
+  NF:Vaginal Birth After Cesarean (VBAC)
+  NF:Vaginal Delivery
+Multiple Birth
+  TT:Procedure
+  AZ:Multiple Birth
+Vaginal Delivery
+  TT:Procedure
+  AZ:Delivery, Vaginal
+  CL:Delivery, Vaginal
+  UF:Vaginal Childbirth
+  UF:Vaginal Birth
+  UF:Breech Position
+  UF:Breech Birth
+  UF:Retained Placenta
+  NF:Labor and Delivery
+  NF:After Childbirth
+  NF:Cesarean Section
+  NF:Vacuum-Assisted Delivery
+  NF:Labor Induction
+  NF:Vaginal Birth After Cesarean (VBAC)
+Laparotomy
+  TT:Surgery
+  AZ:Laparotomy
+  CL:Laparotomy
+  UF:Celiotomy
+  UF:Mini-Laparotomy
+  DEF:A surgical procedure involving a large incision through the abdominal wall to gain access into the abdominal cavity.
+Laryngectomy
+  TT:Surgery
+  AZ:Laryngectomy
+  CL:Laryngectomy
+Cryopexy
+  TT:Surgery
+  AZ:Cryopexy
+  CL:Cryopexy
+Laser Photocoagulation
+  TT:Surgery
+  AZ:Laser Photocoagulation
+  CL:Laser Photocoagulation
+  UF:Laser Coagulation
+Laser Trabeculoplasty
+  TT:Surgery
+  AZ:Laser Trabeculoplasty
+  CL:Laser Trabeculoplasty
+Laser Iridotomy
+  TT:Surgery
+  AZ:Laser Iridotomy
+  CL:Laser Iridotomy
+  UF:Laser Peripheral Iridotomy
+Laser Resurfacing
+  TT:Surgery
+  AZ:Laser Resurfacing
+  CL:Laser Resurfacing
+  UF:Laser Surgery (Skin)
+  UF:Skin Laser Surgery
+Laser Surgery for Skin Cancer
+  TT:Surgery
+  AZ:Laser Surgery for Skin Cancer
+  CL:Laser Surgery for Skin Cancer
+Light Therapy (Phototherapy)
+  TT:Procedure
+  AZ:Light Therapy (Phototherapy)
+  CL:Phototherapy
+  UF:Light Therapy
+Phototherapy for Newborns
+  TT:Procedure
+  AZ:Phototherapy for Newborns
+  CL:Phototherapy for Newborns
+  NF:Light Therapy (Phototherapy)
+Liposuction
+  TT:Surgery
+  AZ:Liposuction
+  CL:Liposuction
+Liver Resection
+  TT:Surgery
+  AZ:Resection, Liver
+  CL:Resection, Liver
+Loop Electrosurgical Excision Procedure (LEEP)
+  TT:Surgery
+  AZ:Excision Procedure, Loop Electrosurgical (LEEP)
+  CL:Excision Procedure, Loop Electrosurgical (LEEP)
+  ABV:LEEP
+  UF:Loop Electrosurgical Excision Procedure
+  UF:LEEP Procedure
+Organ Transplant
+  TT:Surgery
+  AZ:Transplant, Organ
+  CL:Transplant, Organ
+  UF:Organ Transplantation
+  NT:Lung Transplant
+  NT:Liver Transplant
+  NT:Kidney Transplant
+  NT:Heart Transplant
+Corneal Transplant
+  TT:Surgery
+  AZ:Transplant, Corneal
+  CL:Transplant, Corneal
+  UF:Corneal Transplant Surgery
+  UF:Corneal Transplantation
+  UF:Corneal Transplantation Surgery
+Heart Transplant
+  TT:Surgery
+  AZ:Transplant, Heart
+  CL:Transplant, Heart
+  UF:Heart Transplant Surgery
+  UF:Heart Transplantation
+  UF:Heart Transplantation Surgery
+Kidney Transplant
+  TT:Surgery
+  AZ:Transplant, Kidney
+  CL:Transplant, Kidney
+  UF:Kidney Transplant Surgery
+  UF:Kidney Transplantation
+  UF:Kidney Transplantation Surgery
+Pancreas Transplant
+  TT:Surgery
+  AZ:Transplant, Pancreas
+  CL:Transplant, Pancreas
+  UF:Pancreas Transplant Surgery
+  UF:Pancreas Transplantation
+  UF:Pancreas Transplantation Surgery
+Liver Transplant
+  TT:Surgery
+  AZ:Transplant, Liver
+  CL:Transplant, Liver
+  UF:Liver Transplant Surgery
+  UF:Liver Transplantation
+  UF:Liver Transplantation Surgery
+Lung Transplant
+  TT:Surgery
+  AZ:Transplant, Lung
+  CL:Transplant, Lung
+  UF:Lung Transplant Surgery
+  UF:Lung Transplantation
+  UF:Lung Transplantation Surgery
+Lung Resection
+  TT:Surgery
+  AZ:Resection, Lung
+  CL:Resection, Lung
+Lung Surgery
+  TT:Surgery
+  AZ:Lung Surgery
+  CL:Lung Surgery
+Lymph Node Removal (Lymphadenectomy)
+  TT:Surgery
+  AZ:Removal, Lymph Node (Lymphadenectomy)
+  CL:Removal, Lymph Node (Lymphadenectomy)
+  UF:Lymph Node Removal
+  UF:Lymphadenectomy
+Meniscus Surgery
+  TT:Surgery
+  AZ:Meniscus Surgery
+  CL:Meniscus Surgery
+  UF:Meniscus Repair
+  UF:Meniscectomy
+Mohs Surgery
+  TT:Surgery
+  AZ:Mohs Surgery
+  CL:Mohs Surgery
+  UF:Mohs Micrographic Surgery
+Myomectomy
+  TT:Surgery
+  AZ:Myomectomy
+  CL:Myomectomy
+  UF:Myomectomy (Abdominal)
+  UF:Abdominal Myomectomy
+Nail Removal
+  TT:Procedure
+  AZ:Removal, Nail
+  CL:Removal, Nail
+  UF:Non-Surgical Nail Removal
+  UF:Surgical Nail Removal
+Nasal Packing
+  TT:Procedure
+  AZ:Nasal Packing
+  CL:
+Nasal Septum Repair
+  TT:Surgery
+  AZ:Nasal Septum Repair
+  CL:
+Nasal Volume Reduction
+  TT:Surgery
+  AZ:Reduction, Nasal Volume
+  CL:
+Lung Volume Reduction Surgery (LVRS)
+  TT:Surgery
+  AZ:Reduction Surgery, Lung Volume (LVRS)
+  CL:
+  ABV:LVRS
+  UF:Lung Volume Reduction Surgery
+Neck Dissection
+  TT:Surgery
+  AZ:Dissection, Neck
+  CL:
+Nephrectomy
+  TT:Surgery
+  AZ:Nephrectomy
+  CL:
+  UF:Laparoscopic Nephrectomy
+  UF:Open Nephrectomy
+Gallbladder Removal Surgery
+  TT:Surgery
+  AZ:Removal Surgery, Gallbladder
+  CL:
+  UF:Cholecystectomy
+  UF:Remove the Gallbladder
+  UF:Gallbladder Removal
+  UF:Gallbladder Surgery
+  UF:Laparoscopic Gallbladder Surgery
+  UF:Open Gallbladder Surgery
+Gallstone Removal
+  AZ:Removal, Gallstone
+  CL:
+  UF:Surgery for Gallstones
+  UF:Gallstone Surgery
+  SN:Lithotripsy can be used to treat gallstones.
+Kidney Stone Removal
+  TT:Procedure
+  AZ:Removal, Kidney Stone
+  CL:
+  UF:Kidney Stones Open Surgery
+  UF:Surgery for Kidney Stones
+  UF:Nephrolithotomy
+  UF:Percutaneous Nephrolithotomy
+  UF:Nephrolithotripsy
+  UF:Percutaneous Nephrolithotomy
+  UF:PCNL
+  SN:Lithotripsy can be used to treat kidney stones.
+Lithotripsy
+  TT:Procedure
+  AZ:Lithotripsy
+  CL:
+  NF:Kidney Stone Removal
+  UF:Extracorporeal Shock Wave Lithotripsy
+  UF:ESWL
+  UF:Laser Lithotripsy
+  SN:Used to destroy hardened masses including kidney stones and gallstones.
+Nephrostomy
+  TT:Surgery
+  AZ:Nephrostomy
+  CL:
+Nerve Ablation
+  TT:Procedure
+  AZ:Ablation, Nerve
+  CL:
+Percutaneous Endoscopic Gastrostomy (PEG)
+  TT:Surgery
+  AZ:Percutaneous Endoscopic Gastrostomy (PEG)
+  CL:
+  ABV:PEG
+  UF:Percutaneous Endoscopic Gastrostomy
+Nasogastric (NG) Tube Insertion
+  TT:Procedure
+  CL:Nasogastric (NG) Intubation
+  AZ:Insertion, Nasogastric (NG) Tube
+  UF:NG Tube Placement
+  UF:NG Tube Insertion
+  UF:Nasogastric Tube Insertion
+  UF:Nasogastric Tube Placement
+Fundoplication Surgery
+  TT:Surgery
+  AZ:Fundoplication Surgery
+  CL:
+  UF:Nissen Fundoplication
+  UF:Nissen Fundoplication Surgery
+Oophorectomy
+  TT:Surgery
+  AZ:Oophorectomy
+  CL:
+  UF:Laparoscopic Oophorectomy
+  UF:Ovaries Removed
+Open Reduction with Internal Fixation (ORIF)
+  TT:Surgery
+  AZ:Open Reduction with Internal Fixation (ORIF)
+  CL:
+  ABV:ORIF
+  UF:Internal Fixation
+  UF:Open Reduction With Internal Fixation
+Orchiectomy
+  TT:Surgery
+  AZ:Orchiectomy
+  CL:
+Orchiopexy
+  TT:Surgery
+  AZ:Orchiopexy
+  CL:
+Osteotomy
+  TT:Surgery
+  AZ:Osteotomy
+  CL:
+Ostomy
+  TT:Surgery
+  AZ:Ostomy
+  CL:
+Ovarian Cyst Surgery
+  TT:Surgery
+  AZ:Ovarian Cyst Surgery
+  CL:
+  UF:Surgery for Ovarian Cyst
+Ovarian Drilling (Ovarian Diathermy)
+  TT:Surgery
+  AZ:Ovarian Drilling (Ovarian Diathermy)
+  CL:
+  UF:Laparoscopic Ovarian Drilling
+  UF:Ovarian Diathermy
+Oxygen Therapy
+  TT:Surgery
+  AZ:Oxygen Therapy
+  CL:
+  UF:Oxygen Treatment
+  NF:Hyperbaric Oxygen Therapy
+Hyperbaric Oxygen Therapy
+  TT:Procedure
+  AZ:Oxygen Therapy, Hyperbaric
+  CL:
+Pallidotomy
+  TT:Surgery
+  AZ:Pallidotomy
+  CL:
+  UF:Posteroventral Pallidotomy
+  UF:Unilateral Posteroventral Pallidotomy
+Knee Cap Surgery
+  TT:Surgery
+  AZ:Knee Cap Surgery
+  CL:Patellar Release
+  UF:Lateral Release
+  UF:Lateral Release Surgery
+  UF:Lateral Release of the Patella
+  UF:Lateral Release Knee Surgery
+  UF:Lateral Release Surgery of the Patella
+  UF:Lateral Release Surgery Knee Surgery
+Parathyroidectomy
+  TT:Surgery
+  AZ:Parathyroidectomy
+  CL:
+Parotidectomy
+  TT:Surgery
+  AZ:Parotidectomy
+  CL:
+Phalangeal Head Resection
+  TT:Surgery
+  AZ:Resection, Phalangeal Head
+  CL:
+Phlebotomy
+  TT:Procedure
+  AZ:Phlebotomy
+  CL:
+Photodynamic Therapy (PDT)
+  TT:Procedure
+  AZ:Photodynamic Therapy (PDT)
+  CL:
+  ABV:PDT
+  UF:Photodynamic Therapy
+  UF:Photochemotherapy
+Pilonidal Cyst Excision
+  TT:Procedure
+  AZ:Excision, Pilonidal Cyst
+  CL:
+Pituitary Surgery
+  TT:Surgery
+  AZ:Pituitary Surgery
+  CL:
+Plantar Fascia Surgery
+  TT:Surgery
+  AZ:Plantar Fascia Surgery
+  CL:
+  UF:Plantar Fascia Release
+Pneumatic Retinopexy
+  TT:Surgery
+  AZ:Pneumatic Retinopexy
+  CL:
+Proctocolectomy
+  TT:Surgery
+  AZ:Proctocolectomy
+  CL:
+Prostatectomy
+  TT:Surgery
+  AZ:Prostatectomy
+  CL:
+  UF:Open Prostatectomy
+  UF:Transurethral Prostatectomy
+  NT:Radical Prostatectomy
+  NF:Transurethral Resection of the Prostate (TURP)
+  NF:Transurethral Resection (TUR) for Bladder Cancer
+  NF:Transurethral Resection
+Prostate Surgery
+  TT:Surgery
+  AZ:Prostate Surgery
+  CL:
+  NT:Transurethral Resection of the Prostate (TURP)
+Prostate Laser Surgery
+  TT:Surgery
+  AZ:Laser Surgery, Prostate
+  CL:
+Transurethral Incision of the Prostate (TUIP)
+  TT:Surgery
+  AZ:Transurethral Incision of the Prostate (TUIP)
+  CL:
+  ABV:TUIP
+  UF:Transurethral Incision of the Prostate
+Transurethral Resection of the Prostate (TURP)
+  TT:Surgery
+  AZ:Transurethral Resection of the Prostate (TURP)
+  CL:
+  UF:TURP
+  UF:Transurethral Resection of the Prostate
+Radical Prostatectomy
+  TT:Surgery
+  AZ:Radical Prostatectomy
+  CL:
+  UF:Radical Retropubic Prostatectomy
+  UF:Radical Perineal Prostatectomy
+  UF:Laparoscopic Radical Prostatectomy
+Psoralen Plus Ultraviolet Light (PUVA)
+  TT:Procedure
+  AZ:Psoralen Plus Ultraviolet Light (PUVA)
+  CL:
+  ABV:PUVA
+  UF:Psoralen
+  UF:Ultraviolet Light Therapy
+Pyloric Stenosis Repair
+  TT:Surgery
+  AZ:Pyloric Stenosis Repair
+  CL:
+Radial Keratotomy (RK)
+  TT:Surgery
+  AZ:Radial Keratotomy (RK)
+  CL:
+  ABV:RK
+  UF:Radial Keratotomy
+Radiofrequency Palatoplasty
+  TT:Surgery
+  AZ:Radiofrequency Palatoplasty
+  CL:
+Radio Frequency Volume Reduction
+  TT:Procedure
+  AZ:Reduction, Radio Frequency Volume
+  CL:
+  UF:Radiofrequency Tissue Volume Reduction
+  UF:RFTVR
+Rectocele (Rectovaginal Prolapse) Repair
+  TT:Surgery
+  AZ:Rectocele (Rectovaginal Prolapse) Repair
+  CL:
+  UF:Repair of Rectocele
+  UF:Rectocele Repair
+  UF:Rectocele Surgery
+Retropubic Suspension
+  TT:Surgery
+  AZ:Retropubic Suspension
+  CL:
+  UF:Laparoscopic Retropubic Suspension
+  UF:Open Retropubic Suspension
+Rhinoplasty
+  TT:Surgery
+  AZ:Rhinoplasty
+  CL:
+Root Canal
+  TT:Procedure
+  AZ:Root Canal
+  CL:
+Root Planing and Scaling
+  TT:Procedure
+  AZ:Root Planing and Scaling
+  CL:
+  UF:Root Planing
+  UF:Root Scaling
+Rotator Cuff Surgery
+  TT:Surgery
+  AZ:Rotator Cuff Surgery
+  CL:
+  UF:Subacromial Smoothing
+  UF:Acromioplasty for Rotator Cuff
+  UF:Rotator Cuff Repair
+Acromioplasty
+  TT:Surgery
+  AZ:Acromioplasty
+  CL:
+Scleral Buckling Surgery
+  TT:Surgery
+  AZ:Scleral Buckling Surgery
+  CL:
+Procedural Sedation
+  TT:Procedure
+  AZ:Sedation, Procedural
+  CL:
+  UF:Sedation for a Medical Procedure
+  SN:The term "Procedure Sedation" reflects common usage better than the more plain language label of "Sedation for a Medical Procedure".
+Selective Dorsal Rhizotomy (SDR)
+  TT:Surgery
+  AZ:Selective Dorsal Rhizotomy (SDR)
+  CL:
+  ABV:SDR
+  UF:Selective Dorsal Rhizotomy
+Shoulder Replacement Surgery
+  TT:Surgery
+  AZ:Replacement Surgery, Shoulder
+  CL:
+  UF:Shoulder Replacement
+Sinus Rinse
+  TT:Procedure
+  AZ:Sinus Rinse
+  CL:
+Skin Cancer Treatments
+  TT:Procedure
+  AZ:Skin Cancer Treatments
+  CL:
+  UF:Cryotherapy for Nonmelanoma Skin Cancer
+  UF:Excision of Malignant Lesion
+  UF:Excision of Nonmelanoma Skin Cancer
+  UF:Nonmelanoma Skin Cancer Excision
+  UF:Excision of Melanoma
+  UF:Surgical Excision of Melanoma
+  UF:Melanoma Excision
+Skin Grafts
+  TT:Surgery
+  AZ:Grafts, Skin
+  CL:
+Skin Tag Removal
+  TT:Procedure
+  AZ:Removal, Skin Tag
+  CL:
+Sphincterotomy
+  TT:Surgery
+  AZ:Sphincterotomy
+  CL:
+  UF:Sphincterotomy (Lateral Internal)
+  UF:Lateral Internal Sphincterotomy
+  UF:Anal Sphincterotomy
+Spinal Fusion
+  TT:Surgery
+  AZ:Fusion, Spinal
+  CL:
+  UF:Lumbar Spinal Fusion
+  UF:Spinal Fusion Surgery
+  UF:Spondylodesis
+  UF:Spondylosyndesis
+  UF:Spinal Fusion for Scoliosis
+  NF:Cervical Spinal Fusion
+Scoliosis Surgery
+  TT:Surgery
+  AZ:Scoliosis Surgery
+  CL:
+Cervical Spinal Fusion
+  TT:Surgery
+  AZ:Fusion, Cervical Spinal
+  CL:
+Spinal Stenosis Surgery
+  TT:Surgery
+  AZ:Spinal Stenosis Surgery
+  CL:
+Splenectomy
+  TT:Surgery
+  AZ:Splenectomy
+  CL:
+Stapedectomy
+  TT:Surgery
+  AZ:Stapedectomy
+  CL:
+Sternotomy
+  TT:Surgery
+  AZ:Sternotomy
+  CL:
+Strabismus Surgery
+  TT:Surgery
+  AZ:Strabismus Surgery
+  CL:
+Stress Urinary Incontinence Surgery
+  TT:Surgery
+  AZ:Stress Urinary Incontinence Surgery
+  CL:
+Subcutaneous Injection
+  TT:Procedure
+  AZ:Injection, Subcutaneous
+  CL:
+  UF:Subcutaneous Shot
+Submandibular Gland Removal
+  TT:Surgery
+  AZ:Removal, Submandibular Gland
+  CL:
+Surgical Drain
+  TT:Procedure
+  AZ:Surgical Drain
+  CL:
+  UF:Surgical Drain Care
+  SN:Kathleen requested term be "Drain" and not "Drainage"
+Wart Removal
+  TT:Procedure
+  AZ:Wart Removal
+  CL:
+  UF:Cryotherapy for Warts
+  UF:Cryotherapy of Warts
+  UF:Cryosurgery for Warts
+  UF:Cryosurgery of Warts
+  UF:Laser Surgery for Warts
+  UF:Laser Surgery for Genital Warts
+  UF:Surgical Removal of Genital Warts
+  UF:Surgical Removal of Genital Warts by Excision
+  UF:Paring for Plantar Warts
+Genital Warts Biopsy
+  TT:Lab Tests
+  AZ:Biopsy, Genital Warts
+  CL:
+  UF:Biopsy of Genital Warts
+Burn Care
+  AZ:Care, Burns
+  CL:
+  UF:Care of Major Burns
+  UF:Care of Burns
+Stitches, Staples and Skin Adhesives
+  AZ:Stitches, Staples and Skin Adhesives
+  CL:
+  UF:Sutures
+  UF:Stitches
+  UF:Staples
+  UF:Closed with Adhesives
+  UF:Stitches and Staples
+  UF:Skin Adhesives
+Synovectomy
+  TT:Surgery
+  AZ:Synovectomy
+  CL:
+  UF:Tenosynovectomy
+Tennis Elbow Surgery
+  TT:Surgery
+  AZ:Tennis Elbow Surgery
+  CL:
+  UF:Surgery for Tennis Elbow
+Tension-Free Vaginal Tape (TVT) Procedure
+  TT:Surgery
+  AZ:Tension-Free Vaginal Tape (TVT) Procedure
+  CL:
+  UF:Vaginal Tape Procedure
+  UF:TVT Procedure
+  UF:Tension-Free Vaginal Tape Procedure
+  UF:Transobturator tape (TOT) Surgery
+  UF:Transobturator tape (TOT)
+Thalamotomy
+  TT:Surgery
+  AZ:Thalamotomy
+  CL:
+Thoracentesis
+  TT:Surgery
+  AZ:Thoracentesis
+  CL:Thoracentesis
+Thoracotomy
+  TT:Surgery
+  AZ:Thoracotomy
+  CL:
+Thoracoscopic Sympathectomy
+  TT:Surgery
+  AZ:Thoracoscopic Sympathectomy
+  CL:
+Thyroid Surgery
+  TT:Surgery
+  AZ:Thyroid Surgery
+  CL:
+Thyroidectomy
+  TT:Surgery
+  AZ:Thyroidectomy
+  CL:
+Tonsillectomy
+  TT:Surgery
+  AZ:Tonsillectomy
+  CL:
+Tooth Extraction
+  TT:Procedure
+  AZ:Extraction, Tooth
+  CL:
+  UF:Serial Extraction of Teeth
+  UF:Serial Tooth Extraction
+  UF:Serial Teeth Extraction
+Tracheostomy
+  TT:Surgery
+  AZ:Tracheostomy
+  CL:
+  UF:Tracheostomy Surgery
+Transurethral Bladder Resection
+  TT:Surgery
+  AZ:Resection, Transurethral Bladder
+  CL:
+Transurethral Microwave Therapy (TUMT)
+  TT:Surgery
+  AZ:Transurethral Microwave Therapy (TUMT)
+  CL:
+  ABV:TUMT
+  UF:Transurethral Microwave Therapy
+Transurethral Resection (TUR) for Bladder Cancer
+  TT:Surgery
+  AZ:Transurethral Resection (TUR) for Bladder Cancer
+  CL:
+  UF:Bladder Cancer Resection
+  UF:TUR for Bladder Cancer
+  UF:Transurethral Resection for Bladder Cancer
+Trigger Finger Release
+  TT:Surgery
+  AZ:Trigger Finger Release
+  CL:
+Tubal Implants
+  TT:Surgery
+  AZ:Implants, Tubal
+  CL:
+  UF:Tubal Implantation
+  UF:Tubouterine Implant
+  UF:Tubouterine Implantation
+  UF:Uterotubal Implant
+  UF:Uterotubal Implantation
+Tubal Ligation (BTL)
+  TT:Surgery
+  AZ:Ligation, Tubal (BTL)
+  CL:
+  UF:Tubal Ligation
+  UF:Laparoscopic Tubal Ligation
+  UF:Tubectomy
+  UF:Tying the Tubes
+  UF:Tubes Tied
+Tube Feeding
+  TT:Procedure
+  AZ:Tube Feeding
+  CL:
+Tummy Tuck
+  TT:Surgery
+  AZ:Tummy Tuck
+  CL:
+Tumor Ablation
+  TT:Procedure
+  AZ:Ablation, Tumor
+  CL:
+  CEL:Tumour Ablation
+  UF:Percutaneous Tumor Ablation
+  UF:Percutaneous Tumour Ablation
+  UF:Tumor Ablation, Percutaneous
+  UF:Tumour Ablation, Percutaneous
+Tumor Embolization
+  TT:Procedure
+  AZ:Embolization, Tumor
+  CL:
+  CEL:Tumour Embolization
+  AZ:Embolization, Tumor
+Turbinate Surgery
+  TT:Surgery
+  AZ:Turbinate Surgery
+  CL:
+  UF:Turbinectomy
+  UF:Turbinectomy Surgery
+  UF:Turbinoplasty
+Tympanocentesis
+  TT:Surgery
+  AZ:Tympanocentesis
+  CL:
+Tympanomastoidectomy
+  TT:Surgery
+  AZ:Tympanomastoidectomy
+  CL:
+Tympanoplasty
+  TT:Surgery
+  AZ:Tympanoplasty
+  CL:
+Umbilical Cord Blood Banking
+  TT:Procedure
+  AZ:Umbilical Cord Blood Banking
+  CL:
+  UF:Umbilical Cord Blood Storage
+Umbilical Hernia Repair
+  TT:Surgery
+  AZ:Umbilical Hernia Repair
+  CL:
+Umbilical Vein Catheterization
+  TT:Procedure
+  AZ:Catheterization, Umbilical Vein
+  CL:
+  UF:Umbilical Venous Catheterization
+  UF:Umbilical Venous Catheter
+  UF:Umbilical Catheter
+  UF:Umbilical Catheterization
+Undescended Testicle Surgery
+  TT:Surgery
+  AZ:Undescended Testicle Surgery
+  CL:
+  UF:Surgery for Undescended Testicle
+Ureteral Reimplant
+  TT:Surgery
+  AZ:Ureteral Reimplant
+  CL:
+Ureteral Stent Placement
+  TT:Surgery
+  AZ:Stent Placement, Ureteral
+  CL:
+Ureteroscopy
+  TT:Procedure
+  AZ:Ureteroscopy
+  CL:
+Urethral Bulking
+  TT:Surgery
+  AZ:Urethral Bulking
+  CL:
+Urethral Sling Surgery
+  TT:Surgery
+  AZ:Urethral Sling Surgery
+  CL:
+  UF:Urethral Sling
+Urethrocele (Urethra Prolapse) Surgery
+  TT:Surgery
+  AZ:Urethrocele (Urethra Prolapse) Surgery
+  CL:
+  UF:Repair of Urethra Prolapse
+Urinary Catheterization
+  TT:Procedure
+  AZ:Catheterization, Urinary
+  CL:
+  UF:Urinary Catheter
+  UF:Self-Catheterization
+  UF:Intermittent Self-Catheterization
+  UF:Intermittent Self-Catheter
+  UF:Self-Catheter
+  UF:Indwelling Foley Catheter
+  UF:Indwelling Catheter
+  UF:Indwelling Urethral Catheter
+  UF:Condom Catheter
+  UF:Intermittent Catheter
+  UF:Indwelling Foley Catheterization
+  UF:Indwelling Catheterization
+  UF:Indwelling Urethral Catheterization
+  UF:Condom Catheterization
+  UF:Intermittent Catheterization
+  UF:Foley Catheter
+  UF:Foley Catheterization
+Suprapubic Catheterization
+  TT:Surgery
+  AZ:Catheterization, Suprapubic
+  CL:
+  UF:Vesicostomy
+  UF:Epicystostomy
+  UF:Suprapubic Cystostomy
+  UF:Suprapubic Catheter
+Uterine Fibroid Embolization (UFE)
+  TT:Procedure
+  AZ:Embolization, Uterine Fibroid (UFE)
+  CL:
+  ABV:UFE
+  UF:Uterine Fibroid Embolization
+Uvulopalatopharyngoplasty (UPPP)
+  TT:Surgery
+  AZ:Uvulopalatopharyngoplasty (UPPP)
+  CL:
+  ABV:UPPP
+  UF:Uvulopalatopharyngoplasty
+Uvulopalatoplasty
+  TT:Surgery
+  AZ:Uvulopalatoplasty
+  CL:
+Vacuum-Assisted Closure (VAC)
+  TT:Procedure
+  AZ:Closure, Vacuum-Assisted (VAC)
+  CL:
+  ABV:VAC
+  UF:Vacuum-Assisted Closure
+Vaginal Prolapse Surgery
+  TT:Surgery
+  AZ:Vaginal Prolapse Surgery
+  CL:
+  UF:Repair of Vaginal Wall Prolapse
+  UF:Repair of Vaginal Vault Prolapse
+Vagus Nerve Stimulator (VNS)
+  TT:Procedure
+  AZ:Vagus Nerve Stimulator (VNS)
+  CL:
+  UF:Vagus Nerve Stimulation Surgery
+Varicocele Repair
+  TT:Surgery
+  AZ:Varicocele Repair
+  CL:
+Varicose Vein Treatments
+  TT:Procedure
+  AZ:Varicose Vein Treatments
+  CL:
+  UF:Varicose Vein Laser Treatment
+  UF:Varicose Vein Procedure
+  UF:Varicose Vein Laser
+  UF:Endovenous Laser Treatment for Varicose Veins
+  UF:Endovenous Laser Treatment
+  UF:Laser Treatment for Varicose Veins
+Vasectomy
+  TT:Surgery
+  AZ:Vasectomy
+  CL:
+Vasectomy Reversal
+  TT:Surgery
+  AZ:Reversal, Vasectomy
+  CL:
+  UF:Vasovasostomy
+  UF:Vasoepididymostomy
+  NF:Vasectomy
+Vein Ligation and Stripping
+  TT:Procedure
+  AZ:Ligation and Stripping, Vein
+  CL:
+Vertebroplasty
+  TT:Surgery
+  AZ:Vertebroplasty
+  CL:
+Video-Assisted Thoracoscopic Surgery (VATS)
+  TT:Surgery
+  AZ:Video-Assisted Thoracoscopic Surgery (VATS)
+  CL:
+  ABV:VATS
+  UF:Video-Assisted Thoracoscopic Surgery
+Vitrectomy
+  TT:Surgery
+  AZ:Vitrectomy
+  CL:
+Weight Loss (Bariatric) Surgery
+  TT:Surgery
+  AZ:Weight Loss (Bariatric) Surgery
+  CL:
+  NT:Gastric Banding
+  NT:Sleeve Gastrectomy
+  NT:Roux-en-Y Gastric Bypass
+  NT:Biliopancreatic Diversion
+  UF:Bariatric Surgery
+  UF:Gastric Bypass
+  UF:Gastric Bypass Surgery
+  UF:Gastric Bypass Procedures
+  UF:Gastric Bypass Procedures (GBP)
+  UF:Weight-Loss Surgery
+Biliopancreatic Diversion
+  TT:Surgery
+  AZ:Biliopancreatic Diversion
+  CL:
+  ABV:BPD
+  UF:Biliopancreatic Diversion with Duodenal Switch
+Roux-en-Y Gastric Bypass
+  TT:Surgery
+  AZ:Bypass, Roux-en-Y Gastric
+  CL:
+  UF:Roux-En-Y
+  UF:Open Roux-en-Y
+  UF:Laparoscopic Roux-en-Y
+  UF:Roux-en-Y, Laparoscopic
+  UF:Roux-en-Y Gastric Bypass, Laparoscopic
+  UF:Laparoscopic Roux-en-Y Gastric Bypass
+  UF:Laparoscopic Roux-en-Y Gastric Bypass Surgery
+  UF:Roux-en-Y Gastric Stomach Surgery
+  UF:Open Roux-en-Y Gastric Stomach Surgery
+  UF:Roux-en-Y Gastric Bypass, Open
+  UF:Roux-en-Y Gastric Bypass Surgery, Open
+  UF:Open Roux-en-Y Gastric Bypass
+  UF:Open Roux-en-Y Gastric Bypass Surgery
+Gastric Banding
+  TT:Surgery
+  AZ:Banding, Gastric
+  CL:
+  ABV:LABG
+  UF:Laparoscopic Adjustable Gastric Banding
+  UF:Adjustable Gastric Banding Surgery
+  UF:Lap Band Surgery
+  UF:Laparoscopic Gastric Banding
+  UF:Gastric Banding, Laparoscopic
+Sleeve Gastrectomy
+  TT:Surgery
+  AZ:Sleeve Gastrectomy
+  CL:
+  UF:Gastric Sleeve Surgery
+Whipple Surgery
+  TT:Surgery
+  AZ:Whipple Surgery
+  CL:
+Glaucoma Surgery
+  TT:Surgery
+  AZ:Glaucoma Surgery
+  CL:
+  UF:Tube-Shunt Surgery
+  UF:Trabeculotomy
+  UF:Trabeculectomy
+  UF:Filtration Surgery
+  UF:Surgery for Glaucoma
+Shunt Surgery
+  TT:Surgery
+  AZ:Shunt Surgery
+  CL:Shunt Surgery
+  NF:VP Shunt Surgery
+  NF:Liver Shunt Surgery
+  NF:Hemodialysis Vascular Access
+Transjugular Intrahepatic Portosystemic Shunt (TIPS)
+  TT:Surgery
+  AZ:Shunt, Transjugular Intrahepatic Portosystemic (TIPS)
+  CL:
+  ABV:TIPS
+  ABV:TIPSS
+  UF:Transjugular Intrahepatic Portosystemic Shunt
+  UF:Transjugular Intrahepatic Portosystemic Stent Shunting
+Lumbar Discectomy
+  TT:Surgery
+  AZ:Discectomy, Lumbar
+  CL:
+  UF:Discectomy for a Lumbar
+  UF:Discectomy for Lumbar
+  UF:Lumbar Microdiscectomy
+  UF:Microdiscectomy for a Lumbar
+  UF:Microdiscectomy for Lumbar
+Cervical Discectomy
+  TT:Surgery
+  AZ:Discectomy, Cervical
+  CL:
+  UF:Discectomy for a Cervical
+  UF:Discectomy for Cervical
+Discectomy
+  TT:Surgery
+  AZ:Discectomy
+  CL:
+  UF:Open Discectomy
+  UF:Microdiscectomy
+  NF:Lumbar Discectomy
+  NF:Cervical Discectomy
+Vena Cava Filter Placement or Removal
+  TT:Surgery
+  AZ:Placement or Removal, Vena Cava Filter
+  CL:
+  UF:Vena Cava Filter Placement
+  UF:Placement of Vena Cava Filter
+  UF:Vena Cava Filter Removal
+  UF:Removal of Vena Cava Filter
+Laminotomy
+  TT:Surgery
+  AZ:Laminotomy
+  CL:
+  UF:Laminotomy Surgery
+Laminectomy
+  TT:Surgery
+  AZ:Laminectomy
+  CL:
+  UF:Lumbar Laminectomy
+  UF:Laminectomy Surgery
+  UF:Decompressive Laminectomy
+Perianal Abscess Drainage
+  TT:Surgery
+  AZ:Drainage, Perianal Abscess
+  CL:
+  UF:Drainage of Perianal Abscess
+Breast Abscess Drainage
+  TT:Surgery
+  AZ:Drainage, Breast Abscess
+  CL:
+  UF:Drainage of Breast Abscess
+Spinal Decompression Surgery
+  TT:Surgery
+  AZ:Spinal Decompression Surgery
+  CL:
+  UF:Surgical Spinal Decompression
+Medial Patellofemoral Ligament Repair
+  TT:Surgery
+  AZ:Medial Patellofemoral Ligament Repair
+  CL:
+  UF:Repair of the Medial Patellofemoral Ligament
+  UF:Medial Patellofemoral Ligament Reconstruction
+  UF:Reconstruction of the Medial Patellofemoral Ligament
+Local Anesthesia
+  TT:Procedure
+  AZ:Anesthesia, Local
+  CL:
+Anesthesia (General)
+  TT:Procedure
+  AZ:Anesthesia (Unspecified)
+  CL:Anesthesia (Unspecified)
+  UF:General, Regional, and Local Anesthesia
+  SN:Umbrella term for concepts about anesthesia.
+  SN:The term "Anesthesia (General)" could not be used as an umbrella term because it refers to a specific procedure.
+General Anesthesia
+  TT:Procedure
+  AZ:Anesthesia, General
+  CL:
+  UF:General Anaesthesia
+  NF:Spinal Block
+  NF:Epidural Anesthesia
+Regional Anesthesia
+  TT:Procedure
+  AZ:Anesthesia, Regional
+  CL:
+  UF:Regional Anaesthesia
+Epidural Anesthesia
+  TT:Procedure
+  AZ:Anesthesia, Epidural
+  CL:
+  UF:Epidural, Childbirth
+  UF:Epidural (Childbirth)
+  UF:Childbirth Epidural
+  UF:Epidural Anaesthesia
+  UF:Epidural Catheterization
+  UF:Epidural Catheter
+  UF:Epidural Analgesia
+Spinal Block
+  TT:Procedure
+  AZ:Block, Spinal
+  CL:
+  UF:Spinal Anaesthesia
+  UF:Spinal Anesthesia
+  UF:Spinal Analgesia
+  UF:Sub-Arachnoid Block (SAB)
+  UF:Sub-Arachnoid Block
+Nerve Block
+  TT:Procedure
+  AZ:Block, Nerve
+  CL:
+  UF:Nerve Blockade
+  UF:Regional Nerve Block
+  UF:Regional Nerve Blockade
+Intraocular Lens (IOL) Implant
+  TT:Surgery
+  AZ:Implant, Intraocular Lens (IOL)
+  CL:
+  UF:Intraocular Lens (IOL) Transplantation
+  UF:Intraocular Lens Transplant
+  UF:Intraocular Lens Transplantation
+  UF:Intraocular Lens (IOL) Transplant
+  UF:Intraocular Lens (IOL) Implantation
+  UF:Intraocular Lens Implant
+  UF:Intraocular Lens Implantation
+Dental Implants
+  TT:Surgery
+  AZ:Implant, Dental
+  CL:
+  UF:Dental Implantation
+  UF:Endosseous Implant
+  UF:Endosseous Implantation
+Orthodontics
+  TT:Procedure
+  AZ:Orthodontics
+  CL:Orthodontics
+  UF:Orthodontic Treatment
+Jaw Correction Surgery
+  TT:Surgery
+  AZ:Jaw Correction Surgery
+  CL:Orthognathic Surgery
+  UF:Corrective Jaw Surgery
+Hemorrhoid Incision
+  TT:Surgery
+  CL:Hemorrhoid, Incision of Thrombosis
+  AZ:Incision, Hemorrhoid
+  UF:Incision of External Hemorrhoids
+Tattoo Removal
+  TT:Procedure
+  AZ:Removal, Tattoo
+  CL:
+Rectal Prolapse Repair
+  TT:Surgery
+  AZ:Rectal Prolapse Repair
+  CL:
+  UF:Rectal Prolapse Surgery
+Tear Duct Surgery
+  TT:Procedure
+  AZ:Tear Duct Surgery
+  CL:Tear Duct Surgery
+  UF:Probing Procedure
+  UF:Blocked Tear Duct Intubation
+  UF:Intubation of Blocked Tear Duct
+  UF:Tear Duct Probing and Irrigation
+  UF:Tear Duct Probing
+  UF:Tear Duct Irrigation
+  UF:Probing of Blocked Tear Duct
+  UF:Irrigation of Blocked Tear Duct
+  UF:Dacryocystorhinostomy (DCR)
+  UF:Dacryocystorhinostomy
+  UF:Balloon Dacryocystorhinostomy
+  UF:Laser Dacryocystorhinostomy
+  UF:Endoscopic Laser Dacryocystorhinostomy
+  UF:Endoscopic Dacryocystorhinostomy
+  UF:Infracturing
+Refractive Surgery
+  TT:Surgery
+  AZ:Refractive Surgery
+  CL:
+  UF:Thermal Keratoplasty
+  UF:Laser Thermal Keratoplasty
+Laser Eye Surgery
+  TT:Surgery
+  AZ:Laser Eye Surgery
+  CL:
+  UF:LASIK Surgery
+  UF:LASIK (Laser In-Situ Keratomileusis)
+  UF:Laser In-Situ Keratomileusis (LASIK)
+  UF:LASIK
+  UF:Laser In-Situ Keratomileusis
+  UF:LASEK
+  UF:LASEK Surgery
+  UF:Laser-Assisted Sub-Epithelial Keratectomy
+  UF:Laser Epithelial Keratomileusis
+  UF:Epi-LASIK
+  UF:Laser Surgery
+  UF:Photorefractive Keratectomy
+  UF:PRK Surgery
+  UF:Photorefractive Keratectomy Surgery
+  NF:Cervical Laser Surgery
+  NF:Glaucoma Surgery
+  NF:Laser Iridotomy
+  NF:Wart Removal
+  NF:Laser Surgery for Skin Cancer
+  NF:Laser Trabeculoplasty
+Bursa Aspiration
+  TT:Procedure
+  AZ:Aspiration, Bursa
+  CL:
+  UF:Aspiration of a Bursa
+  UF:Aspiration of the Bursa
+Vacuum Aspiration
+  TT:Procedure
+  AZ:Aspiration, Vacuum
+  CL:
+  UF:Suction Aspiration
+Ganglion Aspiration
+  TT:Procedure
+  AZ:Aspiration, Ganglion
+  CL:
+  UF:Aspiration of a Ganglion
+Urostomy
+  TT:Surgery
+  AZ:Urostomy
+  CL:
+Hip Resurfacing
+  TT:Surgery
+  AZ:Hip Resurfacing
+  CL:
+  UF:Hip Resurfacing Arthroplasty
+Water Birth
+  TT:Procedure
+  AZ:Birth, Water
+  CL:
+  UF:Water Labor
+Penile Revascularization
+  TT:Surgery
+  AZ:Penile Revascularization
+  CL:
+Release of Joint Contracture
+  TT:Surgery
+  AZ:Release of Joint Contractuer
+  CL:
+  UF:Release of Contracture of Joint
+  UF:Joint Contracture Release
+  UF:Joint Contracture Surgery
+Variceal Banding
+  TT:Surgery
+  AZ:Banding, Variceal
+  CL:
+  UF:Endoscopic Variceal Banding
+Hand Surgery
+  TT:Surgery
+  AZ:Hand Surgery
+  CL:
+Foot Surgery
+  TT:Surgery
+  AZ:Foot Surgery
+  CL:
+Open Heart Surgery
+  TT:Surgery
+  AZ:Heart Surgery, Open
+  CL:
+Pudendal and Paracervical Blocks
+  TT:Procedure
+  AZ:Blocks, Pudendal and Paracervical
+  CL:
+  UF:Pudendal Block
+  UF:Pudendal Anesthesia
+  UF:Pudendal Anaesthesia
+  UF:Saddle Block
+  UF:Paracervical Block
+Transurethral Needle Ablation (TUNA)
+  TT:Procedure
+  ABV:TUNA
+  AZ:Ablation, Transurethral Needle (TUNA)
+  CL:
+  UF:Transurethral Needle Ablation
+  UF:Transurethral Radiofrequency Ablation
+  UF:Transurethral Radio-Frequency Ablation
+Radiofrequency Ablation (RFA)
+  TT:Procedure
+  AZ:Ablation, Radiofrequency (RFA)
+  CL:
+  ABV:RFA
+  UF:Radiofrequency Ablation
+  UF:Radio-Frequency Ablation
+Intraoperative Cholangiogram
+  TT:Surgery
+  AZ:Intraoperative Cholangiogram
+  CL:
+Nasal Polypectomy
+  TT:Surgery
+  AZ:Nasal Polypectomy
+  CL:
+Total Lymphoid Irradiation (TLI)
+  TT:Procedure
+  AZ:Total Lymphoid Irradiation (TLI)
+  CL:
+  ABV:TLI
+  UF:Total Lymphoid Irradiation
+Anterior Temporal Lobectomy
+  TT:Surgery
+  AZ:Anterior Temporal Lobectomy
+  CL:
+Hemispherectomy
+  TT:Surgery
+  AZ:Hemispherectomy
+  CL:
+Tongue Tie Surgery
+  TT:Surgery
+  AZ:Tongue Tie Surgery
+  CL:
+  UF:Frenulectomy
+  UF:Frenulotomy
+  UF:Frenuloplasty
+  UF:Tongue-Tie Surgery
+Frenectomy
+  TT:Surgery
+  AZ:Frenectomy
+  CL:
+  UF:Frenotomy
+Trachelectomy
+  TT:Surgery
+  AZ:Trachelectomy
+  CL:
+  UF:Cervicectomy
+  UF:Radical Trachelectomy
+  UF:Radical Vaginal Trachelectomy (RVT)
+  UF:Radical Vaginal Trachelectomy
+  UF:Dargent Operation
+  UF:Simple Trachelectomy
+Chemical Ablation
+  TT:Procedure
+  AZ:Ablation, Chemical
+  CL:
+Selective Reduction
+  TT:Procedure
+  AZ:Reduction, Selective
+  CL:
+  UF:Multifetal Pregnancy Reduction (MFPR)
+  UF:Multifetal Pregnancy Reduction
+  UF:Multifetal Reduction
+Casting and Splinting
+  TT:Procedure
+  AZ:Splinting
+  CL:
+  UF:Splinting
+  UF:Casting
+Chelation Therapy
+  TT:Procedure
+  AZ:Chelation Therapy
+  CL:
+  UF:Chelation
+Deviated Septum Repair
+  TT:Surgery
+  AZ:Repair of a Deviated Septum
+  CL:
+  UF:Nasal Septoplasty
+  UF:Septoplasty
+Bullectomy
+  TT:Surgery
+  AZ:Bullectomy
+  CL:
+Teeth Whitening
+  TT:Procedure
+  AZ:Tooth Whitening
+  CL:
+  UF:Tooth Whitening
+  UF:Tooth Bleaching
+  UF:Teeth Bleaching
+Abscess Drainage
+  TT:Procedure
+  CL:Abscess ID
+  AZ:Drainage, Abscess
+  UF:Needle Aspiration of Abscess
+Von Willebrand Replacement Therapy
+  TT:Procedure
+  AZ:Von Willebrand Replacement Therapy
+  CL:
+  UF:Management of Von Willebrand
+  UF:Von Willebrand Factor Infusion
+  UF:Von Willebrand Management
+Laser Therapy
+  TT:Procedure
+  AZ:Laser Therapy
+  CL:
+  UF:Laser Medicine
+Arthrocentesis
+  TT:Procedure
+  AZ:Arthrocentesis
+  CL:
+  UF:Joint Aspiration
+  UF:Aspiration of the Joint
+Biliary Drainage
+  AZ:Drainage, Biliary
+  CL:
+  UF:Biliary Drain Care
+  UF:Biliary Tube Care
+Lymph Node Biopsy
+  TT:Lab Tests
+  AZ:Biopsy, Lymph Node
+  CL:
+  UF:Biopsy (Lymph Node)
+  UF:Fine-Needle Lymph Node Biopsy
+  UF:Biopsy of the Lymph Node
+  UF:Open Lymph Node Biopsy
+  NF:Sentinel Node Biopsy
+Sentinel Node Biopsy
+  TT:Other Diagnostics
+  AZ:Biopsy, Sentinel Node
+  CL:
+  UF:Sentinel Lymph Node Biopsy
+  UF:Biopsy (Sentinel Lymph Node)
+Implantable Cardioverter-Defibrillator (ICD) Placement
+  AZ:Placement, Implantable Cardioverter Defibrillator (ICD)
+  CL:
+  ABV:ICD
+  UF:Implantable Cardioverter Defibrillator Placement
+  UF:ICD
+  UF:Implantable Cardioverter Defibrillator
+Corpus Callosotomy
+  AZ:Corpus Callosotomy
+  CL:
+Cyclodestructive Surgery
+  AZ:Cyclodestructive Surgery
+  CL:
+  UF:Cyclodestructive Procedures
+Cystoscopy of the Bladder
+  AZ:Cystoscopy of the Bladder
+  CL:
+Cystoscopy
+  TT:Diagnostic Imaging
+  AZ:Cystoscopy
+  CL:
+  DEF:A test that allows your doctor to look at the inside of the bladder and the urethra using a thin, lighted instrument called a cystoscope
+Back Surgery
+  AZ:Back Surgery
+  CL:
+  UF:Low Back Surgery
+Epiphysiodesis
+  AZ:Epiphysiodesis
+  CL:
+Breast Cancer Surgery
+  AZ:Breast Cancer Surgery
+  CL:
+Colon Surgery
+  AZ:Colon Surgery
+  CL:
+Subdermal Implant for Birth Control
+  AZ:Subdermal Implant for Birth Control
+  CL:
+Transsphenoidal Adenomectomy
+  AZ:Transsphenoidal Adenomectomy
+  CL:
+Sigmoidoscopy (Anoscopy, Proctoscopy)
+  TT:Diagnostic Imaging
+  AZ:Sigmoidoscopy (Anoscopy, Proctoscopy)
+  CL:
+  UF:Sigmoidoscopy
+  UF:Anoscopy
+  UF:Proctoscopy
+Hysteroscopy
+  TT:Diagnostic Imaging
+  CL:
+  AZ:Hysteroscopy
+  DEF:The surgical removal of the uterus.
+Laparoscopy
+  AZ:Laparoscopy
+  CL:
+  FCT:Surgeries and Procedures
+  UF:Laparoscopic Surgery
+Testicular Biopsy
+  TT:Lab Tests
+  AZ:Biopsy, Testicular
+  CL:
+  UF:Biopsy (Testicular)
+Pelvic Laparoscopy
+  FCT:Surgeries and Procedures
+  AZ:Laparoscopy, Pelvic
+  CL:
+Video Capsule Endoscopy
+  AZ:Endoscopy, Video Capsule
+  CL:
+  UF:Capsule Endoscopy
+Temporal Artery Biopsy
+  AZ:Biopsy, Temporal Artery
+  CL:
+Needle Biopsy
+  AZ:Biopsy, Needle
+  CL:
+  UF:Fine-Needle Biopsy
+  UF:Needle Guidance for Biopsy
+Mediastinoscopy
+  TT:Diagnostic Imaging
+  AZ:Mediastinoscopy
+  CL:
+Cardiac Ventriculography
+  AZ:Cardiac Ventriculography
+  CL:
+  UF:Ventriculogram
+Bone Biopsy
+  TT:Lab Tests
+  AZ:Biopsy, Bone
+  CL:
+  UF:Trephine Biopsy
+  NF:Thyroid Biopsy
+  NF:Testicular Biopsy
+  NF:Skin Biopsy
+  NF:Sentinel Node Biopsy
+  NF:Lymph Node Biopsy
+  NF:Prostate Biopsy
+  NF:Lung Biopsy
+  NF:Liver Biopsy
+  NF:Kidney Biopsy
+  NF:Genital Warts Biopsy
+  NF:Endometrial Biopsy
+  NF:Cervical Biopsy
+  NF:Breast Biopsy
+  NF:Prenatal Tests and Screening
+Cervical Biopsy
+  TT:Lab Tests
+  AZ:Biopsy, Cervical
+  CL:
+Cone Biopsy
+  AZ:Biopsy, Cone
+  CL:
+  UF:Cervical Cone Biopsy
+Endometrial Biopsy
+  AZ:Biopsy, Endometrial
+  CL:
+Endoscopic Retrograde Cholangiopancreatogram (ERCP)
+  TT:Diagnostic Imaging
+  AZ:Endoscopic Retrograde Cholangiopancreatogram (ERCP)
+  CL:
+Laryngoscopy
+  TT:Diagnostic Imaging
+  AZ:Laryngoscopy
+  CL:
+  UF:Flexible Laryngoscopy
+  UF:Rigid Laryngoscopy
+  UF:Direct Laryngoscopy
+  UF:Direct Rigid Laryngoscopy
+  UF:Indirect Laryngoscopy
+Lung Biopsy
+  TT:Other Diagnostics
+  AZ:Biopsy, Lung
+  CL:
+  UF:Percutaneous Biopsy (Lung)
+  UF:Percutaneous Lung Biopsy
+  UF:Lung Percutaneous Biopsy
+Prostate Biopsy
+  TT:Other Diagnostics
+  AZ:Biopsy, Prostate
+  CL:
+  UF:Transrectal Prostate Biopsy
+Thyroid Biopsy
+  TT:Other Diagnostics
+  AZ:Biopsy, Thyroid
+  CL:
+  UF:Thyroid Fine-Needle Biopsy
+  UF:Fine-Needle Thyroid Biopsy
+Bone Marrow Biopsy
+  AZ:Biopsy, Bone Marrow
+  CL:
+  UF:Bone Marrow Examination
+Bone Marrow Aspiration
+  TT:Procedure
+  AZ:Aspiration, Bone Marrow
+  CL:Aspiration, Bone Marrow
+Fine Needle Aspiration
+  TT:Procedure
+  AZ:Aspiration (Fine Needle)
+  CL:Aspiration (Fine Needle)
+  UF:Needle Aspiration
+  UF:Fine-Needle Aspiration
+  UF:Fine Needle Aspiration Cytology
+  UF:Fine-Needle Aspiration Cytology
+Breast Biopsy
+  TT:Lab Tests
+  TT:Other Diagnostics
+  AZ:Biopsy, Breast
+  CL:
+  UF:Biopsy of the Breast
+  UF:Fine-Needle Aspiration Biopsy of the Breast
+  UF:Breast Open Biopsy
+  UF:Open Breast Biopsy
+  UF:Open Biopsy of the Breast
+  UF:Breast Biopsy (Open)
+  UF:Stereotactic Biopsy (Breast)
+  UF:Breast Stereotactic Biopsy
+  UF:Breast Biopsy (Stereotactic)
+  UF:Stereotactic Breast Biopsy
+  UF:Stereotactic Biopsy of the Breast
+Bronchoscopy
+  TT:Diagnostic Imaging
+  AZ:Bronchoscopy
+  CL:
+Colonoscopy
+  TT:Diagnostic Imaging
+  AZ:Colonoscopy
+  CL:
+  NF:Virtual Colonoscopy
+Virtual Colonoscopy
+  ABV:VC
+  AZ:Colonoscopy, Virtual
+  CL:
+  UF:CT Colonograph
+  UF:CT Pneumocolon
+Colposcopy
+  TT:Diagnostic Imaging
+  AZ:Colposcopy
+  CL:
+Coronary Angioplasty
+  TT:Diagnostic Imaging
+  AZ:Angioplasty, Coronary
+  CL:Angioplasty, Coronary
+  NT:Heart Catheterization
+  SN:Part of a general group of procedures under "Heart Catheterization". Can be considered a synonym but has content warrant. We discuss the two concepts as distinct procedures so it has been entered as NT to "Heart Catheterization".
+Peripheral Angioplasty
+  TT:Surgery
+  AZ:Angioplasty, Peripheral
+  CL:Angioplasty, Peripheral
+Liver Biopsy
+  TT:Lab Tests
+  AZ:Biopsy, Liver
+  CL:
+  UF:Percutaneous Biopsy (Liver)
+  UF:Percutaneous Liver Biopsy
+  UF:Liver Percutaneous Biopsy
+Pericardial Drainage
+  TT:Procedure
+  AZ:Drainage, Pericardial
+  CL:Drainage, Pericardial
+  UF:Pericardiocentesis
+  UF:Percutaneous Pericardiocentesis
+  UF:Pericardial Drainage
+  UF:Pericardial Drainage Test
+  UF:Pericardial Tap
+Arthroscopic Surgery (General)
+  TT:Diagnostic Imaging
+  AZ:Arthroscopic Surgery (General)
+  CL:
+  UF:Arthroscopic Procedure
+  UF:Diagnostic Arthroscopy
+  UF:Arthroscopy
+Shoulder Arthroscopy
+  TT:Diagnostic Imaging
+  AZ:Arthroscopy, Shoulder
+  CL:
+  UF:Arthroscopic Surgery of the Shoulder
+Ankle Arthroscopy
+  TT:Diagnostic Imaging
+  AZ:Arthroscopy, Ankle
+  CL:
+  UF:Arthroscopic Surgery of the Ankle
+Elbow Arthroscopy
+  TT:Diagnostic Imaging
+  AZ:Arthroscopy, Elbow
+  CL:
+  UF:Arthroscopic Surgery of the Elbow
+Knee Arthroscopy
+  TT:Diagnostic Imaging
+  AZ:Arthroscopy, Knee
+  CL:
+  UF:Arthroscopic Surgery of the Knee
+Wrist Arthroscopy
+  TT:Diagnostic Imaging
+  AZ:Arthroscopy, Wrist
+  CL:
+  UF:Arthroscopic Surgery of the Wrist
+Kidney Biopsy
+  TT:Other Diagnostics
+  AZ:Biopsy, Kidney
+  CL:
+  UF:Renal Biopsy
+  UF:Kidney Needle Biopsy
+  UF:Needle Kidney Biopsy
+Skin Lesion Removal
+  TT:Lab Tests
+  AZ:Removal, Skin Lesion
+  CL:
+Upper GI Endoscopy
+  TT:Diagnostic Imaging
+  AZ:Endoscopy, Upper GI
+  CL:
+  ABV:EGD
+  ABV:PES
+  UF:Esophagogastroduodenoscopy
+  UF:Panendoscopy
+  UF:Upper Gastrointestinal Endoscopy
+  UF:Gastroscopy
+Inferior Petrosal Sinus Sampling (IPSS)
+  AZ:Inferior Petrosal Sinus Sampling (IPSS)
+  CL:Inferior Petrosal Sinus Sampling (IPSS)
+  ABV:IPSS
+  UF:Inferior Petrosal Sinus Sampling
+Endoscopy (General)
+  TT:Diagnostic Imaging
+  AZ:Endoscopy (General)
+  CL:
+  UF:Endoscopy
+  NF:Upper GI Endoscopy
+  NF:Video Capsule Endoscopy
+  NF:Endoscopic Ultrasound (Oral)
+  NF:Endoscopic Ultrasound (Rectal)
+  NF:Transrectal Ultrasound (TRUS)
+  NF:Endoscopic Retrograde Cholangiopancreatogram (ERCP)
+Blood Banking
+  AZ:Banking, Blood
+  CL:
+Continuous Positive Airway Pressure (CPAP) Therapy
+  ABV:CPAP
+  AZ:Continuous Positive Airway Pressure (CPAP) Therapy
+  CL:
+  UF:Continuous Positive Airway Pressure Therapy
+  UF:Continuous Positive Airway Pressure
+Dental Fillings and Crowns
+  AZ:Dental Fillings and Crowns
+  CL:
+  UF:Dental Restoration
+Epidural Steroid Injection
+  AZ:Injection, Epidural Steroid
+  CL:
+  UF:Epidural Steroid Shot
+Maze Procedure for Atrial Fibrillation
+  AZ:Maze Procedure for Atrial Fibrillation
+  CL:
+  UF:Surgical Ablation
+Sleep Apnea Surgery
+  AZ:Sleep Apnea Surgery
+  CL:
+Penile Injections
+  AZ:Injections, Penile
+  CL:
+  UF:Injection Treatment for Erection Problems
+Wisdom Tooth Extraction
+  TT:Procedure
+  AZ:Extraction, Wisdom Tooth
+  CL:
+  UF:Wisdom Teeth Extraction
+  UF:Wisdom Tooth Removed
+  UF:Wisdom Teeth Removed
+Crohn's Disease Surgery
+  TT:Surgery
+  AZ:Crohn's Disease Surgery
+  CL:Crohn's Disease Surgery
+  UF:Surgery for Crohn's Disease
+Continuous Passive Motion (CPM) Therapy
+  TT:Procedure
+  AZ:Therapy, Continuous Passive Motion (CPM)
+  CL:Therapy, Continuous Passive Motion (CPM)
+Genital Warts Removal
+  TT:Surgery
+  AZ:Removal of Genital Warts
+  CL:Removal of Genital Warts
+Negative Pressure Wound Therapy
+  TT:Procedure
+  AZ:Therapy, Negative Pressure Wound
+  CL:Therapy, Negative Pressure Wound
+  ABV:NPWT
+  UF:Negative-Pressure Wound Therapy
+Ulcerative Colitis Surgery
+  TT:Surgery
+  AZ:Ulcerative Colitis Surgery
+  CL:Ulcerative Colitis Surgery
+  UF:Surgery for Ulcerative Colitis
+Vaccination
+  TT:Procedure
+  AZ:Vaccination
+  CL:Vaccination
+  UF:Immunizations
+Wound Debridement
+  TT:Procedure
+  AZ:Wound Debridement
+  CL:Wound Debridement
+  AZ:Care, Wounds
+  UF:Care of Closed Wounds
+  UF:Care of Wounds
+  NF:Debridement
+Debridement
+  TT:Procedure
+  AZ:
+  CL:
+Venous Access Devices
+  TT:
+  AZ:
+  CL:
+  SN:Candidate Term - Checking with JF on whether it should be in the MEDICAL DEVICES facet (10/28/2014).
+Hemodialysis Vascular Access
+  TT:Procedure
+  AZ:Hemodialysis Vascular Access
+  CL:Shunt Surgery, Hemodialysis
+  UF:Vascular Access Surgery
+  UF:Hemodialysis Access
+  UF:Hemodialysis Shunt Surgery
+Abdominal Hysterectomy (Laparoscopic)
+  TT:Surgery
+  AZ:Hysterectomy, Abdominal (Laparoscopic)
+  CL:Hysterectomy, Abdominal (Laparoscopic)
+  UF:Laparoscopic Abdominal Hysterectomy
+  NF:Abdominal Hysterectomy
+Vaginal Hysterectomy (Laparoscopically-Assisted)
+  TT:Surgery
+  AZ:Hysterectomy, Vaginal (Laparoscopically-Assisted)
+  CL:Hysterectomy, Vaginal (Laparoscopically-Assisted)
+  UF:Laparoscopically Assisted Vaginal Hysterectomy
+  UF:Laparoscopically-Assisted Vaginal Hysterectomy
+  UF:Vaginal Laporascopic-Assisted
+VP Shunt Surgery
+  TT:Surgery
+  AZ:Shunt Surgery, VP
+  CL:Shunt Surgery, VP
+  UF:VP Shunt
+  UF:Ventriculoperitoneal (VP) Shunt Surgery
+  UF:Ventriculoperitoneal Shunt
+  UF:Ventriculoperitoneal Shunt Surgery
+Liver Shunt Surgery
+  TT:Surgery
+  AZ:Shunt Surgery, Liver
+  CL:Shunt Surgery, Liver
+  UF:Liver Shunt
+  UF:Portosystemic Shunt (PSS)
+  UF:Portosystemic Shunt
+  NF:Transjugular Intrahepatic Portosystemic Shunt (TIPS)
+Isolation Procedures
+  TT:Procedure
+  AZ:Isolation Procedures
+  CL:Isolation Procedures
+Bowel Obstruction Stent Treatment
+  TT:Surgery
+  AZ:Stent Treatment, Bowel Obstruction
+  CL:Stent Treatment, Bowel Obstruction
+  UF:Stent Treatment for Bowel Obstruction
+Prolotherapy
+  TT:Procedure
+  AZ:Prolotherapy
+  CL:Prolotherapy
+  UF:Proliferation Therapy
+  UF:Regenerative Injection Theapy
+  UF:Proliferative Injection Theapy
+Peripherally Inserted Central Catheter (PICC)
+  TT:
+  AZ:
+  CL:
+  SN:Candidate Term - Checking with JF on whether it should be in the MEDICAL DEVICES facet (10/28/2014)
+Percutaneous Coronary Intervention (PCI)
+  TT:
+  AZ:
+  CL:
+  UF:Coronary Angioplasty
+  SN:Already exists as UF for "Angioplasty"; checking with JF on whether to move it to "Coronary Angiogram" as a UF.
+Pelvic Laparotomy
+  TT:
+  AZ:
+  CL:
+  SN:Checking with JF on whether "Laparotomy" is enough for the one document we have on this; if not, should we delete "Laparotomy"?
+Uterine Fibroid Surgery
+  TT:Surgery
+  AZ:Uterine Fibroid Surgery
+  CL:Uterine Fibroid Surgery
+  UF:Surgery for Uterine Fibroids
+Nasal Adhesions Removal
+  TT:Surgery
+  AZ:Removal of Nasal Adhesions
+  CL:Nasal Adhesions Removal
+  UF:Removal of Nasal Adhesions
+  UF:Nasal Adhesions Surgery
+  UF:Surgery for Nasal Adhesions
+Oromaxillary Fistula Repair
+  TT:Surgery
+  AZ:Repair of Oromaxillary Fistula
+  CL:Oromaxillary Fistula Repair
+  UF:Repair of Oromaxillary Fistula
+  UF:Oromaxillary Fistula Surgery
+  UF:Surgery for Oromaxillary Fistula
+Choanal Atresia Repair
+  TT:Surgery
+  AZ:Repair for Choanal Atresia
+  CL:Choanal Atresia Repair
+  UF:Repair of Choanal Atresia
+  UF:Choanal Atresia Surgery
+  UF:Repair for Choanal Atresia
+Ultrasound Needle Guidance
+  TT:
+  AZ:
+  CL:
+  SN:Candidate Term - Checking with JF on whether it should be in the MEDICAL DEVICES facet (10/28/2014).
+Temporomandibular Arthroscopy
+  TT:Surgery
+  AZ:Arthroscopy, Temporomandibular
+  CL:Arthroscopy, Temporomandibular
+  UF:Temporomandibular Joint Arthroscopy
+Dental Splints for Temporomandibular Disorders
+  TT:Procedure
+  AZ:Dental Splints for Temporomandibular Disorders
+  CL:Dental Splints for Temporomandibular Disorders
+  UF:Dental Splints for Temporomandibular Joint Disorders
+  UF:Oral Splints for Temporomandibular Disorders
+  UF:Oral Splints for Temporomandibular Joint Disorders
+  UF:Occlusal Splints for Temporomandibular Disorders
+  UF:Occlusal Splints for Temporomandibular Joint Disorders
+  UF:Splints Therapy for Temporomandibular Disorders
+  UF:Splints Therapy for Temporomandibular Joint Disorders
+Infertility Treatments
+  TT:Procedure
+  AZ:Infertility Treatments
+  CL:Infertility Treatments
+  UF:Fertility Treatments
+  UF:Assisted Reproductive Technology
+  UF:Treatments for Infertility
+Tubal Ligation Reversal
+  TT:Surgery
+  AZ:Reversal of Tubal Ligation
+  CL:Tubal Ligation Reversal
+Skin Biopsy
+  TT:Lab Tests
+  AZ:Biopsy, Skin
+  CL:Biopsy, Skin
+  UF:Biopsy of Skin
+  UF:Skin Lesion Biopsy
+  UF:Biopsy (Skin)
+  UF:Punch Biopsy
+  UF:Shave Biopsy
+  UF:Shave Skin Biopsy
+  UF:Incisional Biopsy
+  UF:Excisional Biopsy
+  UF:Curettage Biopsy
+  UF:Saucerization Biopsy
+Excision of Malignant Skin Lesion
+  TT:
+  AZ:
+  CL:
+  SN:Candidate Term - To discuss with JF (10/28/2014).
+Corticosteroid (Steroid) Injection
+  TT:Procedure
+  AZ:Injection, Corticosteroid (Steroid)
+  CL:Injection, Corticosteroid (Steroid)
+Decompressive Surgery
+  TT:Surgery
+  AZ:Decompressive Surgery
+  CL:Decompressive Surgery
+Endotracheal Intubation
+  TT:Procedure
+  AZ:Intubation, Endotracheal
+  CL:Intubation, Endotracheal
+  UF:Tracheal Intubation
+Laser Hair Removal
+  TT:Procedure
+  AZ:Removal (Laser), Hair
+  CL:Removal (Laser), Hair
+Suprapubic Aspiration
+  TT:Procedure
+  AZ:Aspiration, Suprapubic
+  CL:Aspiration, Suprapubic
+Chemotherapy
+  TT:Procedure
+  AZ:Chemotherapy
+  CL:Chemotherapy
+  UF:Chemo
+  SN:Apply to content that discusses the procedure of chemotherapy. Use the MEDICATION facet when the topic is about the medication.
+Biopsy (General)
+  TT:Procedure
+  AZ:Biopsy (General)
+  CL:Biopsy (Unspecified)
+Parenteral Nutrition
+  TT:Procedure
+  AZ:Nutrition, Parenteral
+  CL:
+  UF:Total Parenteral Nutrition
+  UF:Partial Parenteral Nutrition
+Meniere's Disease Surgery
+  TT:Surgery
+  AZ:Meniere's Disease Surgery
+  CL:
+  UF:Surgery for Meniere's Disease
+Drug-Eluting Stenting
+  TT:Procedure
+  AZ:Stenting, Drug-Eluting
+  CL:
+Spinal Manipulation
+  TT:Procedure
+  AZ:Spinal Manipulation
+  CL:
+Islet Transplantation
+  TT:Surgery
+  AZ:Transplantation, Islet
+  CL:Transplantation, Pancreatic Islet Cell
+  UF:Pancreatic Islet Cell Transplantation
+  UF:Pancreatic Islet Transplantation
+Ankle Fusion
+  TT:Surgery
+  AZ:Fusion, Ankle
+  UF:Ankle Arthrodesis
+  UF:Fusion of Ankle Joint
+Blood Patch
+  TT:Procedure
+  UF:Epidural Blood Patch
+  UF:Spinal Blood Patch
+Brachial Plexus Block
+  TT:Procedure
+  UF:Brachial Plexus Anesthesia
+  UF:Brachial Plexus Blockade
+Caudal Block
+  TT:Procedure
+  UF:Caudal Epidural
+  UF:Sacral Epidural Block
+  UF:Transsacral Epidural
+Cervical Epidural Injection
+  TT:Procedure
+  UF:Cervical Epidural Steroid Injection
+Dental Sealants
+  TT:Procedure
+  UF:Dental Sealing
+  UF:Pit and Fissure Sealants
+Facet Joint Injection
+  TT:Procedure
+  UF:Injection of Facet Joint
+Femoral Nerve Block
+  TT:Procedure
+  UF:Block Femoral Nerve
+Laceration Repair
+  TT:Procedure
+  UF:Repair of Lacerations
+  UF:Skin Laceration Repair
+Laparoscopic Myomectomy
+  TT:Procedure
+  UF:Laparoscopic Excision of Uterine Fibroid
+Lumbar Epidural Injection
+  TT:Procedure
+  UF:Lumbar Epidural Steroid Injection
+Peripheral Nerve Block
+  TT:Procedure
+  UF:Peripheral Block Anesthesia
+Popliteal Nerve Block
+  TT:Procedure
+  UF:Popliteal Fossa Nerve Block
+  UF:Sciatic Nerve Block 
+Restorative Dentistry
+  TT:Procedure
+  UF:Dentistry Restorative
+Septic Arthritis Joint Drainage
+  TT:Procedure
+  UF:Arthrotomy of Knee with Drainage
+  UF:Drainage of Septic Arthritis
+Stoma Reversal Surgery
+  TT:Procedure
+  UF:Closure of Ileostomy
+  UF:Colostomy closure
+Sympathetic Nerve Block
+  TT:Procedure
+  UF:Nerve Blocks, Sympathetic
+  UF:Sympathetic Block
+Thrombolytic Therapy
+  TT:Procedure
+  UF:Fibrinolytic Therapy
+  UF:Thrombolytics
+  UF:Thrombolytic Therapies
+

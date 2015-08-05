@@ -1,0 +1,144 @@
+# UF: Used For
+# NF: Not For
+# SA: Subject Area
+# BT: Broader Term
+# NT: Narrower Term
+# RT: Related Term
+# USE: Use
+# SN: Scope Note
+# TT: Top Term
+# DEF: Definition
+# EX: Example
+# ABV: Abbreviation
+# DEV: Device
+# PRO: Procedure
+# MED: Medication
+# SMP: Symptom
+# WEL: Wellness
+# EN:
+# CL:Clinical Label
+# AZ:Label for browsing A-Z lists
+
+Sleeping Well
+  UF:Better Sleep
+Being Active
+  UF:Fitness
+  UF:Exercise
+  UF:Curl-Ups
+  UF:Flexibility
+  UF:Stretching
+  UF:Staying Active
+  UF:Getting Active
+  UF:Physical Activity
+  UF:Exercise Counseling
+Healthy Eating
+  UF:Nutrition
+  UF:Dietary Surveillance
+  UF:Dietary Counseling
+  UF:Healthy Eating
+  UF:Chemical-Free Foods
+  UF:Organic Foods
+  UF:Lactose Intolerance
+  UF:Eating
+  UF:Food as Fuel
+  UF:Dietary Problems
+  UF:Dietary Issues
+  UF:Dietary Guidelines
+  UF:Food Tips
+  UF:Carbohydrates
+  UF:Food Labels
+  UF:Healthy Plate
+  UF:Healthy Eating
+  UF:Healthy Meals
+  UF:Healthy Snacks
+  UF:Eating Habits
+  UF:Eating Well
+  UF:Bad Fats
+  UF:Good Fats
+  UF:Glycemic Index
+  UF:Vitamin D
+  UF:Deficiency
+  UF:Limiting Sodium
+  UF:Supplements
+Healthy Weight
+  UF:Weight Control
+  UF:Weight Management
+  UF:Healthy Weight
+  UF:Diet
+  UF:Weight-Loss
+  UF:Weight Issues
+  UF:Calories
+  UF:Abnormal Weight Gain
+  UF:Body Mass Index
+  UF:Body Fat
+Mental and Emotional Health
+  UF:Positive Thinking
+  UF:Negative Thoughts
+  UF:Mental and Behavioral Health
+  UF:Brain Chemicals
+  NT:Stress
+  NT:Grief
+  CON:Eating Disorders
+  CON:Mental Disorders
+  CON:Addiction
+  CON:Sleep Problems
+  CON:Suicide
+  CON:Depression
+  PRO:Counseling
+  DEF:How we think, feel and act as we cope with life; helps determine how we handle stress, relate to others, and make choices.
+Quitting Tobacco
+  UF:Smoking
+  UF:Tobacco
+  UF:Smoke-Free
+  UF:Non-Smoker
+  UF:Nonsmoker
+  UF:Quitting Smoking
+  UF:Quitting Tobacco
+  UF:Quit Attempts
+  UF:Smoker
+  UF:Nicotine
+  UF:Non-Smoking
+  CON:Peripheral Vascular Disease
+  CON:COPD
+  CON:Asthma
+  CON:CAD
+  CON:Lung Cancer
+  CON:Oral Cancer
+  CON:Esophageal Cancer
+  CON:Addiction
+Drugs and Alcohol
+  UF:Alcohol
+  UF:Alcohol Use
+  UF:Alcohol and Drug
+  UF:Alcohol or Drug
+  UF:Drug Use
+  RT:Mental Health
+  CON:Alcoholic Cardiomyopathy
+  CON:Fetal Alcohol Syndrome
+  CON:Addiction
+  CON:Depression
+  CON:High Triglycerides
+Complementary Health
+Sexual and Reproductive Health
+  UF:Sex
+  UF:Barrier Methods
+  UF:Condoms
+  UF:Contraception
+  UF:Diaphragm
+  UF:IUD
+  UF:Intrauterine Device
+  UF:Ulipristal
+  UF:Natural Family Planning
+  UF:Vasectomy
+  UF:Contraceptive Management
+  UF:Birth Control
+  UF:Family Planning
+Prevention
+  UF:Preventing Disease
+  UF:Preventing Injury
+  UF:Preventing
+  UF:Precautions
+  UF:Hand-Washing
+  UF:Hospital Infections
+  UF:Healthy Back
+

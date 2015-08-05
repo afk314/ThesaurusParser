@@ -1,0 +1,2519 @@
+## Reviewed by Maria Essig for accuracy in January 2014.
+## Reviewed by Tracy Landauer for plain language in February 2014.
+
+# UF:Used For
+# NF:Not For
+# SA:Subject Area
+# BT:Broader Term
+# NT:Narrower Term
+# RT:Related Term
+# USE:Use
+# SN:Scope Note
+# TT:Top Term
+# DEF:Definition
+# EX:Example
+# ABV:Abbreviation
+# DEV:Device
+# PRO:Procedure
+# MED:Medication
+# SMP:Symptom
+# WEL:Wellness
+# CL:Clinical Label
+# CEL:Canadian English Label
+# FCT:Records membership in other facets (polyhierarchy)
+# AZ:Label for browsing A-Z lists
+
+Testicular Exam
+  AZ:Testicular Exam
+  CL:Testicular Exam
+  CEL:Testicular Examination
+  UF:Testicular Examination
+  UF:Testicular Self-Exam
+  UF:Testicular Self-Examination
+Breast Exam
+  AZ:Breast Exam
+  CL:Breast Exam
+  CEL:Breast Examination
+  UF:Breast Examination
+  UF:Breast Self-Exam
+  UF:Breast Self-Examination
+Breath Alcohol Test
+  AZ:Breath Alcohol Test
+  CL:Breath Alcohol Test
+  UF:Self-Test for Breath Alcohol
+Vaginal Exams
+  TT:Other Diagnostics
+  AZ:Vaginal Exams
+  CL:Vaginal Exams
+  CEL:Vaginal Examinations
+  UF:Vaginal Self-Exam (VSE)
+  UF:VSE
+  UF:Vaginal Self-Exam
+  UF:Vaginal Self-Examination
+  UF:Vaginal Examination
+Vaginal Exams During Labor
+  TT:Other Diagnostics
+  AZ:Vaginal Exams During Labor
+  CL:Vaginal Exams During Labor
+  CEL:Vaginal Examinations During Labor
+  UF:Vaginal Exams During Childbirth
+  UF:Vaginal Examination During Labor
+  UF:Vaginal Examination During Childbirth
+  NF:Vaginal Exams
+Genital Exam
+  CEL:Genital Examination
+  AZ:Genital Exam
+  CL:Genital Exam
+  UF:Genital Self-Exam
+  UF:Genital Self-Examination
+  UF:Genital Examination
+Aldosterone Test
+  AZ:Aldosterone Test
+  CL:Aldosterone Test
+  UF:Aldosterone Urine Test
+  UF:Aldosterone in Urine Test
+  UF:Aldosterone in Urine
+  UF:Aldosterone Blood Test
+  UF:Aldosterone in Blood Test
+  UF:Aldosterone in Blood
+  UF:Blood Aldosterone Test
+  UF:Urine Aldosterone Test
+Calcium (Ca) Test
+  AZ:Calcium (Ca) Test
+  CL:Calcium (Ca) Test
+  UF:Calcium (Ca) Blood Test
+  UF:Calcium (Ca) in Blood
+  UF:Calcium in Blood
+  UF:Calcium Blood Test
+  UF:Ca in Blood
+  UF:Ca Blood Test
+  UF:Blood Calcium Test
+  UF:Blood Ca Test
+  UF:Blood Calcium (Ca) Test
+  UF:Calcium (Ca) Urine Test
+  UF:Calcium (Ca) in Urine
+  UF:Calcium in Urine
+  UF:Ca in Urine
+  UF:Calcium Urine Test
+  UF:Ca Urine Test
+  UF:Urine Calcium Test
+  UF:Urine Ca Test
+  UF:Urine Calcium (Ca) Test
+Cortisol Test
+  AZ:Cortisol Test
+  CL:Cortisol Test
+  UF:Cortisol Blood Test
+  UF:Cortisol in Blood Test
+  UF:Cortisol in Blood
+  UF:Cortisol Urine Test
+  UF:Cortisol in Urine Test
+  UF:Cortisol in Urine
+  UF:Urine Cortisol Test
+  UF:Blood Cortisol Test
+Chloride (Cl) Test
+  TT:Lab Tests
+  AZ:Chloride (Cl) Test
+  CL:Chloride (Cl) Test
+  UF:Chloride Test
+  UF:Cl Test
+  UF:Chloride Blood Test
+  UF:Chloride Urine Test
+  UF:Cl Blood Test
+  UF:Cl Urine Test
+  UF:Chloride (Cl) Blood Test
+  UF:Chloride (Cl) Urine Test
+  UF:Chloride (Cl) Blood
+  UF:Chloride (Cl) Urine
+  UF:Chloride Blood
+  UF:Measurement of Chloride
+  UF:Blood Chloride Level
+  UF:Chloride Urine
+  UF:Cl Blood
+  UF:Cl Urine
+  UF:Blood Cloride Test
+  UF:Blood  Cl Test
+  UF:Blood  Cloride (Cl) Test
+  UF:Urine Cloride Test
+  UF:Urine Cl Test
+  UF:Urine Cloride (Cl) Test
+Catecholamines Test
+  AZ:Catecholamines Test
+  CL:Catecholamines Test
+  UF:Catecholamines Blood Test
+  UF:Catecholamines in Blood Test
+  UF:Catecholamines in Blood
+  UF:Catecholamines Urine Test
+  UF:Catecholamines in Urine Test
+  UF:Catecholamines in Urine
+  UF:Blood Catecholamines Test
+  UF:Urine Catecholamines Test
+Phosphate Test
+  AZ:Phosphate Test
+  CL:Phosphate Test
+  UF:Phosphate Blood Test
+  UF:Phosphate in Blood
+  UF:Phosphate Urine Test
+  UF:Phosphate in Urine
+  UF:Blood Phosphate Test
+  UF:Urine Phosphate Test
+Potassium (K) Test
+  TT:Lab Tests
+  CL:Potassium (K) Test
+  AZ:Potassium (K) Test
+  UF:Potassium (K) Blood Test
+  UF:Potassium (K) in Blood
+  UF:Potassium in Blood
+  UF:Potassium Blood Test
+  UF:K in Blood
+  UF:K Blood Test
+  UF:Potassium Test
+  UF:Potassium (K) Urine Test
+  UF:Potassium (K) in Urine
+  UF:Potassium in Urine
+  UF:Potassium Urine Test
+  UF:K in Urine
+  UF:K Urine Test
+  UF:Urine Potassium Test
+  UF:Urine K Test
+  UF:Urine Potassium (K) Test
+  UF:Blood Potassium Test
+  UF:Blood K Test
+  UF:Blood Potassium (K) Test
+Uric Acid Test
+  AZ:Uric Acid Test
+  CL:Uric Acid Test
+  UF:Uric Acid Blood Test
+  UF:Uric Acid in Blood
+  UF:Uric Acid Urine Test
+  UF:Uric Acid in Urine
+  UF:Blood Uric Acid Test
+  UF:Blood Test for Uric Acid
+  UF:Urine Uric Acid Test
+  UF:Urine Test for Uric Acid
+Sodium (Na) Test
+  AZ:Sodium (Na) Test
+  CL:Sodium (Na) Test
+  UF:Sodium (Na) Blood Test
+  UF:Sodium (Na) in Blood
+  UF:Sodium in Blood
+  UF:Na in Blood
+  UF:Sodium Blood Test
+  UF:Na Blood Test
+  UF:Sodium (Na) Urine Test
+  UF:Sodium (Na) in Urine
+  UF:Sodium in Urine
+  UF:Na in Urine
+  UF:Sodium Urine Test
+  UF:Na Urine Test
+  UF:Blood Sodium (Na) Test
+  UF:Blood Sodium Test
+  UF:Blood Na Test
+  UF:Urine Sodium (Na) Test
+  UF:Urine Sodium Test
+  UF:Urine Na Test
+Blood Pressure Test
+  AZ:Blood Pressure Test
+  CL:Blood Pressure Test
+  UF:Home Blood Pressure Test
+  UF:Blood Pressure Screening
+  UF:Taking Blood Pressure
+Pregnancy Tests
+  AZ:Pregnancy Tests
+  CL:Pregnancy Tests
+  UF:Pregnancy Exam
+  UF:Home Pregnancy Tests
+Lung Function Tests
+  AZ:Function Tests, Lung
+  CL:Lung Function Tests
+  ABV:PFTs
+  UF:Home Lung Function Tests
+  UF:Pulmonary Function Tests
+  UF:Spirometry Tests
+  UF:Tests for Lung Infections
+  UF:Lung Tests
+  UF:Forced Expiratory Volume
+  UF:Forced Vital Capacity
+Cold Agglutinins Test
+  TT:Lab Tests
+  CL:Cold Agglutinins Test
+  AZ:Cold Agglutinins Test
+  UF:Cold Agglutinins
+  UF:Cold Agglutinins Blood Test
+Bonney Test
+  TT:Lab Tests
+  AZ:Bonney Test
+  CL:Bonney Test
+Blood Cell Count
+  TT:Lab Tests
+  AZ:Blood Cell Count
+  CL:Blood Cell Count
+Aortic Aneurysm Screening
+  TT:Lab Tests
+  AZ:Aortic Aneurysm Screening
+  CL:Aortic Aneurysm Screening
+  UF:Aortic Aneurysm Test
+Ankle-Brachial Index Test
+  TT:Other Diagnostics
+  AZ:Ankle-Brachial Index Test
+  CL:Ankle-Brachial Index Test
+A1c Test
+  TT:Lab Tests
+  AZ:A1c Test
+  CL:A1c Test
+  UF:Glycohemoglobin Test
+  UF:A1c
+  UF:HbA1c
+  UF:Glycohemoglobin
+  UF:Hemoglobin A1c Measurement
+Abdominal X-Ray
+  TT:Diagnostic Imaging
+  AZ:X-Ray, Abdominal
+  CL:X-Ray, Abdominal
+  UF:X-Rays (Abdominal)
+Adrenocorticotropic Hormone Test
+  AZ:Adrenocorticotropic Hormone Test
+  CL:Adrenocorticotropic Hormone Test
+  UF:Measurement of Adrenocorticotropic Hormone (ACTH)
+  UF:Measurement of Adrenocorticotropic Hormone
+Alanine Aminotransferase (ALT) Test
+  TT:Lab Tests
+  AZ:Alanine Aminotransferase (ALT) Test
+  CL:Alanine Aminotransferase (ALT) Test
+  ABV:ALT
+  UF:Alanine Aminotransferase
+  UF:ALT (Alanine Aminotransferase) Test
+Alkaline Phosphatase (ALP) Test
+  TT:Lab Tests
+  AZ:Alkaline Phosphatase (ALP) Test
+  CL:Alkaline Phosphatase (ALP) Test
+  ABV:ALP
+  UF:ALP (Alkaline Phosphatase) Test
+  UF:Alkaline Phosphatase
+Allergy Tests
+  TT:Lab Tests
+  AZ:Allergy Tests
+  CL:Allergy Tests
+  UF:RAST Blood Test
+  UF:Radioallergosorbent Test (RAST)
+  UF:Radioallergosorbent Test
+  UF:Allergy Skin Tests
+  UF:Skin Allergy Test
+  UF:Tests for Allergies
+Alpha-Fetoprotein (AFP) Test
+  TT:Lab Tests
+  AZ:Alpha-Fetoprotein (AFP) Test
+  CL:Alpha-Fetoprotein (AFP) Test
+  UF:Alpha-Fetoprotein (AFP) in Blood Test
+  UF:Alpha-Fetoprotein in Blood
+  UF:AFP in Blood
+Ambulatory EKG
+  AZ:EKG, Ambulatory
+  CL:EKG, Ambulatory
+  ABV:ECG
+  UF:Ambulatory Electrocardiogram
+Ammonia Test
+  TT:Lab Tests
+  AZ:Ammonia Test
+  CL:Ammonia Test
+  UF:Assay of Ammonia
+Amniocentesis
+  TT:Lab Tests
+  AZ:Amniocentesis
+  CL:Amniocentesis
+  ABV:AFT
+  UF:Amniotic Fluid Test
+  DEF:A medical procedure used in prenatal diagnosis of chromosomal abnormalities and fetal infections.
+Amylase Test
+  TT:Lab Tests
+  AZ:Amylase Test
+  CL:Amylase Test
+Antigen Tests
+  TT:Lab Tests
+  AZ:Antigen Tests
+  CL:Antigen Tests
+Antinuclear Antibody (ANA) Test
+  TT:Lab Tests
+  AZ:Antinuclear Antibody (ANA) Test
+  CL:Antinuclear Antibody (ANA) Test
+  ABV:ANA
+  UF:Antinuclear Antibodies
+  UF:ANA (Antinuclear Antibodies) Test
+Arterial Blood Gases (ABG) Test
+  TT:Lab Tests
+  AZ:Arterial Blood Gases (ABG) Test
+  CL:Arterial Blood Gases (ABG) Test
+  UF:ABG (Arterial Blood Gases) Test
+  UF:ABG Test
+  UF:Arterial Blood Gases Test
+  UF:Arterial Blood Gases
+Joint X-Ray (Arthrogram)
+  TT:Diagnostic Imaging
+  AZ:X-Ray, Joint (Arthrogram)
+  CL:X-Ray, Joint (Arthrogram)
+  UF:Joint X-Ray
+  UF:Arthrogram (Joint X-Ray)
+Aspartate Aminotransferase (AST) Test
+  TT:Lab Tests
+  AZ:Aspartate Aminotransferase (AST) Test
+  CL:Aspartate Aminotransferase (AST) Test
+  ABV:AST
+  UF:AST (Aspartate Aminotransferase) Test
+  UF:Aspartate Aminotransferase
+Autopsy
+  TT:Other Diagnostics
+  AZ:Autopsy
+  CL:Autopsy
+  UF:Post-Mortem Exam
+  UF:Post-Mortem Examination
+Barium Enema Test
+  TT:Diagnostic Imaging
+  AZ:Barium Enema Test
+  CL:Barium Enema Test
+Bilirubin Test
+  TT:Lab Tests
+  AZ:Bilirubin Test
+  CL:Bilirubin Test
+Biophysical Profile (BPP) Test
+  TT:Other Diagnostics
+  AZ:Biophysical Profile (BPP) Test
+  CL:Biophysical Profile (BPP) Test
+  UF:BPP Test
+  UF:Biophysical Profile
+  UF:BPP (Biophysical Profile) Test
+Neonatal Intensive Care Unit (NICU) Tests
+  TT:Lab Tests
+  AZ:Neonatal Intensive Care Unit (NICU) Tests
+  CL:Neonatal Intensive Care Unit (NICU) Tests
+  UF:NICU Tests
+  UF:Neonatal Intensive Care Unit Tests
+Prenatal Tests and Screening
+  TT:Lab Tests
+  AZ:Prenatal Tests and Screening
+  CL:Prenatal Tests and Screening
+  UF:Prenatal Screening and Testing
+  UF:Birth Defects Testing
+  UF:Test for Birth Defects
+  UF:Biopsy (Birth Defects Testing)
+  UF:Screening for Birth Defects
+  UF:Amniotic Fluid Index
+  UF:Prenatal Tests
+  UF:Prenatal Exam
+  UF:Prenatal Screening
+  UF:Trimester Exams
+  UF:Trimester Tests
+  UF:Trimester Screening
+  UF:Maternal Serum Triple
+  UF:Bart's Test
+  UF:Integrated Prenatal Screening
+Triple and Quad Screen
+  AZ:Triple and Quad Screen
+  CL:Triple and Quad Screen
+  UF:Multiple Marker Screening
+  UF:AFP Plus
+  UF:Triple Screen Test
+  UF:AFP Maternal
+  UF:MSAFP
+  UF:4-Marker Screen
+  UF:Triple Screen
+  UF:Triple Test
+  UF:Quad Screen
+  UF:Quadruple Test
+  UF:Quadruple Screen
+  UF:Triple or Quadruple Screen
+  UF:Triple or Quad Screen
+Fetal Fibronectin Test
+  AZ:Fetal Fibronectin Test
+  CL:Fetal Fibronectin Test
+  UF:Test for Fetal Fibronectin
+Bladder Stress Tests
+  TT:Lab Tests
+  AZ:Stress Tests, Bladder
+  CL:Stress Tests, Bladder
+Blood Alcohol Test
+  TT:Lab Tests
+  AZ:Blood Alcohol Test
+  CL:Blood Alcohol Test
+Blood Culture
+  TT:Lab Tests
+  AZ:Culture, Blood
+  CL:Culture, Blood
+  NF:Septic Workup
+Blood Sugar (Glucose) Test
+  TT:Lab Tests
+  AZ:Blood Sugar (Glucose) Test
+  CL:Blood Glucose Test
+  UF:Finger-Stick Test
+  UF:Glucose Blood Test
+  UF:Sugar Blood Test
+  UF:Blood Test for Glucose
+  UF:Blood Test for Sugar
+  UF:Blood Glucose Test
+  UF:Blood Sugar Test
+  UF:Blood Sugar Levels
+  UF:Blood Sugar Readings
+  UF:Checking Your Blood Sugar
+  UF:Glucose Monitoring
+  UF:Home Blood Glucose Test
+  UF:Glucose (Sugar) Tolerance Test
+  UF:Glucose Tolerance Test (GTT)
+  UF:Glucose Tolerance Test
+  UF:Blood Glucose (Sugar) Tolerance Test
+  UF:Blood Glucose Tolerance Test
+  UF:Blood Glucose (Sugar) Level
+  UF:Blood Glucose Level
+  UF:Blood Glucose (Sugar) Measurement
+  UF:Blood Glucose Measurement
+Urine Sugar (Glucose) Test
+  AZ:Urine Sugar (Glucose) Test
+  CL:Glucose Test
+  UF:Glucose Urine Test
+  UF:Sugar Urine Test
+  UF:Urine Test for Glucose
+  UF:Urine Test for Sugar
+  UF:Urine Glucose Test
+  UF:Urine Sugar Test
+Blood Type Test
+  TT:Lab Tests
+  AZ:Blood Type Test
+  CL:Blood Type Test
+Blood Urea Nitrogen (BUN) Test
+  TT:Lab Tests
+  AZ:Blood Urea Nitrogen (BUN) Test
+  CL:Blood Urea Nitrogen (BUN) Test
+  UF:BUN Test
+  UF:Blood Urea Nitrogen Test
+  UF:BUN (Blood Urea Nitrogen) Test
+  UF:Measurement of Urea Nitrogen (BUN)
+  UF:Measurement of Urea Nitrogen
+  UF:Measurement of Blood Urea Nitrogen
+  UF:Assay of Urea Nitrogen
+Body Fat Testing
+  TT:Lab Tests
+  AZ:Body Fat Testing
+  CL:Body Fat Testing
+  UF:Skinfold Measurement
+  UF:Skinfold Test
+  UF:Skinfold Procedure
+  UF:Estimating Body Fat
+  UF:Body Fat Estimation
+BMI
+  AZ:BMI
+  CL:BMI
+  UF:Body Mass Index
+  UF:Quetelet Index
+Body Temperature Measurement
+  TT:Other Diagnostics
+  AZ:Body Temperature Measurement
+  CL:Body Temperature Measurement
+  UF:Temperature Taking
+  UF:Taking Temperature
+  UF:Taking a Temperature
+  UF:Taking Your Child's Temperature
+  UF:Taking Your Baby's Temperature
+  UF:Fever Temperatures
+  NF:Basal Body Temperature
+Bone Scan
+  TT:Lab Tests
+  AZ:Scan, Bone
+  CL:Scan, Bone
+Bowel Transit Time Test
+  TT:Lab Tests
+  AZ:Bowel Transit Time Test
+  CL:Bowel Transit Time Test
+  UF:Bowel Transit Time
+Brain Natriuretic Peptide (BNP) Test
+  TT:Lab Tests
+  AZ:Brain Natriuretic Peptide (BNP) Test
+  CL:Brain Natriuretic Peptide (BNP) Test
+  UF:Brain Natriuretic Peptide Test
+  UF:BNP Test
+Septic Workup
+  TT:Other Diagnostics
+  AZ:Septic Workup
+  CL:Septic Workup
+  UF:Bacterial Sepsis Workup
+Cancer Antigen 125 (CA-125) Test
+  TT:Lab Tests
+  AZ:Cancer Antigen 125 (CA-125) Test
+  CL:Cancer Antigen 125 (CA-125) Test
+  ABV:CA-125
+  UF:CA-125 Test
+  UF:CA-125 (Cancer Antigen 125) Test
+  UF:Cancer Antigen 125 Test
+  UF:Cancer Antigen 125
+Carbon Dioxide (CO2) Test
+  TT:Lab Tests
+  AZ:Carbon Dioxide (CO2) Test
+  CL:Carbon Dioxide (CO2) Test
+  UF:CO2 Blood Test
+  UF:CO2 Test
+  UF:CO2 About This Test
+  UF:Carbon Dioxide (Bicarbonate) Test
+  UF:Carbon Dioxide Test
+  UF:Bicarbonate Test
+  UF:Measurement of Carbon Dioxide
+Carbon Monoxide (CO) Test
+  TT:Lab Tests
+  AZ:Carbon Monoxide (CO) Test
+  CL:Carbon Monoxide (CO) Test
+  UF:CO Test
+  UF:Carbon Monoxide Test
+  UF:Measurement of Carboxyhemoglobin
+Carcinoembryonic Antigen (CEA) Test
+  TT:Lab Tests
+  AZ:Carcinoembryonic Antigen (CEA) Test
+  CL:Carcinoembryonic Antigen (CEA) Test
+  ABV:CEA
+  UF:CEA Test
+  UF:CEA (Carcinoembryonic Antigen) Test
+  UF:Carcinoembryonic Antigen Test
+  UF:Carcinoembryonic Antigen
+Cardiac Blood Pool Scan
+  TT:Diagnostic Imaging
+  AZ:Cardiac Blood Pool Scan
+  CL:Cardiac Blood Pool Scan
+Cardiac Enzyme Studies
+  TT:Lab Tests
+  AZ:Cardiac Enzyme Studies
+  CL:Cardiac Enzyme Studies
+Cardiac Perfusion Scan
+  TT:Diagnostic Imaging
+  AZ:Cardiac Perfusion Scan
+  CL:Cardiac Perfusion Scan
+CD4+ Count
+  TT:Lab Tests
+  AZ:CD4+ Count
+  CL:CD4+ Count
+  UF:CD4+ Count Blood Test
+Chemistry Screen
+  TT:Lab Tests
+  AZ:Chemistry Screen
+  CL:Chemistry Screen
+  UF:Chemistry Panel
+Chest X-Ray
+  TT:Diagnostic Imaging
+  AZ:X-Ray, Chest
+  CL:X-Ray, Chest
+  UF:X-Rays (Chest)
+Chlamydia Tests
+  TT:Lab Tests
+  AZ:Chlamydia Tests
+  CL:Chlamydia Tests
+Chorionic Villus Sampling (CVS)
+  TT:Lab Tests
+  AZ:Chorionic Villus Sampling (CVS)
+  CL:Chorionic Villus Sampling (CVS)
+  ABV:CVS
+  UF:Chorionic Villus Sampling
+CBC (Complete Blood Count)
+  TT:Unsorted
+  AZ:CBC (Complete Blood Count)
+  CL:CBC (Complete Blood Count)
+  ABV:CBC
+  UF:Complete Blood Count
+  UF:Complete Blood Count (CBC) Test
+Metabolic Panel
+  AZ:Metabolic Panel
+  CL:Metabolic Panel
+  ABV:CMP
+  UF:Comprehensive Metabolic Panel (CMP)
+  UF:Comprehensive Metabolic Panel
+  UF:Basic Metabolic Panel
+Computed Tomography (CT) Scan
+  TT:Diagnostic Imaging
+  AZ:Computed Tomography (CT) Scan
+  CL:Computed Tomography (CT) Scan
+  ABV:CT
+  UF:CT Scan
+  UF:Computed Tomography
+  UF:CAT Scan
+  NF:Angiogram
+Contraction Stress Test
+  TT:Lab Tests
+  AZ:Stress Test, Contraction
+  CL:Stress Test, Contraction
+Coombs Test
+  TT:Lab Tests
+  AZ:Coombs Test
+  CL:Coombs Test
+  ABV:AGT
+  UF:Antiglobulin Test
+  UF:Antiglobulin Screening
+  UF:Direct Coombs Test (DCT)
+  UF:Direct Coombs Test
+  UF:Direct Antiglobulin Test (DAT)
+  UF:Direct Antiglobulin Test
+  UF:Indirect Coombs Test
+  UF:Indirect Antiglobulin Test (IAT)
+  UF:Indirect Antiglobulin Test
+Coronary Calcium Scan
+  TT:Diagnostic Imaging
+  AZ:Scan, Coronary Calcium
+  CL:Scan, Coronary Calcium
+C-Peptide Test
+  TT:Lab Tests
+  AZ:C-Peptide Test
+  CL:C-Peptide Test
+  UF:C-Peptide (Protein) Level
+  UF:C-Peptide Level
+  UF:Measurement of C-Peptide
+Creatinine and Creatinine Clearance Tests
+  TT:Lab Tests
+  AZ:Creatinine and Creatinine Clearance Tests
+  CL:Creatinine and Creatinine Clearance Tests
+  UF:Creatinine Clearance Test
+  UF:Creatinine Clearance
+  UF:Creatinine Test
+SPECT of the Heart
+  TT:Diagnostic Imaging
+  AZ:SPECT of the Heart
+  CL:SPECT of the Heart
+  ABV:SPECT
+  UF:Single-Photon Emission Computed Tomography of the Heart
+  UF:Single-Photon Emission Computed Tomography Scan of the Heart
+  UF:SPET of the Heart
+  UF:SPECT Scan of the Heart
+  UF:SPECT Image of the Heart
+CT Angiogram
+  TT:Diagnostic Imaging
+  AZ:CT Angiogram
+  CL:CT Angiogram
+  UF:CT Angiography
+  UF:Computed Tomography Angiogram
+  UF:Computerized Tomographic Angiography
+CT Scan of the Neck
+  UF:CT Scan of Neck
+  AZ:CT Scan of the Neck
+  CL:CT Scan of the Neck
+  SN:Soft tissue not the cervical spine.
+CT Scan of the Abdomen
+  AZ:CT Scan of the Abdomen
+  CL:CT Scan of the Abdomen
+  UF:CT Scan of Abdomen
+CT Scan of the Body
+  AZ:CT Scan of the Body
+  CL:CT Scan of the Body
+  UF:CT Scan of Body
+CT Scan of the Chest
+  AZ:CT Scan of the Chest
+  CL:CT Scan of the Chest
+  UF:CT Scan of Chest
+CT Scan of the Head and Face
+  AZ:CT Scan of the Head and Face
+  CL:CT Scan of the Head and Face
+  UF:CT Scan of the Head
+  UF:CT Scan of the Face
+  UF:CT Scan of Head
+  UF:CT Scan of Face
+CT Scan of the Pelvis
+  AZ:CT Scan of the Pelvis
+  CL:CT Scan of the Pelvis
+  UF:CT Scan of Pelvis
+CT Scan of the Spine
+  AZ:CT Scan of the Spine
+  CL:CT Scan of the Spine
+  UF:CT Scan of the Cervical Spine
+  UF:CT Scan of Spine
+Cystometry
+  TT:Other Diagnostics
+  AZ:Cystometry
+  CL:Cystometry
+Cystourethrogram
+  TT:Diagnostic Imaging
+  AZ:Cystourethrogram
+  CL:Cystourethrogram
+  DEF:An X-ray test that takes pictures of your bladder and urethra while your bladder is full and while you are urinating.
+D-Dimer Test
+  TT:Lab Tests
+  AZ:D-Dimer Test
+  CL:D-Dimer Test
+Dental X-Ray
+  TT:Diagnostic Imaging
+  AZ:X-Ray, Dental
+  CL:X-Ray, Dental
+  UF:X-Rays (Dental)
+Dental Exam
+  AZ:Dental Exam
+  CL:Dental Exam
+  CEL:Dental Examination
+  UF:Exam for Dental
+  UF:Self-Exam for Dental
+  UF:Examination for Dental
+  UF:Self-Examination for Dental
+  UF:Dental History
+  UF:Dental Checkups
+DHEA-S Test
+  AZ:DHEA-S Test
+  CL:DHEA-S Test
+Digital Rectal Exam (DRE)
+  TT:Other Diagnostics
+  AZ:Digital Rectal Exam (DRE)
+  CL:Digital Rectal Exam (DRE)
+  CEL:Digital Rectal Examination (DRE)
+  ABV:DRE
+  UF:Digital Rectal Exam
+  UF:Digital Rectal Examination
+Dix-Hallpike Test
+  TT:Lab Tests
+  AZ:Dix-Hallpike Test
+  CL:Dix-Hallpike Test
+DNA Fingerprinting
+  TT:Lab Tests
+  AZ:DNA Fingerprinting
+  CL:DNA Fingerprinting
+Bone Density Test
+  TT:Lab Tests
+  AZ:Bone Density Test
+  CL:Bone Density Test
+  UF:BMD Test
+  UF:Bone Mineral Density Test
+  UF:Bone Mineral Density Studies
+  UF:Bone Mineral Density (BMD) Test
+  UF:Bone Mineral Density (BMD) Studies
+  UF:Bone Density Study
+  UF:Bone Density Measurement
+  UF:DEXA
+  UF:DEXA Test
+  UF:DEXA Scan
+  UF:DXA Test
+  UF:DXA Scan
+  UF:Dual-Energy X-Ray Absorptiometry
+  UF:Dual-Energy X-Ray Absorptiometry Test
+  UF:Dual-Energy X-Ray Absorptiometry Scan
+  UF:Dual-Energy X-Ray Absorptiometry (DEXA) Test
+  UF:Dual-Energy X-Ray Absorptiometry (DEXA) Scan
+  UF:Bone Densitometry
+D-Xylose Absorption Test
+  TT:Lab Tests
+  AZ:D-Xylose Absorption Test
+  CL:D-Xylose Absorption Test
+Ear Exam
+  TT:Other Diagnostics
+  AZ:Ear Exam
+  CL:Ear Exam
+  CEL:Ear Examination
+  UF:Ear Examination
+Echocardiogram
+  TT:Diagnostic Imaging
+  AZ:Echocardiogram
+  CL:Echocardiogram
+  UF:Transesophageal Echocardiogram
+Stress Echocardiogram
+  TT:Diagnostic Imaging
+  AZ:Echocardiogram, Stress
+  CL:Echocardiogram, Stress
+  UF:Stress Echocardiography
+  UF:Echocardiography Stress Test
+Transthoracic Echocardiogram
+  AZ:Echocardiogram, Transthoracic
+  CL:Echocardiogram, Transthoracic
+Transthoracic Needle Aspiration (TTNA)
+  ABV:TTNA
+  AZ:Needle Aspiration, Transthoracic (TTNA)
+  CL:Needle Aspiration, Transthoracic (TTNA)
+  ABV:TTNA
+  UF:Transthoracic Needle Aspiration
+  UF:Transthoracic Fine Needle Aspiration
+Electrocardiogram (EKG/ECG)
+  TT:Diagnostic Imaging
+  TT:Other Diagnostics
+  AZ:Electrocardiogram (EKG/ECG)
+  CL:Electrocardiogram (EKG/ECG)
+  ABV:EKG
+  ABV:ECG
+  UF:Electrocardiogram
+Electroencephalogram (EEG)
+  TT:Other Diagnostics
+  AZ:Electroencephalogram (EEG)
+  CL:Electroencephalogram (EEG)
+  ABV:EEG
+  UF:Electroencephalogram
+  UF:Electroencephalography (EEG)
+  UF:Electroencephalography
+Electromyogram (EMG)
+  TT:Other Diagnostics
+  AZ:Electromyogram (EMG)
+  CL:Electromyogram (EMG)
+  ABV:EMG
+  UF:Electromyogram
+Electronystagmogram (ENG)
+  TT:Other Diagnostics
+  AZ:Electronystagmogram (ENG)
+  CL:Electronystagmogram (ENG)
+  ABV:ENG
+  UF:Electronystagmogram
+Electrophysiology (EP) Study
+  TT:Other Diagnostics
+  AZ:Electrophysiology (EP) Study
+  CL:Electrophysiology (EP) Study
+  ABV:EPS
+  UF:Electrophysiology Study
+  UF:EP Test
+  UF:EP Study
+Sinus Exam
+  TT:Other Diagnostics
+  AZ:Sinus Exam
+  CL:Sinus Exam
+  CEL:Sinus Examination
+Esophagus Tests
+  TT:Lab Tests
+  AZ:Esophagus Tests
+  CL:Esophagus Tests
+Estrogen Test
+  AZ:Estrogen Test
+  CL:Estrogen Test
+  UF:Estrogen Analysis
+Evoked Potential Test
+  TT:Lab Tests
+  AZ:Evoked Potential Test
+  CL:Evoked Potential Test
+Exercise Electrocardiogram (EKG/ECG)
+  AZ:EKG, Exercise
+  CL:EKG, Exercise
+  UF:Exercise Electrocardiogram
+  UF:Exercise ECG
+  UF:Stress Test
+  UF:Treadmill Test
+  NF:Contraction Stress Test
+  NF:Bladder Stress Tests
+Expressed Prostatic Secretions Test
+  TT:Lab Tests
+  AZ:Expressed Prostatic Secretions Test
+  CL:Expressed Prostatic Secretions Test
+  UF:Expressed Prostatic Secretions
+Extremity X-Ray
+  TT:Diagnostic Imaging
+  AZ:X-Ray, Extremity
+  CL:X-Ray, Extremity
+  UF:X-Rays (Extremity)
+Eye Exam
+  TT:Other Diagnostics
+  AZ:Eye Exam
+  CL:Eye Exam
+  CEL:Eye Examination
+Facial X-Ray
+  TT:Diagnostic Imaging
+  AZ:X-Ray, Facial
+  CL:X-Ray, Facial
+Fecal Immunochemical Test (FIT)
+  TT:Lab Tests
+  AZ:Fecal Immunochemical Test (FIT)
+  CL:Fecal Immunochemical Test (FIT)
+  ABV:FIT
+  UF:FIT Test
+  UF:Fecal Immunochemical Test
+Fecal Occult Blood Test (FOBT)
+  TT:Lab Tests
+  AZ:Fecal Occult Blood Test (FOBT)
+  CL:Fecal Occult Blood Test (FOBT)
+  ABV:FOBT
+  UF:FOBT Test
+  UF:Fecal Occult Blood Test
+Ferritin Test
+  TT:Lab Tests
+  AZ:Ferritin Test
+  CL:Ferritin Test
+  UF:Ferritin Blood Test
+Fetal Heart Monitoring
+  TT:Other Diagnostics
+  AZ:Monitoring, Fetal Heart
+  CL:Monitoring, Fetal Heart
+Folic Acid Test
+  TT:Lab Tests
+  AZ:Folic Acid Test
+  CL:Folic Acid Test
+  UF:Folic Acid Blood Test
+Follicle-Stimulating Hormone (FSH) Test
+  TT:Lab Tests
+  AZ:Follicle-Stimulating Hormone (FSH) Test
+  CL:Follicle-Stimulating Hormone (FSH) Test
+  ABV:FSH
+  UF:FSH Test
+  UF:Follicle-Stimulating Hormone
+Fungal Culture
+  TT:Lab Tests
+  AZ:Culture, Fungal
+  CL:Culture, Fungal
+Gait Analysis
+  TT:Other Diagnostics
+  AZ:Gait Analysis
+  CL:Gait Analysis
+Galactosemia Test
+  TT:Lab Tests
+  AZ:Galactosemia Test
+  CL:Galactosemia Test
+Gallbladder Scan
+  TT:Other Diagnostics
+  AZ:Gallbladder Scan
+  CL:Gallbladder Scan
+Gallium Scan
+  TT:Other Diagnostics
+  AZ:Gallium Scan
+  CL:Gallium Scan
+Gastrin Test
+  TT:Lab Tests
+  AZ:Gastrin Test
+  CL:Gastrin Test
+Genetic Testing and Screening
+  TT:Lab Tests
+  AZ:Genetic Testing and Screening
+  CL:Genetic Testing and Screening
+  UF:Genetic Testing
+  UF:Genetic Screening
+  UF:Carrier Screening
+  UF:Genetics Risk Assessment
+  UF:Ashkenazi Jewish Genetic Panel (AJGP)
+  UF:Ashkenazi Jewish Genetic Panel
+  UF:AJGP
+  NF:Alpha-1 Antitrypsin Deficiency Gene Test
+GGT (Gamma-Glutamyl Transferase) Test
+  TT:Lab Tests
+  AZ:GGT (Gamma-Glutamyl Transferase) Test
+  CL:GGT (Gamma-Glutamyl Transferase) Test
+  UF:GGT Test
+  UF:Gamma-Glutamyl Transferase Test
+  UF:GGT (Gamma-Glutamyl Transferase)
+Glaucoma Screening
+  AZ:Glaucoma Screening
+  CL:Glaucoma Screening
+  UF:Physical Exam for Glaucoma
+  UF:Screening for Glaucoma
+  UF:Tests for Glaucoma
+  UF:Exam for Glaucoma
+  UF:Examination for Glaucoma
+  NT:Medical History and Physical Exams
+Gonioscopy
+  TT:Diagnostic Imaging
+  AZ:Gonioscopy
+  CL:Gonioscopy
+Gonorrhea Test
+  TT:Lab Tests
+  AZ:Gonorrhea Test
+  CL:Gonorrhea Test
+Growth Hormone Test
+  AZ:Growth Hormone Test
+  CL:Growth Hormone Test
+Gynecological Exam
+  TT:Other Diagnostics
+  AZ:Gynecological Exam
+  CL:Gynecological Exam
+  CEL:Gynecological Examination
+Hair Analysis
+  TT:Other Diagnostics
+  AZ:Hair Analysis
+  CL:Hair Analysis
+Hearing Test
+  TT:Lab Tests
+  AZ:Hearing Test
+  CL:Hearing Test
+  UF:Hearing Exam
+  UF:Screening for Hearing Problems
+H. Pylori Test
+  TT:Lab Tests
+  AZ:H. Pylori Test
+  CL:H. Pylori Test
+  UF:Helicobacter Pylori Test
+Hemochromatosis Gene (HFE) Test
+  TT:Lab Tests
+  AZ:Gene Test, Hemochromatosis (HFE) 
+  CL:Gene Test, Hemochromatosis (HFE) 
+  ABV:HFE
+  UF:HFE Test
+  UF:Hemochromatosis Gene Test
+Hemoglobin Electrophoresis Test
+  TT:Lab Tests
+  AZ:Hemoglobin Electrophoresis Test
+  CL:Hemoglobin Electrophoresis Test
+  UF:Hemoglobin Electrophoresis
+Hepatitis A Virus Test
+  TT:Lab Tests
+  AZ:Virus Test, Hepatitis A
+  CL:Virus Test, Hepatitis A
+  UF:Hepatitis A Virus Blood Test
+  UF:Hepatitis A Test
+Hepatitis B Virus Test
+  TT:Lab Tests
+  AZ:Virus Test, Hepatitis B
+  CL:Virus Test, Hepatitis B
+  UF:Hepatitis B Virus Blood Test
+  UF:Hepatitis B Test
+  UF:Assay for Hepatitis B
+Hepatitis C Virus Test
+  TT:Lab Tests
+  AZ:Virus Test, Hepatitis C
+  CL:Virus Test, Hepatitis C
+  UF:Hepatitis C Virus Blood Test
+  UF:Hepatitis C Test
+  UF:Hepatitis C Home Test
+  UF:Hepatitis C Virus Home Test
+Hepatitis Panel Test
+  TT:Lab Tests
+  AZ:Hepatitis Panel Test
+  CL:Hepatitis Panel Test
+  UF:Hepatitis Test
+  UF:Hepatitis Panel
+Herpes Tests
+  TT:Lab Tests
+  AZ:Herpes Tests
+  CL:Herpes Tests
+HIDA Scan
+  TT:Other Diagnostics
+  AZ:HIDA Scan
+  CL:HIDA Scan
+Holter Monitoring
+  TT:Other Diagnostics
+  AZ:Monitoring, Holter
+  CL:Monitoring, Holter
+Homocysteine Blood Test
+  TT:Lab Tests
+  AZ:Homocysteine Blood Test
+  CL:Homocysteine Blood Test
+  UF:Homocysteine Test
+  UF:Homocysteine (Amino Acid) Level
+  UF:Homocysteine Level
+  UF:Amino Acid Level
+Hormone Inhibin A Test
+  AZ:Hormone Inhibin A Test
+  CL:Hormone Inhibin A Test
+  UF:Hormone Inhibin A
+Human Chorionic Gonadotropin (HCG) Test
+  TT:Lab Tests
+  AZ:Human Chorionic Gonadotropin (HCG) Test
+  CL:Human Chorionic Gonadotropin (HCG) Test
+  UF:HCG Test
+  UF:Human Chorionic Gonadotropin
+HIV Test
+  TT:Lab Tests
+  AZ:HIV Test
+  CL:HIV Test
+  UF:Human Immunodeficiency Virus (HIV) Test
+  UF:HIV Screening
+  UF:Human Immunodeficiency Virus Test
+  UF:Human Immunodeficiency Virus Screening
+Viral Culture
+  TT:Lab Tests
+  AZ:Culture, Viral
+  CL:Culture, Viral
+HIV Viral Load
+  TT:Lab Tests
+  AZ:HIV Viral Load
+  CL:HIV Viral Load
+  UF:HIV Viral Burden
+  UF:HIV Viral Titre
+  UF:HIV Viral Titer
+  NF:Viral Load Measurement
+Human Papillomavirus (HPV) Test
+  TT:Lab Tests
+  AZ:Virus Test, Human Papillomavirus (HPV)
+  CL:Virus Test, Human Papillomavirus (HPV)
+  UF:HPV Test
+  UF:Human Papillomavirus Test
+Hysterosalpingogram
+  TT:Diagnostic Imaging
+  AZ:Hysterosalpingogram
+  CL:Hysterosalpingogram
+Fertility Awareness
+  AZ:Fertility Awareness
+  CL:Fertility Awareness
+Infertility Test
+  TT:Lab Tests
+  AZ:Infertility Test
+  CL:Infertility Test
+  UF:Fertility Test
+Intravenous Pyelogram (IVP)
+  TT:Diagnostic Imaging
+  AZ:Intravenous Pyelogram (IVP)
+  CL:Intravenous Pyelogram (IVP)
+  ABV:IVP
+  UF:Intravenous Pyelogram
+Iron (Fe) Test
+  TT:Lab Tests
+  AZ:Iron (Fe) Test
+  CL:Iron (Fe) Test
+  UF:Iron (Fe) Blood Test
+  UF:Iron Test
+  UF:Iron About This Test
+  UF:Iron (Fe) About This Test
+  UF:Assay of Iron
+Joint Fluid Analysis
+  TT:Lab Tests
+  AZ:Joint Fluid Analysis
+  CL:Joint Fluid Analysis
+Karyotype Test
+  TT:Lab Tests
+  AZ:Karyotype Test
+  CL:Karyotype Test
+Ketone Test
+  TT:Lab Tests
+  AZ:Ketone Test
+  CL:Ketone Test
+  UF:Ketone Blood Test
+  UF:Ketone Urine Test
+  UF:Tests for Ketones
+  UF:Measurement of Ketone Body
+  UF:Analysis of Ketone Body
+Kidney Scan
+  TT:Other Diagnostics
+  AZ:Kidney Scan
+  CL:Kidney Scan
+Kidney Stone Analysis
+  TT:Other Diagnostics
+  AZ:Kidney Stone Analysis
+  CL:Kidney Stone Analysis
+KOH (Potassium Hydroxide) Test
+  TT:Lab Tests
+  AZ:KOH (Potassium Hydroxide) Test
+  CL:KOH (Potassium Hydroxide) Test
+  UF:KOH Prep Test
+  UF:KOH Test
+  UF:KOH Preparation
+  UF:KOH Preparation Test
+  UF:Potassium Hydroxide Prep Test
+  UF:Potassium Hydroxide Preparation
+  UF:Potassium Hydroxide Preparation Test
+  UF:KOH (Potassium Hydroxide) Preparation
+LDH Test
+  TT:Lab Tests
+  AZ:LDH Test
+  CL:LDH Test
+  UF:Lactic Acid Dehydrogenase (LDH Test)
+  UF:Lactic Acid Dehydrogenase Test
+  UF:Lactate Dehydrogenase (Enzyme) Measurement
+  UF:Lactate Dehydrogenase Measurement
+  UF:Measurement of Lactate Dehydrogenase (LD)
+  UF:Measurement of Lactate Dehydrogenase
+Lactic Acid Test
+  TT:Lab Tests
+  AZ:Lactic Acid Test
+  CL:Lactic Acid Test
+  UF:Measurement of Lactate
+  UF:Measurement of Lactic Acid
+Lead (Pb) Test
+  TT:Lab Tests
+  AZ:Lead (Pb) Test
+  CL:Lead (Pb) Test
+  UF:Lead (Pb) Blood Test
+  UF:Lead Test
+  UF:Lead About This Test
+  UF:Lead Poisoning Screening
+Lipase Blood Test
+  TT:Lab Tests
+  AZ:Lipase Blood Test
+  CL:Lipase Blood Test
+  UF:Lipase Test
+  UF:Lipase (Fat Enzyme) Level
+  UF:Lipase Level
+Liver and Spleen Scan
+  TT:Diagnostic Imaging
+  TT:Other Diagnostics
+  AZ:Liver and Spleen Scan
+  CL:Liver and Spleen Scan
+  UF:Liver Scan
+  UF:Spleen Scan
+Liver Function Panel
+  AZ:Liver Function Panel
+  CL:Liver Function Panel
+Liver Function Tests
+  TT:Lab Tests
+  AZ:Liver Function Tests
+  CL:Liver Function Tests
+  ABV:LFT
+  UF:Liver Function Test
+Liver Tests for Mononucleosis
+  AZ:Liver Tests for Mononucleosis
+  CL:Liver Tests for Mononucleosis
+Lumbar Puncture (Spinal Tap)
+  TT:Unsorted
+  AZ:Lumbar Puncture (Spinal Tap)
+  CL:Lumbar Puncture (Spinal Tap)
+  UF:Lumbar Puncture
+  UF:Spinal Tap
+Lung Scan
+  TT:Diagnostic Imaging
+  AZ:Lung Scan
+  CL:Lung Scan
+Luteinizing Hormone (LH) Test
+  AZ:Luteinizing Hormone (LH) Test
+  CL:Luteinizing Hormone (LH) Test
+  UF:Measurement of Luteinizing Hormone
+Lyme Disease Tests
+  TT:Lab Tests
+  AZ:Lyme Disease Test
+  CL:Lyme Disease Test
+  UF:Lyme Disease Blood Test
+  UF:Enzyme-Linked Immunosorbent Assay (ELISA)
+  UF:Western Blot Test
+Magnesium (Mg) Test
+  TT:Lab Tests
+  AZ:Magnesium (Mg) Test
+  CL:Magnesium (Mg) Test
+  UF:Magnesium (Mg) Blood Test
+  UF:Magnesium Test
+  UF:Mg Test
+  UF:Assay of Magnesium
+Angiogram
+  TT:Diagnostic Imaging
+  AZ:Angiogram
+  CL:Angiogram
+  NF:Magnetic Resonance Angiogram (MRA)
+  NF:MRA of the Head
+  NF:MRA of the Kidneys
+  NF:MRA of the Legs
+  NF:Angiogram of the Lung
+PD Catheterization
+  AZ:Catheterization, PD
+  CL:Peritoneal Dialysis Catheterization
+  UF:Peritoneal Dialysis Catheter Insertion
+  UF:Peritoneal Dialysis Catheter
+  UF:PD Catheter
+Magnetic Resonance Cholangiogram (MRC)
+  AZ:Magnetic Resonance Cholangiogram (MRC)
+  CL:Magnetic Resonance Cholangiogram (MRC)
+  UF:Magnetic Resonance Cholangiogram
+  UF:Magnetic Resonance Cholangiopancreatography (MRCP)
+  UF:Magnetic Resonance Cholangiopancreatography
+Magnetic Resonance Angiogram (MRA)
+  TT:Diagnostic Imaging
+  AZ:Magnetic Resonance Angiogram (MRA)
+  CL:Magnetic Resonance Angiogram (MRA)
+  UF:MRA
+  UF:Magnetic Resonance Angiogram
+  SN:An MRA is a type of Angiogram.
+MRA of the Head
+  TT:Diagnostic Imaging
+  AZ:MRA of the Head
+  CL:MRA of the Head
+  UF:Eye Angiogram
+  UF:Eye Angiography
+  UF:Angiogram of the Eye
+  UF:Angiography of the Eye
+  UF:Angiogram of the Head and Neck
+  UF:Head MRA
+  UF:MRA of the Neck
+  UF:Neck MRA
+  UF:Magnetic Resonance Angiogram of the Head
+  UF:Head Magnetic Resonance Angiogram
+  UF:Magnetic Resonance Angiogram of the Neck
+  UF:Neck Magnetic Resonance Angiogram
+Angiogram of the Lung
+  TT:Diagnostic Imaging
+  AZ:Angiogram of the Lung
+  CL:Angiogram of the Lung
+  UF:Magnetic Resonance Angiogram of the Lung
+  UF:Lung Angiogram
+  UF:Pulmonary Angiogram
+  UF:Pulmonary Angiography
+  UF:Lung Angiography
+MRA of the Kidneys
+  TT:Diagnostic Imaging
+  AZ:MRA of the Kidneys
+  CL:MRA of the Kidneys
+  UF:Magnetic Resonance Angiogram of the Kidneys
+  UF:Kidney Angiogram
+  UF:Kidney Angiography
+MRA of the Legs
+  TT:Diagnostic Imaging
+  AZ:MRA of the Legs
+  CL:MRA of the Legs
+  UF:Magnetic Resonance Angiogram of the Legs
+  UF:Leg Angiogram
+  UF:Leg Angiography
+  UF:Leg Artery Angiogram
+  UF:Leg Artery Angiography
+Magnetic Resonance Imaging (MRI)
+  TT:Diagnostic Imaging
+  AZ:Magnetic Resonance Imaging (MRI)
+  CL:Magnetic Resonance Imaging (MRI)
+  UF:MRI
+  UF:Magnetic Resonance Imaging
+MRI of the Abdomen
+  TT:Diagnostic Imaging
+  AZ:MRI of the Abdomen
+  CL:MRI of the Abdomen
+  UF:Magnetic Resonance Imaging of the Abdomen
+MRI of the Breast
+  TT:Diagnostic Imaging
+  AZ:MRI of the Breast
+  CL:MRI of the Breast
+  UF:Magnetic Resonance Imaging of the Breast
+MRI of the Head
+  TT:Diagnostic Imaging
+  AZ:MRI of the Head
+  CL:MRI of the Head
+  UF:Magnetic Resonance Imaging of the Head
+  NT:MRI of the Brain
+MRI of the Brain
+  TT:Diagnostic Imaging
+  AZ:MRI of the Brain
+  CL:MRI of the Brain
+  UF:Magnetic Resonance Imaging of the Brain
+MRI of the Knee
+  TT:Diagnostic Imaging
+  AZ:MRI of the Knee
+  CL:MRI of the Knee
+  UF:Magnetic Resonance Imaging of the Knee
+MRI of the Neck
+  TT:Diagnostic Imaging
+  AZ:MRI of the Neck
+  CL:MRI of the Neck
+  UF:Magnetic Resonance Imaging of the Neck
+MRI of the Pelvis
+  TT:Diagnostic Imaging
+  AZ:MRI of the Pelvis
+  CL:MRI of the Pelvis
+  UF:Magnetic Resonance Imaging of the Pelvis
+MRI of the Shoulder
+  TT:Diagnostic Imaging
+  AZ:MRI of the Shoulder
+  CL:MRI of the Shoulder
+  UF:Magnetic Resonance Imaging of the Shoulder
+MRI of the Spine
+  TT:Diagnostic Imaging
+  AZ:MRI of the Spine
+  CL:MRI of the Spine
+  UF:Magnetic Resonance Imaging of the Spine
+  UF:MRI of the Cervical Spine
+  UF:Magnetic Resonance Imaging of the Cervical Spine
+  UF:MRI for Back Pain
+  UF:MRI for Low Back Pain
+Mammogram
+  TT:Diagnostic Imaging
+  AZ:Mammogram
+  CL:Mammogram
+Mental Health Assessment
+  TT:Other Diagnostics
+  AZ:Mental Health Assessment
+  CL:Mental Health Assessment
+  UF:Psychological Assessment
+  UF:Life Change Stress Test
+  SN:Label approved by Christine Maldonado.
+  SN:Clinicians interpret "Mental Health Assessment" more broadly than "Psychological Assessment" but consumers will find them synonymous.
+  NT:Depression Screening
+Health Screenings
+  AZ:Health Screenings
+  CL:Health Screenings
+  UF:Screening Tests for Men
+  UF:Screening Tests for Women
+  UF:Preparation for Medical Tests
+Understanding Lab Test Results
+  AZ:Understanding Lab Test Results
+  CL:Understanding Lab Test Results
+  UF:How to Read Your Lab Test Results
+Depression Screening
+  TT:Other Diagnostics
+  AZ:Depression Screening
+  CL:Depression Screening
+  UF:Depression Test
+Medical History and Physical Exams
+  TT:Other Diagnostics
+  AZ:Medical History and Physical Exams
+  CL:Medical History and Physical Exams
+  CEL:Medical History and Physical Examinations
+  UF:Medical History
+  UF:Medical Checkups
+  UF:Physical Exams
+  UF:Physical Examination
+  NF:Glaucoma Screening
+Sports Physical
+  TT:Other Diagnostics
+  AZ:Sports Physical
+  CL:Sports Physical
+Mononucleosis (Mono) Tests
+  TT:Lab Tests
+  AZ:Mononucleosis (Mono) Tests
+  CL:Mononucleosis (Mono) Tests
+  UF:Mononucleosis Tests
+  UF:Test for Mononucleosis
+  UF:Mononucleosis Spot Test
+Myelogram
+  TT:Diagnostic Imaging
+  AZ:Myelogram
+  CL:Myelogram
+Nerve Conduction Studies (NCS)
+  TT:Other Diagnostics
+  AZ:Nerve Conduction Studies (NCS)
+  CL:Nerve Conduction Studies (NCS)
+  ABV:NCS
+  UF:Nerve Conduction Studies
+  UF:Nerve Conduction Tests
+Nerve Conduction Velocity (NCV) Test
+  TT:Other Diagnostics
+  AZ:Nerve Conduction Velocity (NCV) Test
+  CL:Nerve Conduction Velocity (NCV) Test
+  UF:NCV Test
+  UF:Nerve Conduction Velocity Test
+Neurological Exam
+  TT:Other Diagnostics
+  AZ:Neurological Exam
+  CL:Neurological Exam
+  CEL:Neurological Examination
+Neuropsychological Tests
+  TT:Lab Tests
+  AZ:Neuropsychological Tests
+  CL:Neuropsychological Tests
+Newborn Screening
+  TT:Lab Tests
+  AZ:Newborn Screening
+  CL:Newborn Screening
+Nuchal Translucency Screening Test
+  TT:Lab Tests
+  AZ:Nuchal Translucency Screening Test
+  CL:Nuchal Translucency Screening Test
+  UF:Nuchal Translucency Test
+  UF:Nuchal Translucency Screening
+  UF:Nuchal Scan
+Ophthalmoscopy
+  TT:Diagnostic Imaging
+  AZ:Ophthalmoscopy
+  CL:Ophthalmoscopy
+  UF:Fundoscopy
+  DEF:A test that may be done as part of a routine physical examination; crucial in determining the health of the retina and the vitreous humor.
+Oral Glucose Tolerance Test
+  AZ:Oral Glucose Tolerance Test
+  CL:Oral Glucose Tolerance Test
+Overnight Dexamethasone Suppression Test
+  TT:Lab Tests
+  AZ:Overnight Dexamethasone Suppression Test
+  CL:Overnight Dexamethasone Suppression Test
+Pap Test
+  TT:Lab Tests
+  AZ:Pap Test
+  CL:Pap Test
+  UF:Pap Smear
+Parathyroid Hormone (PTH) Test
+  AZ:Parathyroid Hormone (PTH) Test
+  CL:Parathyroid Hormone (PTH) Test
+  UF:PTH Test
+  UF:Parathyroid Hormone Test
+  UF:Parathyroid Hormone (PTH) Blood Test
+  UF:Measurement of Parathormone
+  UF:Measurement of Parathyroid Hormone
+Partial Thromboplastin Time (PTT) Test
+  TT:Lab Tests
+  AZ:Partial Thromboplastin Time (PTT) Test
+  CL:Partial Thromboplastin Time (PTT) Test
+  UF:PTT Test
+  UF:Partial Thromboplastin Time
+Pelvic Exam
+  TT:Other Diagnostics
+  AZ:Pelvic Exam
+  CL:Pelvic Exam
+  CEL:Pelvic Examination
+  UF:Pelvic Examination
+PET Scan
+  TT:Diagnostic Imaging
+  AZ:PET Scan
+  CL:PET Scan
+  UF:Positron Emission Tomography
+Phenylketonuria (PKU) Test
+  TT:Lab Tests
+  AZ:Phenylketonuria (PKU) Test
+  CL:Phenylketonuria (PKU) Test
+  UF:PKU Test
+  UF:Phenylketonuria Test
+Postcoital Test
+  TT:Lab Tests
+  AZ:Postcoital Test
+  CL:Postcoital Test
+  CEL:Post-Coital Test
+  DEF:A test in the evaluation of infertility.
+Albumin Protein Test
+  TT:Lab Tests
+  AZ:Albumin Protein Test
+  CL:Albumin Protein Test
+  UF:Albumin Test
+  UF:Albumin Urine Test
+  UF:Microalbumin Urine Test
+  UF:Albumin Blood Test
+  UF:Serum Albumin
+  UF:Serum Albumin Test
+  UF:Prealbumin Blood Test
+  UF:Prealbumin Test
+Albumin-Creatinine Ratio Test
+  TT:Lab Tests
+  AZ:Albumin-Creatinine Ratio Test
+  CL:Albumin-Creatinine Ratio Test
+  UF:Microalbumin-Creatinine Ratio
+  UF:Microalbumin-Creatinine Ratio Test
+Progesterone Test
+  AZ:Progesterone Test
+  CL:Progesterone Test
+  UF:Progesterone Blood Test
+Prolactin Blood Test
+  TT:Lab Tests
+  AZ:Prolactin Blood Test
+  CL:Prolactin Blood Test
+  UF:Prolactin Test
+  UF:Measurement of Prolactin
+Prostate-Specific Antigen (PSA) Test
+  TT:Lab Tests
+  AZ:Prostate-Specific Antigen (PSA) Test
+  CL:Prostate-Specific Antigen (PSA) Test
+  ABV:PSA
+  UF:PSA Test
+  UF:Prostate-Specific Antigen Test
+  UF:Prostate-Specific Antigen
+  UF:Prostate-Specific Antigen (PSA) Blood Test
+  UF:Prostate-Specific Antigen Blood Test
+Protein Test
+  TT:Lab Tests
+  AZ:Protein Test
+  CL:Protein Test
+  UF:Test for Protein
+  UF:Home Test for Protein
+  UF:Home Test for Protein in Urine
+  UF:Protein: About This Test
+  UF:Test for Protein
+  UF:Total Serum Protein Test
+  UF:Total Serum Protein
+  UF:Test for Total Serum Protein
+  UF:Total Protein Test
+  UF:Total Protein
+  UF:Test for Total Protein
+  UF:Serum Electrophoresis
+  UF:Serum Protein Electrophoresis (SPEP)
+  UF:Serum Protein Electrophoresis
+  UF:SPEP
+  UF:SPEP Test
+  NF:C-Reactive Protein (CRP) Test
+C-Reactive Protein (CRP) Test
+  TT:Lab Tests
+  AZ:C-Reactive Protein (CRP) Test
+  CL:C-Reactive Protein (CRP) Test
+  UF:CRP Test
+  UF:C-Reactive Protein Test
+  UF:HS CRP
+  UF:High-Sensitivity C-Reactive Protein
+Blood Clotting Test
+  TT:Lab Tests
+  AZ:Blood Clotting Test
+  CL:Blood Clotting Test
+  UF:INR
+  UF:Prothrombin Time (PT) Test
+  UF:PT Test
+  UF:Prothrombin Time Test
+  UF:Prothrombin Time
+Pulse Measurement
+  TT:Other Diagnostics
+  AZ:Pulse Measurement
+  CL:Pulse Measurement
+  UF:Measure Your Pulse
+Radioactive Iodine Uptake Test
+  TT:Lab Tests
+  AZ:Radioactive Iodine Uptake Test
+  CL:Radioactive Iodine Uptake Test
+Strep Test
+  TT:Lab Tests
+  AZ:Strep Test
+  CL:Strep Test
+  UF:Rapid Strep Test
+Renin Blood Test
+  TT:Lab Tests
+  AZ:Renin Blood Test
+  CL:Renin Blood Test
+  UF:Renin Assay
+Reticulocyte Count
+  TT:Lab Tests
+  AZ:Reticulocyte Count
+  CL:Reticulocyte Count
+Retinal Eye Exam
+  TT:Other Diagnostics
+  AZ:Retinal Eye Exam
+  CL:Retinal Eye Exam
+  CEL:Retinal Eye Examination
+  UF:Dilated Retinal Exam
+  UF:Dilated Eye Exam
+Retinal Imaging
+  AZ:Retinal Imaging
+  CL:Retinal Imaging
+Retrograde Pyelogram
+  TT:Diagnostic Imaging
+  AZ:Retrograde Pyelogram
+  CL:Retrograde Pyelogram
+Rheumatoid Factor (RF) Test
+  TT:Lab Tests
+  AZ:Rheumatoid Factor (RF) Test
+  CL:Rheumatoid Factor (RF) Test
+  UF:RF Test
+  UF:RF Blood Test
+  UF:Rheumatoid Factor Test
+  UF:Rheumatoid Factor Blood Test
+  UF:Assay for Rheumatoid Factor
+  UF:Rheumatoid Factor (RF) Blood Test
+Rh Antibodies Test
+  TT:Lab Tests
+  AZ:Rh Antibodies Test
+  CL:Rh Antibodies Test
+  UF:Rh Factor Blood Test
+  UF:Rh Antibodies Screening
+  UF:Rh Screening
+Fetal Blood Sampling (FBS)
+  TT:Lab Tests
+  AZ:Fetal Blood Sampling (FBS)
+  CL:Fetal Blood Sampling (FBS)
+  ABV:FBS
+  UF:Fetal Blood Sampling
+Rubella Test
+  TT:Lab Tests
+  AZ:Rubella Test
+  CL:Rubella Test
+Salivary Gland Scan
+  TT:Diagnostic Imaging
+  AZ:Salivary Gland Scan
+  CL:Salivary Gland Scan
+Sedimentation Rate (Sed Rate) Test
+  TT:Lab Tests
+  AZ:Sedimentation Rate (Sed Rate) Test
+  CL:Sedimentation Rate (Sed Rate) Test
+  UF:Sed Rate Test
+  UF:Sedimentation Rate Test
+  UF:Sedimentation Rate
+  UF:Erythrocyte Sedimentation Rate (ESR)
+  UF:Erythrocyte Sedimentation Rate
+  UF:Westergren ESR
+Semen Analysis
+  TT:Lab Tests
+  AZ:Semen Analysis
+  CL:Semen Analysis
+Serum Osmolality Test
+  TT:Lab Tests
+  AZ:Serum Osmolality Test
+  CL:Serum Osmolality Test
+  UF:Serum Osmolality
+Sexually Transmitted Infections (STI) Tests
+  TT:Lab Tests
+  AZ:Sexually Transmitted Infections (STI) Tests
+  CL:Sexually Transmitted Infections (STI) Tests
+  UF:STI Testing
+  UF:STD Testing
+  UF:Sexually Transmitted Infections Tests
+  UF:Sexually Transmitted Diseases Tests
+Sickle Cell Test
+  TT:Lab Tests
+  AZ:Sickle Cell Test
+  CL:Sickle Cell Test
+Sinus X-Ray
+  TT:Diagnostic Imaging
+  AZ:X-Ray, Sinus
+  CL:X-Ray, Sinus
+  UF:X-Rays (Sinus)
+Skin and Wound Cultures
+  TT:Lab Tests
+  AZ:Cultures, Skin and Wound
+  CL:Cultures, Skin and Wound
+  UF:Skin Cultures
+  UF:Wound Cultures
+Skull X-Ray
+  TT:Diagnostic Imaging
+  AZ:Skull X-Ray
+  CL:Skull X-Ray
+  UF:X-Rays (Skull)
+Sleep Studies
+  TT:Other Diagnostics
+  AZ:Sleep Studies
+  CL:Sleep Studies
+  UF:Polysomnogram
+Slit Lamp Exam
+  TT:Other Diagnostics
+  AZ:Slit Lamp Exam
+  CL:Slit Lamp Exam
+  CEL:Slit Lamp Examination
+  UF:Slit Lamp Examination
+Sonohysterogram
+  AZ:Sonohysterogram
+  CL:Sonohysterogram
+Sperm Penetration Tests
+  TT:Lab Tests
+  AZ:Sperm Penetration Tests
+  CL:Sperm Penetration Tests
+Spinal X-Ray
+  TT:Diagnostic Imaging
+  AZ:X-Ray, Spinal
+  CL:X-Ray, Spinal
+  UF:X-Rays (Spinal)
+Sputum Cytology
+  TT:Other Diagnostics
+  AZ:Sputum Cytology
+  CL:Sputum Cytology
+Stool Culture
+  TT:Lab Tests
+  AZ:Culture, Stool
+  CL:Culture, Stool
+Stool Analysis
+  AZ:Stool Analysis
+  CL:Stool Analysis
+  UF:Stool Tests
+  NF:Stool Tests for Colorectal Cancer
+Stool Tests for Colorectal Cancer
+  AZ:Stool Tests for Colorectal Cancer
+  CL:Stool Tests for Colorectal Cancer
+  UF:Stool Culture for Colorectal Cancer
+  UF:Stool Analyses for Colorectal Cancer
+Colorectal Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Colorectal
+  CL:Cancer Screening, Colorectal
+  UF:Screening for Colorectal Cancer
+Esophageal Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Esophageal
+  CL:Cancer Screening, Esophageal
+  UF:Screening for Esophageal Cancer
+Liver Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Liver
+  CL:Cancer Screening, Liver
+  UF:Screening for Liver Cancer
+Endometrial Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Endometrial
+  CL:Cancer Screening, Endometrial
+  UF:Screening for Endometrial Cancer
+Skin Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Skin
+  CL:Cancer Screening, Skin
+  UF:Screening for Skin Cancer
+Bladder Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Bladder
+  CL:Cancer Screening, Bladder
+  UF:Screening for Bladder Cancer
+Oral Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Oral
+  CL:Cancer Screening, Oral
+  UF:Screening for Oral Cancer
+Cervical Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Cervical
+  CL:Cancer Screening, Cervical
+  UF:Screening for Cervical Cancer
+Ovarian Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Ovarian
+  CL:Cancer Screening, Ovarian
+  UF:Screening for Ovarian Cancer
+Stomach (Gastric) Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Stomach (Gastric)
+  CL:Cancer Screening, Stomach (Gastric)
+  UF:Screening for Stomach (Gastric) Cancer
+  UF:Screening for Stomach Cancer
+  UF:Screening for Gastric Cancer
+  UF:Stomach Cancer Screening
+  UF:Gastric Cancer Screening
+Colon Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Colon
+  CL:Cancer Screening, Colon
+  UF:Screening for Colon Cancer
+Cancer Screening (General)
+  TT:Lab Tests
+  AZ:Cancer Screening (General)
+  CL:Cancer Screening (General)
+  UF:Screening for Cancer
+  UF:Screening Tests for Cancer
+Prostate Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Prostate
+  CL:Cancer Screening, Prostate
+  UF:Screening for Prostate Cancer
+Testicular Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Testicular
+  CL:Cancer Screening, Testicular
+  UF:Screening for Testicular Cancer
+Breast Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Breast
+  CL:Cancer Screening, Breast
+  UF:Screening for Breast Cancer
+Lung Cancer Screening
+  TT:Lab Tests
+  AZ:Cancer Screening, Lung
+  CL:Cancer Screening, Lung
+  UF:Screening for Lung Cancer
+Colon Cancer Gene Test
+  TT:Lab Tests
+  AZ:Gene Test, Colon Cancer
+  CL:Gene Test, Colon Cancer
+  UF:Gene Test for Colon Cancer
+Breast Cancer Gene (BRCA) Test
+  TT:Lab Tests
+  AZ:Gene Test, Breast Cancer (BRCA)
+  CL:Gene Test, Breast Cancer (BRCA)
+  UF:Breast Cancer Gene Test
+  UF:BRCA Gene Test
+  UF:BRCA Test
+  UF:BRCA1 Test
+  UF:BRCA2 Test
+  UF:BRCA Gene Test
+  UF:BRCA1 Gene Test
+  UF:BRCA2 Gene Test
+Giardiasis Test
+  TT:Lab Tests
+  AZ:Giardiasis Test
+  CL:Giardiasis Test
+  UF:Test for Giardiasis
+  UF:Analysis for Giardiasis
+Sweat Test
+  TT:Lab Tests
+  AZ:Sweat Test
+  CL:Sweat Test
+Syphilis Tests
+  TT:Lab Tests
+  AZ:Syphilis Tests
+  CL:Syphilis Tests
+Tay-Sachs Test
+  TT:Lab Tests
+  AZ:Tay-Sachs Test
+  CL:Tay-Sachs Test
+Testicular Scan
+  TT:Lab Tests
+  AZ:Testicular Scan
+  CL:Testicular Scan
+Testosterone Test
+  TT:Lab Tests
+  AZ:Testosterone Test
+  CL:Testosterone Test
+  UF:Testosterone Level Test
+  UF:Testosterone Blood Test
+  UF:Measurement of Testosterone
+Bacterial Vaginosis Tests
+  TT:Lab Tests
+  AZ:Bacterial Vaginosis Tests
+  CL:Bacterial Vaginosis Tests
+  UF:Tests for Bacterial Vaginosis
+Tests for Erection Problems
+  TT:Lab Tests
+  AZ:Tests for Erection Problems
+  CL:Tests for Erection Problems
+  UF:Erection Problems Tests
+Thick and Thin Blood Smears
+  TT:Lab Tests
+  AZ:Thick and Thin Blood Smears
+  CL:Thick and Thin Blood Smears
+  UF:Thick Blood Smears
+  UF:Thin Blood Smears
+Throat Culture
+  TT:Lab Tests
+  AZ:Culture, Throat
+  CL:Culture, Throat
+Thyroid Tests
+  TT:Lab Tests
+  AZ:Thyroid Tests
+  CL:Thyroid Tests
+  UF:Thyroid Blood Test
+  NT:Thyroid Hormone Tests
+  NT:Antithyroid Antibodies Test
+Thyroid Hormone Tests
+  TT:Lab Tests
+  AZ:Thyroid Hormone Tests
+  CL:Thyroid Hormone Tests
+  UF:T3 Test
+  UF:T4 Test
+  SN:This is not a test in itself but refers generally to the TSH, T3, and T4 Tests.
+Antithyroid Antibodies Test
+  TT:Lab Tests
+  AZ:Antithyroid Antibodies Test
+  CL:Antithyroid Antibodies Test
+Thyroid-Stimulating Hormone (TSH) Test
+  TT:Lab Tests
+  AZ:Thyroid-Stimulating Hormone (TSH) Test
+  CL:Thyroid-Stimulating Hormone (TSH) Test
+  ABV:TSH
+  UF:TSH Test
+  UF:Thyroid-Stimulating Hormone
+  UF:Thyroid-Stimulating Hormone Test
+  UF:Thyroid-Stimulating Hormone (TSH) Blood Test
+  SN:This is a type of Thyroid Hormone Test.
+Thyroid Scan
+  TT:Other Diagnostics
+  AZ:Thyroid Scan
+  CL:Thyroid Scan
+Tissue Type Test
+  TT:Lab Tests
+  AZ:Tissue Type Test
+  CL:Tissue Type Test
+Tonometry
+  TT:Other Diagnostics
+  AZ:Tonometry
+  CL:Tonometry
+Toxicology Tests
+  TT:Lab Tests
+  AZ:Toxicology Tests
+  CL:Toxicology Tests
+Toxoplasmosis Test
+  TT:Lab Tests
+  AZ:Toxoplasmosis Test
+  CL:Toxoplasmosis Test
+Tuberculin Skin Test
+  TT:Lab Tests
+  AZ:Tuberculin Skin Test
+  CL:Tuberculin Skin Test
+Tympanometry
+  TT:Other Diagnostics
+  AZ:Tympanometry
+  CL:Tympanometry
+Upper Gastrointestinal (UGI) Series
+  TT:Diagnostic Imaging
+  AZ:Upper Gastrointestinal (UGI) Series
+  CL:Upper Gastrointestinal (UGI) Series
+  UF:Upper GI Series
+  UF:Upper Gastrointestinal Series
+  UF:UGI Series
+Urine Culture
+  TT:Lab Test
+  AZ:Culture, Urine
+  CL:Culture, Urine
+Urine Test
+  TT:Other Diagnostics
+  AZ:Urine Test
+  CL:Urine Test
+  UF:Test for Urinary Tract Infections
+  NF:Urinalysis
+  NF:Calcium (Ca) Test
+  NF:Urine Sugar (Glucose) Test
+  NF:Aldosterone Test
+  NF:Cortisol Test
+  NF:Chloride (Cl) Test
+  NF:Catecholamines Test
+  NF:Uric Acid Test
+  NF:Sodium (Na) Test
+  NF:Potassium (K) Test
+  NF:Phosphate Test
+  NF:Albumin Protein Test
+  NF:Ketone Test
+Urinalysis
+  TT:Lab Tests
+  AZ:Urinalysis
+  CL:Urinalysis
+  NF:Urine Test
+  NF:Calcium (Ca) Test
+  NF:Urine Sugar (Glucose) Test
+  NF:Aldosterone Test
+  NF:Cortisol Test
+  NF:Chloride (Cl) Test
+  NF:Catecholamines Test
+  NF:Uric Acid Test
+  NF:Sodium (Na) Test
+  NF:Potassium (K) Test
+  NF:Phosphate Test
+  NF:Albumin Protein Test
+  NF:Ketone Test
+Urodynamic Tests
+  TT:Lab Tests
+  AZ:Urodynamic Tests
+  CL:Urodynamic Tests
+  UF:Urodynamic Studies
+Vaginal Wet Mount
+  TT:Other Diagnostics
+  AZ:Vaginal Wet Mount
+  CL:Vaginal Wet Mount
+Viral Load Measurement
+  TT:Lab Tests
+  AZ:Viral Load Measurement
+  CL:Viral Load Measurement
+  UF:Viral Burden
+  UF:Viral Load
+  UF:Viral Titre
+  UF:Viral Titer
+Viral Tests
+  TT:Lab Tests
+  AZ:Viral Tests
+  CL:Viral Tests
+Vision Tests
+  TT:Lab Tests
+  AZ:Vision Tests
+  CL:Vision Tests
+  UF:Visual Exam
+  UF:Visual Examination
+  UF:Vision Exam
+  UF:Vision Examination
+  UF:Low-Vision Exam
+  UF:Low-Vision Examination
+  NF:Lice Exam
+Visual Field Testing
+  AZ:Visual Field Testing
+  CL:Visual Field Testing
+  UF:Perimetry Test
+Vitamin B12 Test
+  TT:Lab Tests
+  AZ:Vitamin B12 Test
+  CL:Vitamin B12 Test
+Vitamin D Test
+  AZ:Vitamin D Test
+  CL:Vitamin D Test
+Voiding Cystourethrogram (VCUG)
+  TT:Other Diagnostics
+  AZ:Voiding Cystourethrogram (VCUG)
+  CL:Voiding Cystourethrogram (VCUG)
+  UF:VCUG
+  UF:Voiding Cystourethrogram
+X-Rays (General)
+  TT:Diagnostic Imaging
+  AZ:X-Rays (General)
+  CL:X-Rays (General)
+  UF:X-Rays
+  NF:Joint X-Ray (Arthrogram)
+  NF:Abdominal X-Ray
+  NF:Chest X-Ray
+  NF:Extremity X-Ray
+  NF:Dental X-Ray
+  NF:Skull X-Ray
+  NF:Sinus X-Ray
+  NF:Facial X-Ray
+  NF:Spinal X-Ray
+  NF:Bone Density Test
+White Blood Cell Differential (WBC) Test
+  TT:Lab Tests
+  AZ:White Blood Cell Differential (WBC) Test
+  CL:White Blood Cell Differential (WBC) Test
+  UF:WBC Test
+  UF:White Blood Cell Differential
+  UF:White Blood Cell Differential Test
+Antibody Tests
+  TT:Lab Tests
+  AZ:Antibody Tests
+  CL:Antibody Tests
+  UF:Antisperm Antibody Test
+  UF:Immunoglobulin Test
+  UF:Immunoglobulins: The Test
+  NF:Rh Antibodies Test
+Allen Test
+  TT:Lab Tests
+  AZ:Allen Test
+  CL:Allen Test
+Alpha-1 Antitrypsin Deficiency Gene Test
+  TT:Lab Tests
+  AZ:Gene Test, Alpha-1 Antitrypsin Deficiency
+  CL:Gene Test, Alpha-1 Antitrypsin Deficiency
+  UF:Alpha-1 Antitrypsin (Protein) Blood Test
+Antibiotic Sensitivity Test
+  TT:Lab Tests
+  AZ:Antibiotic Sensitivity Test
+  CL:Antibiotic Sensitivity Test
+Apolipoprotein Genetic Test
+  TT:Lab Tests
+  AZ:Genetic Test, Apolipoprotein
+  CL:Genetic Test, Apolipoprotein
+  UF:Apolipoprotein E-4 Genetic (DNA) Test
+  UF:Apolipoprotein E-4 Genetic Test
+Asthma Challenge Test
+  TT:Lab Tests
+  AZ:Asthma Challenge Test
+  CL:Asthma Challenge Test
+  UF:Challenge Test for Asthma
+  UF:Challenge Test
+  UF:Bronchial Challenge Test
+Behavior Disorder Tests
+  AZ:Behavior Disorder Tests
+  CL:Behavior Disorder Tests
+  CEL:Behaviour Disorder Tests
+Calf Squeeze Test
+  AZ:Calf Squeeze Test
+  CL:Calf Squeeze Test
+Carpal Tunnel Syndrome Test
+  AZ:Carpal Tunnel Syndrome Test
+  CL:Carpal Tunnel Syndrome Test
+  UF:Carpal Tunnel Syndrome and Nerve Test
+Cell-Free DNA Test
+  TT:Lab Tests
+  AZ:DNA Test, Cell-Free
+  CL:DNA Test, Cell-Free
+  UF:Cell-Free Fetal DNA Test
+Cystic Fibrosis Tests
+  AZ:Cystic Fibrosis Tests
+  CL:Cystic Fibrosis Tests
+  UF:Nasal Potential Difference Test
+  UF:Test for Cystic Fibrosis
+Developmental Problems Testing
+  AZ:Developmental Problems Testing
+  CL:Developmental Problems Testing
+Diabetes Tests
+  AZ:Diabetes Tests
+  CL:Diabetes Tests
+  UF:Diabetes Screening
+Cholesterol and Triglycerides Tests
+  TT:Lab Tests
+  AZ:Cholesterol and Triglycerides Tests
+  CL:Cholesterol and Triglycerides Tests
+  UF:Triglyceride Test
+  UF:Assay of Triglycerides
+  UF:Measurement of Triglycerides
+  UF:Measurement of Low Density Cholesterol
+  UF:Cholesterol Test
+  UF:Cholesterol Screening
+  UF:Screening for Lipoid Disorders
+  UF:Lipid Panel
+Dye Disappearance Test
+  AZ:Dye Disappearance Test
+  CL:Dye Disappearance Test
+Epilepsy Tests
+  AZ:Epilepsy Tests
+  CL:Epilepsy Tests
+  UF:Imaging Tests for Epilepsy
+  UF:Tests for Epilepsy
+Imaging Tests (General)
+  AZ:Imaging Tests (General)
+  CL:Imaging Tests (General)
+  NF:Epilepsy Tests
+Fibromyalgia Test
+  TT:Lab Tests
+  AZ:Fibromyalgia Test
+  CL:Fibromyalgia Test
+  UF:Tests for Fibromyalgia
+Heart Tests
+  AZ:Heart Tests
+  CL:Heart Tests
+Irritable Bowel Syndrome (IBS) Test
+  AZ:Irritable Bowel Syndrome (IBS) Test
+  CL:Irritable Bowel Syndrome (IBS) Test
+  UF:Tests for IBS
+  UF:Tests Irritable Bowel Syndrome
+Lice Exam
+  AZ:Lice Exam
+  CL:Lice Exam
+  CEL:Lice Examination
+  UF:Exam for Lice
+Lupus Test
+  AZ:Lupus Test
+  CL:Lupus Test
+  UF:Complement Test for Lupus
+  UF:Antibody Tests for Lupus
+  UF:Test for Lupus
+Malnutrition Tests
+  AZ:Malnutrition Tests
+  CL:Malnutrition Tests
+Multiple Sclerosis (MS) Tests
+  AZ:Multiple Sclerosis (MS) Tests
+  CL:Multiple Sclerosis (MS) Tests
+  UF:Multiple Sclerosis Tests
+  UF:Examination for Multiple Sclerosis
+Nerve Function Tests
+  TT:Lab Tests
+  AZ:Nerve Function Tests
+  CL:Nerve Function Tests
+  UF:Lab Tests for Nerve Problems
+Pinworm Test
+  AZ:Pinworm Test
+  CL:Pinworm Test
+  UF:Test for Pinworms
+  UF:Transparent Tape Test for Pinworms
+  UF:Transparent Adhesive Tape Test
+  UF:Transparent Adhesive (Cellophane) Tape Test
+ADHD Test
+  AZ:ADHD Test
+  CL:ADHD Test
+  UF:Scales for ADHD
+  UF:Attention Deficit Disorder (ADD/ADHD) Test
+  UF:Attention Deficit Disorder Test
+  UF:ADD/ADHD Test
+  UF:ADD Test
+  UF:Attention Deficit Hyperactivity Disorder Test
+Preeclampsia Test
+  AZ:Preeclampsia Test
+  CL:Preeclampsia Test
+  CEL:Pre-Eclampsia Test
+  UF:Tests for Preeclampsia
+Pre- and Post-Massage Test (PPMT)
+  AZ:Pre- and Post-Massage Test (PPMT)
+  CL:Pre- and Post-Massage Test (PPMT)
+  UF:Prostatitis Pre- and Post-Massage Test (PPMT)
+  UF:Prostatitis Pre- and Post-Massage Test
+  UF:Prostatitis Pre-Massage Test
+  UF:Prostatitis Post-Massage Test
+  UF:Pre- and Post-Massage Test
+Sinus Aspiration
+  TT:Other Diagnostics
+  AZ:Aspiration, Sinus
+  CL:Aspiration, Sinus
+  UF:Aspiration of Sinus Contents
+  UF:Sinus Drainage Procedure
+  UF:Needle Puncture and Aspiration of Sinus Contents
+  UF:Needle Puncture and Aspiration for Sinusitus
+Tuberculosis (TB) Test
+  TT:Lab Tests
+  AZ:Tuberculosis (TB) Test
+  CL:Tuberculosis (TB) Test
+  UF:Tuberculosis Test
+  UF:Tuberculosis Screening
+  UF:TB Test
+  UF:Rapid Sputum Test
+Sputum Culture
+  TT:Lab Tests
+  AZ:Culture, Sputum
+  CL:Culture, Sputum
+Straight-Leg Test
+  AZ:Straight-Leg Test
+  CL:Straight-Leg Test
+Tilt Table Test
+  AZ:Tilt Table Test
+  CL:Tilt Table Test
+Uroflowmetry Test
+  AZ:Uroflowmetry Test
+  CL:Uroflowmetry Test
+Blood Tests
+  AZ:Blood Tests
+  CL:Blood Tests
+  NF:Fasting Blood Test
+  NF:Albumin Protein Test
+  NF:Allergy Blood Tests
+  NF:Fecal Occult Blood Test (FOBT)
+  NF:Preeclampsia Test
+  NF:Thyroid Tests
+Fasting Blood Test
+  AZ:Fasting Blood Test
+  CL:Fasting Blood Test
+Dialysis Adequacy Tests
+  AZ:Dialysis Adequacy Tests
+  CL:Dialysis Adequacy Tests
+  UF:Dialysis Blood Tests
+CRH (Corticotropin-Releasing Hormone) Stimulation Test
+  AZ:CRH (Corticotropin-Releasing Hormone) Stimulation Test
+  CL:CRH (Corticotropin-Releasing Hormone) Stimulation Test
+  UF:CRH Test
+  UF:CRH Stimulation Test
+  UF:Corticotropin-Releasing Hormone Test
+  UF:Corticotropin-Releasing Hormone Stimulation Test
+Post-Void Residual (PVR) Urine Test
+  AZ:Post-Void Residual (PVR) Urine Test
+  CL:Post-Void Residual (PVR) Urine Test
+  UF:Post-Void Residual Urine Test
+  UF:PVR Urine Test
+CAGE Questionnaire
+  AZ:CAGE Questionnaire
+  CL:CAGE Questionnaire
+Polymerase Chain Reaction (PCR) Test
+  AZ:Polymerase Chain Reaction (PCR) Test
+  CL:Polymerase Chain Reaction (PCR) Test
+  UF:Polymerase Chain Reaction Test
+  UF:PCR Test
+Osteoporosis Screening
+  AZ:Osteoporosis Screening
+  CL:Osteoporosis Screening
+  UF:Screening for Osteoporosis
+Nuclear Scan
+  AZ:Nuclear Scan
+  CL:Nuclear Scan
+  UF:Nuclear Medicine Test
+  UF:Nuclear Medicine Scan
+  NT:RBC Nuclear Scan
+RBC Nuclear Scan
+  AZ:Nuclear Scan, RBC
+  CL:Nuclear Scan, RBC
+  UF:Red Blood Cell Scan
+  UF:Nuclear Medicine Study of Red Blood Cell
+Discography (Discogram)
+  AZ:Discography (Discogram)
+  CL:Discography (Discogram)
+  UF:Discography
+  UF:Discogram
+Obstetric Panel
+  AZ:Obstetric Panel
+  CL:Obstetric Panel
+Neonatal Intensive Care Unit (NICU) Tests
+  AZ:Neonatal Intensive Care Unit (NICU) Tests
+  CL:Neonatal Intensive Care Unit (NICU) Tests
+  UF:NICU Tests
+  UF:Tests in the NICU
+  UF:NICU Exams
+  UF:Exams in the NICU
+Kidney Function Tests
+  AZ:Function Tests, Kidney
+  CL:Function Tests, Kidney
+  UF:Monitoring Kidney Function
+  UF:Measuring Kidney Function
+Fluoroscopy
+  AZ:Fluoroscopy
+  CL:Fluoroscopy
+Optical Coherence Tomography (OCT)
+  AZ:Optical Coherence Tomography (OCT)
+  CL:Optical Coherence Tomography (OCT)
+  ABV:OCT
+  UF:Optical Coherence Tomography
+Digital Breast Tomosynthesis (DBT)
+  AZ:Digital Breast Tomosynthesis (DBT)
+  CL:Digital Breast Tomosynthesis (DBT)
+  ABV:DBT
+  UF:Digital Breast Tomosynthesis
+Oximetry
+  AZ:Oximetry
+  CL:Oximetry
+  UF:Pulse Oximetry
+Urinary Tract Tests
+  AZ:Urinary Tract Tests
+  CL:Urinary Tract Tests
+Clomiphene Challenge Test
+  AZ:Clomiphene Challenge Test
+  CL:Clomiphene Challenge Test
+  UF:Clomiphene Citrate Challenge Test
+  UF:Clomiphene Citrate Challenge Test (CCCT)
+  UF:Clomid Challenge Test
+  UF:Clomiphene Citrate-Clomid Challenge Test (CCCT)
+  UF:Clomiphene Citrate-Clomid Challenge Test
+Nonstress Test (NST)
+  AZ:Nonstress Test (NST)
+  CL:Nonstress Test (NST)
+  ABV:NST
+  UF:Nonstress Test
+Scoliosis Screening
+  AZ:Scoliosis Screening
+  CL:Scoliosis Screening
+Electrolyte Panel
+  AZ:Electrolyte Panel
+  CL:Electrolyte Panel
+Heart Disease Screening
+  AZ:Heart Disease Screening
+  CL:Heart Disease Screening
+  UF:Heart Attack Risk Screening
+  UF:Stroke Risk Screening
+Gestational Diabetes Screening
+  AZ:Gestational Diabetes Screening
+  CL:Gestational Diabetes Screening
+  UF:Screening for Gestational Diabetes
+Ultrasound (General)
+  TT:Diagnostic Imaging
+  AZ:Ultrasound (General)
+  CL:Ultrasound (General)
+Abdominal Ultrasound
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Abdominal
+  CL:Ultrasound, Abdominal
+  UF:Ultrasound of the Abdomen
+  UF:Abdomenal Ultrasound
+Breast Ultrasound
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Breast
+  CL:Ultrasound, Breast
+Cranial Ultrasound
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Cranial
+  CL:Ultrasound, Cranial
+Doppler Ultrasound
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Doppler
+  CL:Ultrasound, Doppler
+Endoscopic Ultrasound (Oral)
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Endoscopic (Oral)
+  CL:Ultrasound, Endoscopic (Oral)
+  ABV:EUS
+  UF:Oral Endoscopic Ultrasound
+  UF:Oral Echo-Endoscopy
+Transrectal Ultrasound (TRUS)
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Transrectal (TRUS)
+  CL:Ultrasound, Transrectal (TRUS)
+  ABV:TRUS
+  UF:Rectal Endoscopic Ultrasound
+  UF:Transrectal Ultrasound
+  UF:Transrectal Ultrasonography
+Endoscopic Ultrasound (Rectal)
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Endoscopic (Rectal)
+  CL:Ultrasound, Endoscopic (Rectal)
+  UF:Rectal Endoscopic Ultrasound (EUS)
+  UF:Rectal Endoscopic Ultrasound
+  UF:Rectal Echo-Endoscopy
+Fetal Ultrasound
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Fetal
+  CL:Ultrasound, Fetal
+Pelvic Ultrasound
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Pelvic
+  CL:Ultrasound, Pelvic
+Testicular Ultrasound
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Testicular
+  CL:Ultrasound, Testicular
+Thyroid and Parathyroid Ultrasound
+  TT:Diagnostic Imaging
+  AZ:Ultrasound, Thyroid and Parathyroid
+  CL:Ultrasound, Thyroid and Parathyroid
+  UF:Parathyroid Ultrasound
+  UF:Thyroid Ultrasound
+Coronary Angiogram
+  TT:Diagnostic Imaging
+  AZ:Angiogram, Coronary
+  CL:Angiography, Coronary
+  UF:Cardiac Angiography
+  UF:Coronary Angiography
+  UF:Angiography of the Heart
+Carotid Angiogram
+  TT:Diagnostic Imaging
+  AZ:Angiogram, Carotid
+  CL:Angiogram, Carotid
+  UF:Vertebral Angiogram
+  UF:Angiography of the Head
+  UF:Cerebral Angiography
+  UF:Cerebral Angiogram
+  UF:Carotid Angiography
+Peripheral Angiogram
+  TT:Diagnostic Imaging
+  AZ:Angiogram, Peripheral
+  CL:Angiogram, Peripheral
+  UF:Peripheral Angiography
+  UF:Lower Extremity Angiogram
+  UF:Angiography of the Extremity
+  UF:Arteriography of the Extremity
+Creatine Kinase (CK) Test
+  TT:Lab Tests
+  UF:Creatine Kinase Test
+  UF:Creatine Phosphokinase (CPK) Test
+Body Fluids Tests
+  TT:Lab Tests
+  UF:Body Fluids Analysis
+  UF:Body Fluid Analysis
+  UF:Body Fluid Cytology
+Celiac Disease Antibodies Test
+  TT:Lab Tests
+  UF:Celiac Disease Antibody Tests
+  UF:Celiac Disease Testing
+  UF:Celiac Disease Tests
+C. Difficile Toxins Test
+  TT:Lab Tests
+  UF:Clostridium Difficile Toxins Test
+  UF:Clostridium Difficile Toxins Testing
+  UF:C. Difficile Testing
+  UF:C. Difficile Infection Tests
+Glomerular Filtration Rate (GFR)
+  TT:Lab Tests
+  UF:Glomerular Filtration Rate
+  UF:GFR 
+Medicine Blood Level Test
+  TT:Lab Tests
+  UF:Blood Drug Levels
+  UF:Therapeutic Drug Monitoring
+MRI of the Heart
+  TT:Diagnostic Imaging
+  AZ:MRI of the Heart
+  CL:MRI of the Heart
+  UF:Magnetic Resonance Imaging of the Heart
+Myoglobin Test
+  TT:Lab Tests
+  UF:Myoglobin Level Test
+  UF:Myoglobin Measurement
+Nicotine Tests
+  TT:Lab Tests
+  UF:Nicotine Level Test
+  UF:Nicotine Measurement
+Autoimmune Disease Tests
+  TT:Lab Tests
+  UF:Autoimmune Disease Testing
+Transesophageal Echocardiogram
+  TT:Diagnostic Imaging
+  AZ:Echocardiogram, Transesophageal
+  CL:Echocardiogram, Transesophageal
+High-Sensitivity C-Reactive Protein (HS-CRP)
+  TT:Lab Tests
+  UF:High sensitivity Method for C-Reactive Protein
+  UF:HS CRP
+  UF:HS-CRP
+Swallowing Study
+  TT:Other Diagnostics
+  UF:Swallowing Test  
+  UF:Barium Swallow Test
+  UF:Barium Swallow

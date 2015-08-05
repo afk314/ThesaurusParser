@@ -1,0 +1,950 @@
+label_s
+Drug Allergy
+Penicillin Allergy
+Food Allergy
+Fructose Intolerance
+Lactose Intolerance
+Milk Sugar Intolerance
+Nut Allergy
+Sorbitol Intolerance
+Conditions
+Peanut Allergy
+Vitamin B12 Deficiency Anemia
+Folic Acid Deficiency Anemia
+Iron Deficiency Anemia
+Sickle Cell Anemia
+Factor V Leiden
+Sickle Cell Crisis
+Sickle Cell Disease
+Sickle Cell Trait
+Hammer Toe
+Broken Lower Leg
+Broken Kneecap
+Broken Leg
+Knee Sprain
+Kneecap Dislocation
+Medial Collateral Ligament Injury
+Shin Splints
+Neck Pain
+Carpal Tunnel Syndrome
+Cervical Spinal Stenosis
+Lumbar Spinal Stenosis
+Broken Jaw
+Broken Nose
+Closed Head Injury
+Dislocated Jaw
+Facial Fracture
+Skull Fracture
+Broken Foot
+Broken Toe
+Bunions
+Dislocated Toe
+Flatfoot
+Foot Odor
+Olecranon Bursitis
+Shoulder Bursitis
+Trochanteric Bursitis
+Broken Elbow
+Dislocated Elbow
+Elbow Sprain
+Golpher's Elbow
+Little Leaguer's Elbow
+Nursemaid's Elbow
+Radial Head Subluxation
+Tennis Elbow
+Dislocated Ankle
+Ankle Sprains
+Back Pain
+Back Strain
+Low Back Pain
+Spine Fracture
+Elbow Bursitis
+Heel Bursitis
+Hip Bursitis
+Knee Bursitis
+Foot Pain
+Foot Sprain
+"Hammer, Claw and Mallet Toes"
+Heel Pain
+Metatarsal Fracture
+Metatarsalgia
+Plantar Fasciitis
+Sever's Disease
+Lumbar Herniated Disc
+Hamstring Strain
+Hip Fracture
+Hip Pain
+Hip Strain
+Iliotibial Band Syndrome
+Piriformis Syndrome
+Quadriceps Strain
+ACL Injuries
+Baker's Cyst
+Achilles Tendinopathy
+Achilles Tendon Injury
+Achilles Tendon Rupture
+Achilles Tendon Tear
+Broken Ankle
+Absence Seizures
+Atonic Seizures
+Clonic Seizures
+Myoclonic Seizures
+Tonic Seizures
+Complex Partial Seizures
+Simple Partial Seizures
+Generalized Seizures
+Partial Seizures
+Epileptic Seizures
+Non-Epileptic Seizures
+Cluster Headaches
+Migraine Headaches
+Tension Headaches
+Diabetic Neuropathy
+Toxic Neuropathy
+Gingivitis
+Periodontal Abscess
+Periodontitis
+Black or Coated Tongue
+Hairy Tongue
+Smooth Tongue
+Tooth Brushing
+Flossing
+Anal Fissure
+Anal Fistula
+Anal Itching
+Anal Pain
+Anal Warts
+Anorectal Abscess
+Perirectal Abscess
+Proctitis
+Rectal Bleeding
+Rectal Prolapse
+Rectocele
+Abdominal Adhesions
+Intestinal Adhesions
+Pelvic Adhesions
+Peritoneal Adhesions
+Cirrhosis Complications
+Jaundice
+Metabolic Encephalopathy
+Nonalcoholic Steatohepatitis
+Paracentesis
+Portal Hypertension
+Abdominal Hernia
+Hiatal Hernia
+Inguinal Hernia
+Umbilical Hernia
+Dyspepsia
+Heartburn
+Crohn's Disease
+Ulcerative Colitis
+Ascites
+Cholestasis of Pregnancy
+Cirrhosis
+Gestational Diabetes
+Prediabetes
+Type 1 Diabetes
+Type 2 Diabetes
+Blepharitis
+Chalazia
+Drooping Eyelids
+Styes
+Amblyopia
+Strabismus
+Ventricular Fibrillation
+Ventricular Tachycardia
+Paroxysmal Atrial Fibrillation
+Persistent Atrial Fibrillation
+Postural Orthostatic Tachycardia Syndrome (POTS)
+Supraventricular Tachycardia
+Ventricular Arrhythmia
+Abdominal Aortic Aneurysm
+Thoracic Aortic Aneurysm
+Acute Aortic Valve Regurgitation
+Chronic Aortic Valve Regurgitation
+Type A Dissection
+Type B Dissection
+Atrial Fibrillation
+Fast Heart Rate
+Slow Heart Rate
+Deep Vein Thrombosis
+Pulmonary Embolism
+Superficial Blood Clot
+Dilated Cardiomyopathy
+Hypertrophic Cardiomyopathy
+Restrictive Cardiomyopathy
+Sudden Heart Failure
+Aortic Valve Regurgitation
+Aortic Valve Stenosis
+Mitral Valve Prolapse
+Mitral Valve Regurgitation
+Mitral Valve Stenosis
+Ischemia
+Myocarditis
+Brain Aneurysm
+Aortic Aneurysm
+Popliteal Aneurysm
+Pseudo-Aneurysm
+Stable Angina
+Unstable Angina
+Variant Angina
+Syphilis
+Trichomoniasis (Trich)
+Hepatitis B
+Hepatitis C
+Bacterial Meningitis
+Viral Meningitis
+Chlamydia
+Cold Sores
+Genital Herpes
+Gonorrhea
+Human Papillomavirus (HPV)
+Herpes
+Pubic Lilce (Crabs)
+Botulism
+Campylobacteriosis
+Listeriosis
+Salmonellosis
+Shigellosis
+Staph Food Poisoning
+Vibrio Vulnificus
+""
+Hepatitis A
+Paraphimosis
+Spermatocele
+Testicular Mass
+Undescended Testicle
+Urethritis
+Urinary Retention
+Total Incontinence
+Urge Incontinence
+Balanitis
+Blood in the Urine
+Epididymitis and Orchitis
+Frequent Urination
+Hydrocele
+Hypospadias
+Bladder Pain Syndrome
+Neurogenic Bladder
+Painful Urination
+Functional Incontinence
+Overflow Incontinence
+Stress Incontinence
+Agoraphobia
+Postpartum Depression
+Phobias
+Social Anxiety Disorder
+Asperger's Syndrome
+Autism
+Depression
+Premenstrual Dysphoric Disorder
+Seasonal Affective Disorder
+Anorexia
+Binge Eating Disorder
+Bulimia
+Alcohol Abuse
+Child Abuse and Neglect
+Domestic Abuse
+Elder Abuse
+Physical Abuse
+Sexual Abuse and Assault
+Anxiety
+Dental Anxiety
+Generalized Anxiety Disorder
+Panic Attacks
+Panic Disorder
+Amphetamine Abuse
+Cocaine Abuse
+Drug Abuse
+Inhalant Abuse
+Marijuana Abuse
+Opiate Abuse
+Teen Substance Abuse
+Aggression
+Bullying
+Violent Behavior
+Molar pregnancy
+Breech presentation
+"Face, brow and chin presentation"
+Shoulder presentation
+Vertex presentation
+Blighted ovum
+Ectopic pregnancy
+Hip Osteoarthritis
+Knee Osteoarthritis
+Shoulder Osteoarthritis
+Decreased Libido
+Painful Sex
+Torn or Detached Nail
+Weak or Brittle Nails
+Molluscum Contagiosum
+Pityriasis Rosea
+Tinea Versicolor
+Athlete's Foot
+Fungal Nail Infection
+Jock Itch
+Paronychia
+Toenail Fungus
+Head Lice
+Pubic Lice
+Artificial Nail Problems
+Color Changes in Nails
+Hangnail
+Ingrown Nail
+Nail Biting
+Nail Infections
+Subungual Hematoma
+Atopic Dermatitis (Eczema)
+Seborrheic Dermatitis
+Body Lice
+Allergic Reactions
+Allergic Asthma
+Allergic Rhinitis
+Anaphylactic Reaction
+Drug Allergies
+Food Allergy and Intolerances
+Ankle Disorders
+Back Disorders
+Bone Spur
+Bursitis
+Calcific Tendinitis
+Elbow Disorders
+Head and Jaw Disorders
+"Heel, Foot and Toe Disorders"
+Anemia
+Antiphospholipid Syndrome
+Blood-Clotting Disorders
+Clotting Factor Deficiencies
+Hemochromatosis
+Hemophilia
+Idiopathic Thrombocytopenic Purpura
+Polycythemia
+Sickle Cell Disorders
+Thalasseia
+Von Willebrand Disease
+Achilles Tendon Disorders
+Joint Pain
+Knee and Leg Disorders
+Muscle Cramps
+Muscle Strain
+Neck Disorders
+Osteochondritis Dissecans of a Joint
+Overuse and Repetitive Motion Disorders
+Sciatica
+Spinal Stenosis
+Insect Sting Allergies
+Latex Allergy
+Seasonal Allergies
+Fetal Alcohol Spectrum Disorders (FASD)
+Neural Tube Defect
+Alpha-1 Antitrypsin Deficiency
+Ehlers-Danlos Syndrome
+Klinefelter Syndrome
+Marfan's Syndrome
+Tay-Sachs Disease
+Turner Syndrome
+Hip Disorders
+Herniated Disc
+Acute Cholecystitis
+Adhesions
+Anorectal Disorders
+Biliary Colic
+Bowel Obstruction
+Celiac Disease
+Cholangitis
+Cholecystitis
+Diverticulitis
+Esophageal Dilation
+Esophageal Varices
+Fibromyalgia
+Guillain-Barre Syndrome
+Headaches
+Meralgia Paresthetica
+Multiple Sclerosis
+Muscular Dystrophy
+Myasthenia Gravis
+Neuropathy
+Numbness and Tingling
+Pain Conditions
+Parkinson's Disease
+Restless Leg Syndrome
+Dry Socket
+Fluoride
+Glossitis
+Jaw Problems
+Malocclusion
+Metallic Taste in Mouth
+Mouth Guards
+Mouth Sores
+Oral Hygiene
+Oral Leukoplakia
+Periodontal (Gum) Disease
+Tendon Injury (Tendinopathy)
+Transient Synovitis
+Whiplash
+Wrist Tendon Injury
+Alzheimer's Disease
+Amyotrophic Lateral Sclerosis
+Bell's Palsy
+Benign Essential Tremor
+Chronic Fatigue Syndrome
+Concussion
+Epilepsy
+Stomatitis
+Sublingual Hematoma
+Taste Changes
+Teeth Grinding (Bruxism)
+Teeth Whitening
+Temporomandibular Disorders
+Tongue Problems
+Tooth Decay
+Tooth and Gum Pain
+Wisdom Tooth Problems
+Gastroesophageal Reflux Disease (GERD)
+Gallstones
+Gastroparesis
+Giardiasis
+Hemorrhoids
+Hernias
+Indigestion
+Inflammatory Bowel Disease
+Irritable Bowel Syndrome
+Spinal Cord Injury
+Stroke
+Thoracoscopic Sympathectomy
+Transient Global Amnesia
+Traumatic Brain Injury
+Bladder Cancer
+Breast Cancer
+Cancer Pain
+Cervical Cancer
+Colorectal Cancer
+Testicular Cancer
+Thyroid Cancer
+Uterine Cancer
+Abscessed Tooth
+Bad Breath (Halitosis)
+Broken or Cracked Tooth
+Canker Sores
+Dental Plaque
+Dental X-Rays
+Dry Mouth
+Endometrial Cancer
+Leukemia
+Lung Cancer
+Lymphoma
+Neutropenia
+Ovarian Cancer
+Pancreatic Cancer
+Prostate Cancer
+Skin Cancer
+Diabetes
+Goiter
+Graves' Ophthalmopathy
+High Blood Sugar
+Hyperparathyroidism
+Hyperthyroidism
+Hypocalcemia
+Hypogonadism
+Hypokalemia
+Hypoparathyroidism
+Liver Problems
+Pancreatitis
+Postcholecystectomy Syndrome
+Short Bowel Syndrome
+Peptic Ulcers
+Adenoid Problems
+Anosmia
+Rhinitis
+Ear Infection
+Enlarged Turbinates
+Hearing Loss
+Cellulitis of the Eye
+Changes in Vision
+Color Blindness
+Corneal Scratches
+Diabetic Retinopathy
+Double Vision
+Dry Eyes
+Dry Eye Syndrome
+Eye Infections
+Eyelid Problems
+Farsightedness (Hyperopia)
+Floaters and Flashes
+Glaucoma
+Iritis
+Low Vision
+Macular Degeneration
+Misaligned Eyes
+Nearsightedness (Myopia)
+Pinkeye
+Presbyopia
+Pterygium and Pinguecula
+Inner Ear Problems
+Labyrinthitis
+Laryngitis
+MÃ©niÃ¨re's Disease
+Motion Sickness
+Nasal Abscess
+Nasal Polyps
+Parotitis
+Peritonsillar Abscess
+Rheumatic Fever
+Scarlet Fever
+Sinus Infection
+Sore Throat
+Strep Throat
+Tonsillitis
+Vertigo
+Vestibular Neuritis
+Acromegaly
+Addison's Disease
+Blood Sugar Emergency
+Cushing's Syndrome
+Thyroid Nodules
+Thyroid Storm
+Secondary Adrenocortical Insufficiency
+"Subclinical Hypothyroidism "
+Astigmatism
+Cataracts
+Hypothyroidism
+Insulin Resistance
+Low Blood Sugar
+Metabolic Syndrome
+Paget's Disease of Bone
+Coronary Artery Disease (CAD)
+Endocarditis
+Hardening of the Arteries
+Heart Attack
+Heart Failure
+Heart Murmur
+Heart Valve Disease
+Henoch-Schonlein Purpura
+High Blood Pressure
+Angina
+Aortic Dissection
+Heart Rhythm Disorders
+Arteriovenous Malformation
+Artificial Heart Valve Problems
+Blood Clots
+Cardiomyopathy
+Carotid Artery Disease
+Carotid Stenosis
+Carotidynia
+Congenital Heart Defects
+Peripheral Arterial Disease
+Post-Thrombotic Syndrome
+Premature Ventricular Contractions
+Pressure Sores
+Superficial Thrombophlebitis
+Transient Ischemic Attack
+Varicose Veins
+Venous Insufficiency
+Venous Skin Ulcers
+Acute retroviral syndrome
+HIV infection
+Clostridium Difficile Colitis
+Dengue Fever
+Ebola and Marburg Virus Infections
+Ehrlichiosis
+Encephalitis
+Foodborne Illnesses
+HIV/AIDS
+Hantavirus
+Hantavirus Pulmonary Syndrome
+Hepatitis
+Leptospirosis
+Retinal Detachment
+Retinal Tear
+UV Keratitis
+Uveitis
+Vision Problems
+Optic Neuritis
+Acute Coronary Syndrome
+Aneurysm
+SARS
+Sexually Transmitted Infections
+Shingles
+Smallpox
+Toxic Shock Syndrome
+West Nile Encephalitis
+West Nile Virus
+Yersiniosis
+Accidental Needle Stick
+Bites and Stings
+Lyme Disease
+Mad Cow Disease
+Malaria
+Measles
+Meningitis
+Mononucleosis
+Necrotizing Fasciitis
+Norovirus Infections
+Polio
+Rabies
+Rocky Mountain Spotted Fever
+High Cholesterol
+Low Blood Pressure
+Pericarditis
+Anthrax
+Bird Flu
+Cat-Scratch Disease
+Chickenpox
+Malabsorption Syndrome
+Obesity and Overweight
+Childhood Behavioral Problems
+Developmental Disorders
+Abnormal Fetal Presentation
+Hyperemesis Gravidarum
+Nonviable pregnancy
+Nuchal Cord
+Perineal Tear
+Placenta Previa
+Placental abruption
+ADHD
+Abuse and Violence
+Rhabdomyolysis
+Uremia
+Urinary Incontinence
+Urinary Incontinence in Women
+Urinary Tract Infections
+Urology Conditions
+Benign Prostatic Hyperplasia
+Erectile Dysfunction
+Prostatitis
+Testicular Pain
+Eating Disorders
+Grief
+Nonverbal Learning Disorder
+Obsessive-Compulsive Disorder
+Oppositional Defiant Disorder
+Post-Traumatic Stress Disorder
+Schizophrenia
+Self-Esteem
+Stress
+Substance Abuse Disorders
+Tourette's Disorder
+Placental insufficiency
+Postpartum Endometritis
+Preeclampsia
+Premature Rupture of Membranes
+Preterm Labor
+Pruritic papules of pregnancy (PUPPP)
+Threatened miscarriage
+Black Lung Disease
+Carbon Monoxide Poisoning
+Environmental Illnesses
+Lead Exposure
+Adjustment Disorder
+Anxiety and Panic Disorders
+Autism Spectrum Disorders
+Behavior Change
+Bipolar Disorder
+Conduct Disorder
+Coping
+Depression in Children
+Depressive Disorders
+Cuts (Lacerations)
+Falls
+Traumatic Injury to the Heart
+Acute Kidney Injury
+Chronic Kidney Disease
+Diabetic Nephropathy
+Glomerulonephritis
+Kidney Failure
+Kidney Infection
+Kidney Stones
+Nephrotic Syndrome
+Polycystic Kidney Disease
+Rheumatoid Arthritis
+Scleroderma
+SjÃ¶gren's Syndrome
+Temporal Arteritis
+Ankylosing Spondylitis
+Frailty
+Healthy Aging
+Osteopenia
+Osteoporosis
+Sexual Problems
+Acne
+Pesticide Exposure
+Radiation Exposure
+Smoke Inhalation
+Toxic Exposure
+Gout
+Juvenile Idiopathic Arthritis
+Lupus
+Osteoarthritis
+Polymyalgia Rheumatica
+Psoriatic Arthritis
+Raynaud's Phenomenon
+Rashes
+Ringworm
+Rosacea
+Scabies
+Seborrheic Keratosis
+Skin Abscess
+Skin Cyst
+Fungal Skin Infections
+Skin Infections
+Skin Lesions
+Skin Tags
+Hirsutism
+Keloid Scars
+Keratosis Pilaris
+Lice
+Lipoma
+Moles
+Nail Conditions
+Pityriasis Alba
+"Poison Ivy, Oak and Sumac"
+Psoriasis
+Swimmer's Itch
+Vitiligo
+Warts
+Narcolepsy
+Sleep Apnea
+Abnormal Uterine Bleeding
+Bacterial Vaginosis
+Bartholin Gland Cyst
+Breast Abscess
+Breast Changes
+Breast Engorgement
+Actinic Keratosis
+Blocked Sweat Glands
+Boils
+Calluses and Corns
+Cellulitis
+Dandruff
+Dermatitis
+Dry Skin and Itching
+Epidermoid Cyst
+Folliculitis
+Breast Infection
+Breast Lumps
+Breast Pain
+Breast Problems
+Cervicitis
+Chronic Pelvic Pain
+Dense Breasts
+Endometriosis
+Fibrocystic Breasts
+Fitz-Hughâ€“Curtis Syndrome
+Galactorrhea
+Menopause
+Menstrual Cycle
+Nipple Discharge
+Ovarian Cyst
+Pelvic Infection
+Pelvic Inflammatory Disease
+Pelvic Organ Prolapse
+Vaginal Discharge
+Uterine Fibroids
+Vaginal Bleeding
+Polycystic Ovary Syndrome
+Premenstrual Syndrome
+Vulvodynia
+Cystocele
+Enterocele
+Urethrocele
+Uterine Prolapse
+Device
+Bifocal Contact Lenses
+Hard Contact Lenses
+Soft Contact Lenses
+Male Condom
+Female Condom
+Contraceptive skin patch
+Hormonal IUD
+Subdermal contraceptive implant
+Vaginal Yeast Infections
+Vulvar Dermatitis
+Vulvar Pain
+Vaginismus
+Vaginitis
+Vacuum Extractor
+Drug
+Contact Lens Problems
+Contact Lenses
+Eyeglasses
+Barrier Devices
+Hormonal birth control device
+Copper IUD
+Forceps
+Calcium Channel Blockers
+Pudendal block
+ARBs
+Diuretics
+Combination Birth Control Pill
+Emergency Contraception
+Mini-Pill
+Human Trait
+Epidural anesthesia
+Local anesthesia
+Paracervical block
+Person
+Nurse Midwife
+Cardiovascular Surgeon
+Family Medicine Doctor
+Neurologist
+Psychiatrist
+Psychologist
+Advance Practice Nurse
+RN
+Nurse Practitioner
+Nurse
+Procedure
+Doula
+Behavioral Specialist
+Doctor
+Artificial rupture of the membranes
+Pharmaceutical induction
+Stage
+Coronary Angioplasty
+Chemical Cardioversion
+Electrical Cardioversion
+Young Adult (19-24)
+HIV infection stage
+First trimester
+Second trimester
+Third trimester
+Test
+WHO HIV stage 3
+WHO HIV stage 4
+Adolescent (13-18)
+Adult (25-44)
+Aged Adult (65-79)
+Aged Adult (Over 80)
+Child (6-12)
+Infant (1-23 Months)
+Middle Aged Adult (45-64)
+Newborn (0-1 Months)
+Preschool Child (2-5)
+HIV infection stage (CDC)
+HIV infection stage (WHO)
+CDC HIV stage 1
+CDC HIV stage 2
+CDC HIV stage 3
+WHO HIV stage 1
+WHO HIV stage 2
+Exercise challenge test
+Inhalation challenge test
+Dental and Oral Conditions
+Digestive Conditions
+"Ear, Nose and Throat Conditions"
+Endocrine Disorders
+Eye Conditions and Disorders
+Heart and Vascular Conditions
+Immune Disorders
+Infections and Infectious Diseases
+Fetal ultrasound
+Intravascular Ultrasound
+Wellness Topic
+Allergies
+Birth Defects
+Genetic and Rare Conditions
+Blood Conditions
+"Bone, Joint and Muscle Conditions"
+Brain and Nerve Conditions
+Cancer
+Injuries and Wounds
+Kidney and Urinary Conditions
+Men's Health Conditions
+CT Angiogram
+Coronary Angiogram
+Challenge test
+Peak expiratory flow
+Exercise Electrocardiogram
+Transesophageal Echocardiogram
+Mental and Behavioral Health
+Nutritional and Metabolic Conditions
+Pediatric Conditions
+Pregnancy-Related Conditions
+Public Health and Safety-Related Conditions
+Rheumatic Diseases
+Senior Health Conditions
+Sexual Health Conditions
+"Skin, Hair and Nail Conditions"
+Sleep Disorders
+Women's Health Conditions
+Contacts and Glasses
+Contraceptive Device
+Fetal Heart Rate Monitor
+ICD
+Obstetric device
+Pacemaker
+ACE Inhibitors
+Anesthesia
+Antiarrhythmic Medicines
+Breathing test
+CRP Test
+CT Scan
+Cardiac Catheterization
+Cholesterol Test
+Coronary Calcium Scan
+Diagnostic imaging
+Echocardiogram
+Electrocardiogram
+Eye Exams
+Fasting blood glucose test
+Bypass Surgery
+Cardioversion
+Catheter Ablation
+Cesarean birth
+Forceps-assisted delivery
+Heart Surgery
+Heart Valve Replacement Surgery
+Induction of labor
+Medication abortion
+Surgical abortion
+Vacuum-assisted delivery
+Age Range
+Disease stage
+Trimester of pregnancy
+A1c test
+Allergy test
+Angiogram
+Ankle-Brachial Index Test
+Blood Sugar Self-Testing
+Blood Tests
+Brain Natriuretic Peptide (BNP) Test
+Thrombolytics
+Vasodilators
+Family history of a disease
+Birth partner
+Clinician
+Counselor or Therapist
+Patient
+Social Worker
+Angioplasty
+Breech version
+Fetal birth defects testing
+Fetal heart monitoring
+Fetal kick count
+HIV test
+MRI
+Mental Health Assessment
+Oral glucose tolerance test
+Physical exam and medical history
+Rapid sputum test
+TB blood test
+TB skin test
+Beta2-Agonist
+Beta Blockers
+Folic Acid Supplement
+Hormonal Birth Control
+Hormonal Birth Control Drug
+Inhaled Corticosteroid
+Iron Supplement
+Nitroglycerin
+Prenatal Multivitamin
+Rh Immunoglobulin (rhogam)
+Ultrasound
+Being Active
+Complementary Medicine
+Drugs and Alcohol
+Healthy Eating
+Quitting Tobacco
+Sexual and Reproductive Health
+Sleeping Well
+Healthy Weight

@@ -1,0 +1,120 @@
+# UF: Used For
+# NF: Not For
+# SA: Subject Area
+# BT: Broader Term
+# NT: Narrower Term
+# RT: Related Term
+# USE: Use
+# SN: Scope Note
+# TT: Top Term
+# DEF: Definition
+# EX: Example
+# ABV: Abbreviation
+# DEV: Device
+# PRO: Procedure
+# MED: Medication
+# SMP: Symptom
+# WEL: Wellness
+# CL:Clinical Label
+# CEL:Canadian English Label
+# AZ:Label for browsing A-Z lists
+
+Palliative Care
+Natural and Holistic Treatments
+  UF:Hydrotherapy
+  UF:Healing Touch
+  UF:Aromatherapy
+Self Care
+  UF:Wound Care
+Other Treatments
+First Aid
+  NT:CPR
+  NT:Oral Rehydration Therapy (ORT)
+  NT:Rest, Ice, Compression, Elevation (RICE)
+  UF:Eye Flushing
+Physical Therapy, Rehab, and Exercise
+  CEL:Physiotherapy and Rehab
+  UF:Physical Therapy
+  UF:Physiotherapy
+  UF:Rehabilitation
+  UF:Physical Therapy, Rehabilitation, and Exercise
+  UF:Rehab
+  UF:Occupational Therapy
+  UF:Serial Casting
+  UF:Ice Massage
+  UF:Massage
+  UF:Pulmonary Rehab
+  NT:Brace (Orthotic) Treatment for Scoliosis
+  NT:Continuous Passive Motion (CPM)
+  NT:Heat and Cold Therapy
+  NT:Osteopathy
+  NT:Spinal Manipulation
+  NT:Epley and Semont Maneuvers
+Pulmonary Rehab
+  TT:Surgeries
+  CEL:Pulmonary Rehab
+  UF:Pulmonary Rehabilitation
+Epley and Semont Maneuvers
+  CEL:Epley and Semont Manoeuvers
+  UF:Epley Manoeuver
+  UF:Semont Manoeuver
+  UF:Semont Maneuver
+  UF:Epley Maneuver
+Diet Therapy
+Surgeries and Procedures
+Counseling
+  NT:Cognitive-Behavior Therapy (CBT)
+  UF:Family Therapy
+  UF:Exposure and Response Prevention (ERP) Therapy
+  UF:Exposure and Response Prevention Therapy
+  UF:Exposure Therapy
+Drug Therapy
+  NT:Estrogen Therapy (ET)
+  NT:Gonadotropin-Releasing Hormone Agonist (GnRH-a) Therapy
+  NT:Hormone Therapy for Cancer
+  NT:Radioactive Iodine
+Radioactive Iodine
+Cognitive Behavior Therapy (CBT)
+  ABV:CBT
+  UF:Cognitive Behavior Therapy
+  CEL:Cognitive-Behavioural Therapy
+  UF:Cognitive-Behavioral Therapy
+  UF:CBT Therapy
+Estrogen Therapy (ET)
+  UF:Estrogen Therapy
+  UF:Hormone Replacement Therapy
+Gonadotropin-Releasing Hormone Agonist (GnRH-a) Therapy
+  UF:GnRH-A Therapy
+  UF:Gonadotropin-Releasing Hormone Agonist Therapy
+Hormone Replacement Therapy
+  UF:Hormonal Therapy
+  UF:Hormone Therapy
+  NF:Hormone Therapy for Cancer
+Hormone Therapy for Cancer
+  UF:Hormone Therapy for Breast Cancer
+  UF:Hormone Therapy for Prostate Cancer
+  UF:Androgen Deprivation Therapy
+CPR
+  UF:Cardiopulmonary Resuscitation
+Oral Rehydration Therapy (ORT)
+  ABV:ORT
+  UF:Oral Rehydration
+  UF:Oral Hydration
+  UF:Rehydration (Oral)
+  UF:Artificial Hydration
+Rest, Ice, Compression, Elevation (RICE)
+  ABV:RICE
+  UF:Rest, Ice, Compression, Elevation
+Brace (Orthotic) Treatment for Scoliosis
+  UF:Brace Treatment for Scoliosis
+  UF:Brace for Scoliosis
+  UF:Orthotic Treatment for Scoliosis
+Continuous Passive Motion (CPM)
+  ABV:CPM
+  UF:Continuous Passive Motion Machine
+  UF:Continuous Passive Motion
+Heat and Cold Therapy
+Osteopathy
+Spinal Manipulation
+  SN:Also listed in the PROCEDURES facet.
+Life Support

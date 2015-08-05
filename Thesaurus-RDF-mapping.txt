@@ -1,0 +1,26 @@
+# [line 1] -> rdfs:label
+# UF:Used For -> skos:altLabel
+# NF:Not For -> http://www.healthwise.org/concept/concept_schema#not_for
+# SA:Subject Area -> http://www.healthwise.org/concept/concept_schema#subject_area
+# BT:Broader Term -> skos:broader
+# NT:Narrower Term -> skos:narrower
+# RT:Related Term -> skos:related
+# USE:Use -> DON'T CONVERT
+# SN:Scope Note -> skos:scopeNote
+# DEF:Definition -> skos:definition
+# EX:Example -> skos:example
+# ABV:Abbreviation -> http://www.healthwise.org/concept/concept_schema#abbreviation
+# DEV:Device -> DON'T CONVERT
+# PRO:Procedure -> skos:related
+# MED:Medication -> DON'T CONVERT
+# SMP:Symptom -> DON't CONVERT
+# WEL:Wellness -> skos:related
+# EN: -> skos:editorialNote
+# CL:Clinical Label (optimized for A-Z lists) -> http://www.healthwise.org/concept/concept_schema#clinical_label
+# CEL:Canadian English Label -> rdfs:label [@en-ca]
+# RD:Reference or Gap Document -> DON'T CONVERT
+# AZ:Label for browsing A-Z lists  -> http://www.healthwise.org/concept/concept_schema#inverted_label
+# TT:Top Term -> skos:hasTopConcept
+# CW: -> DON'T CONVERT
+# FCT: -> DON'T CONVERT
+# CON: -> http://www.healthwise.org/concept/concept_schema#helps_prevent
