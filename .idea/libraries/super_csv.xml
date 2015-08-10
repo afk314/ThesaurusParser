@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="super-csv">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Dev/lib/super-csv-distribution-2.3.1-bin/super-csv" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Dev/lib/super-csv-distribution-2.3.1-bin/super-csv" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Dev/lib/super-csv-distribution-2.3.1-bin/super-csv" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Dev/lib/super-csv-distribution-2.3.1-bin/super-csv" recursive="false" type="SOURCES" />
+  </library>
+</component>
