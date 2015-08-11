@@ -14,12 +14,12 @@ public class ThesaurusParser {
 
     // Thesaurus files - you'll need to add these to the fileSetup method
     private final String TEST_THESAURUS_FILE = "tests.txt";
+    private final String SAMPLE_FILE = "sample.txt";
     private final String PROCEDURE_THESAURUS_FILE = "procedures.txt";
     private final String CONDITIONS_THESAURUS_FILE = "conditions.txt";
     private final String WELLNESS_THESAURUS_FILE = "wellness.txt";
 
-    // Boilerplate RDF to append at the top
-    private final String RDF_HEADER_FILENAME = "rdf_header.txt";
+
 
     // Outtput filename
     private final String RDF_OUTPUT_FILENAME = "hwcv-generated.owl";
@@ -27,7 +27,7 @@ public class ThesaurusParser {
 
     // ID mgmt
     // Where to start handing out the ids
-    private final static int ID_START = 10000;
+    private final static int ID_START = 20000;
 
     // Used to maintain counter state
     private int idCounter = 0;
@@ -77,6 +77,7 @@ public class ThesaurusParser {
     // Setup which files to run
     private void thesaurusFileSetup() {
         facetFileToTypeMap = new HashMap();
+        //facetFileToTypeMap.put(SAMPLE_FILE, "31415");
         facetFileToTypeMap.put(TEST_THESAURUS_FILE, "10003");
         //facetFileToTypeMap.put(PROCEDURE_THESAURUS_FILE, "10301");
         //facetFileToTypeMap.put(CONDITIONS_THESAURUS_FILE, "10000");
@@ -84,10 +85,9 @@ public class ThesaurusParser {
     }
 
     // Iterate over the thesaurus files and build the corresponding RDF
-    private void buildRDF() throws IOException {
+    public Map<Integer, Concept> buildRDF() throws IOException {
         //System.out.println("here we buildRDF!!!!");
-        StringBuffer output = new StringBuffer();
-        setup(output);
+        setup();
 
         Map parentIdToFileContent = readFiles();
         Set parentIds = parentIdToFileContent.keySet();
@@ -95,10 +95,9 @@ public class ThesaurusParser {
         while (iter.hasNext()) {
             String parentIdForFile = (String) iter.next();
             ArrayList fileContents = (ArrayList) parentIdToFileContent.get(parentIdForFile);
-            buildRdfForFile(parentIdForFile, fileContents, output);
+            buildRdfForFile(parentIdForFile, fileContents);
         }
-        output.append(closeRdf());
-        writeOutput(output);
+        return this.idConceptMap;
     }
 
     // Write the contents to a file
@@ -116,9 +115,9 @@ public class ThesaurusParser {
     }
 
     // Basic setup wrapper
-    private void setup(StringBuffer output) {
+    private void setup() {
         resetCount();
-        readHeaderIntoOutput(output);
+        //readHeaderIntoOutput(output);
         thesaurusFileSetup();
     }
 
@@ -137,11 +136,9 @@ public class ThesaurusParser {
             if (inputLine.isEmpty()) continue;
             if (!inputLine.startsWith(" ")) {
                 // We have a new concept
-                String baseTerm = stripIllegals(inputLine);
-                String id = getIdCounter()+"";
-                Concept currentConcept = new Concept(getIdCounter(), baseTerm);
+                Concept currentConcept = new Concept(getIdCounter(), inputLine);
                 idConceptMap.put(getIdCounter(), currentConcept);
-                getLabelToIdMap().put(baseTerm, getIdCounter());
+                getLabelToIdMap().put(inputLine, getIdCounter());
 
                 setIdCounter(getIdCounter() + 1);
             }
@@ -154,7 +151,7 @@ public class ThesaurusParser {
     // base of the triples is created but not closed.  Futher relations like
     // BT, NT will be applied to the concept at the top of the stack until a new concept
     // is found and then the previous triple will be closed.  Not pretty code but it work.
-    private void buildRdfForFile(String parentId, ArrayList sb, StringBuffer output) {
+    private void buildRdfForFile(String parentId, ArrayList sb) {
         int thisRun = 0;
 
         // build the ID Map first
@@ -173,11 +170,9 @@ public class ThesaurusParser {
 
             // The file is space sensitive - we are looking for top level concepts that start at index 0
             if (!inputLine.startsWith(" ")) {
-                if (thisRun != 0) {
-                    output.append(closeConcept());
-                }
 
-                currentConcept = buildBaseTriples(inputLine, output, parentId);
+
+                currentConcept = buildBaseTriples(inputLine, parentId);
             } else {
                 // We are indented, so we are working with properties of a concept that we've already created
                 if (inputLine.trim().isEmpty()) {
@@ -195,26 +190,20 @@ public class ThesaurusParser {
 
                 String value = line[1].trim();
                 if (relationType.equals("BT")) {
-                    String broaderRelation = makeSkosBroaderTerm(value, currentConcept);
-                    if (broaderRelation != null) {
-                        output.append(broaderRelation);
-                    }
+                    makeSkosBroaderTerm(value, currentConcept);
+
                 } else if (relationType.equals("NT")) {
-                    String narrowerRelation = makeSkosNarrowerTerm(value, currentConcept);
-                    if (narrowerRelation != null) {
-                        output.append(narrowerRelation);
-                    }
+                    makeSkosNarrowerTerm(value, currentConcept);
+
                 } else if (relationType.equals("RT")) {
-                    String relatedRelation = makeSkosRelatedTerm(value, currentConcept);
-                    if (relatedRelation != null) {
-                        output.append(relatedRelation);
-                    }
+                    makeSkosRelatedTerm(value, currentConcept);
+
                 } else if (relationType.equals("SN")) {
-                        output.append(buildScopeNote(value, currentConcept));
+                    buildScopeNote(value, currentConcept);
                 } else if (relationType.equals("UF")) {
-                    output.append(buildUsedFor(value, currentConcept));
+                    buildUsedFor(value, currentConcept);
                 } else if (relationType.equals("DEF")) {
-                    output.append(buildDefinition(value, currentConcept));
+                    buildDefinition(value, currentConcept);
                 } else if (relationType.equals("ABV")) {
                         // ABV is not used not used
                 } else if (relationType.equals("CL")) {
@@ -224,137 +213,78 @@ public class ThesaurusParser {
 
             }
         }
-        output.append(closeConcept());
     }
 
 
 
 
-    // Clean up some characters which can cause us problems
-    private String stripIllegals(String l) {
-//        l = l.replaceAll("\\(", "").replaceAll("\\)", "").replaceAll("'", "").replaceAll(",", "");
-//        l = l.replaceAll(" ", "_").replaceAll("\\\\", "").replaceAll("/", "").replaceAll("\\n", "");
 
-        return l;
-    }
 
-    private Concept buildBaseTriples(String label, StringBuffer output, String parentId) {
+    private Concept buildBaseTriples(String label, String parentId) {
         StringBuffer b = new StringBuffer();
         Integer id = getIdForLabel(label);
         Concept c = idConceptMap.get(id);
         if (c == null) {
             throw new RuntimeException("Failed to find: "+label);
         }
-
-
-        b.append(openConcept(getIdForLabel(label)));
-        b.append(makeConceptId(getIdForLabel(label)));
-        b.append(makeRdfsLabel(label));
-        b.append(makeSkosBroader(parentId, c));
-        output.append(b.toString());
+        makeSkosBroader(parentId, c);
         return c;
     }
 
-    private String addPrefixToId(String numericId) {
-        return "HWCV_0"+numericId;
-    }
 
 
     private Integer getIdForLabel(String label) {
-        Integer id = (Integer) getLabelToIdMap().get(stripIllegals(label));
+        Integer id = (Integer) getLabelToIdMap().get(label);
         return id;
     }
 
-    private String closeConcept() {
-        return "</skos:Concept>\n\n";
-    }
 
-    private String closeRdf() {
-        return "</rdf:RDF>\n\n";
-    }
 
-    private String makeSkosBroaderTerm(String term, Concept c) {
+    private void makeSkosBroaderTerm(String term, Concept c) {
         Integer id = getIdForLabel(term);
         c.addToBroader(id+"");
-        if (id != null) {
-            return "  <skos:broader rdf:resource=\"#HWCV_0"+id+"\"/>\n" ;
-        } else {
-            return null;
-        }
     }
 
 
 
-    private String makeSkosNarrowerTerm(String term, Concept c) {
+    private void makeSkosNarrowerTerm(String term, Concept c) {
         Integer id = getIdForLabel(term);
         c.addToNarrower(id+"");
-        if (id != null) {
-            return "  <skos:narrower rdf:resource=\"#HWCV_0"+id+"\"/>\n" ;
-        } else {
-            return null;
-        }
     }
 
-    private String makeSkosRelatedTerm(String term, Concept c) {
+    private void makeSkosRelatedTerm(String term, Concept c) {
         Integer id = getIdForLabel(term);
         c.addToRelated(id+"");
-        if (id != null) {
-            return "  <skos:related rdf:resource=\"#HWCV_0"+id+"\"/>\n" ;
-        } else {
-            return null;
-        }
+
     }
 
     private String xmlEncode(String someString) {
         return StringEscapeUtils.escapeXml11(someString);
     }
 
-    private String buildScopeNote(String note, Concept c) {
+    private void buildScopeNote(String note, Concept c) {
         String out = xmlEncode(note);
         try {
             c.addToScopeNotes(out);
         } catch (Exception e) {
             throw new RuntimeException();
         }
-
-        return "  <skos:scopeNote>"+out+"</skos:scopeNote>\n" ;
     }
 
-    private String buildDefinition(String def, Concept currentConcept) {
+    private void buildDefinition(String def, Concept currentConcept) {
         String encoded = xmlEncode(def);
         currentConcept.setDefinition(encoded);
-        return "  <skos:definition>"+encoded+"</skos:defition>\n" ;
     }
 
-    private String buildUsedFor(String ufTerm, Concept currentConcept) {
+    private void buildUsedFor(String ufTerm, Concept currentConcept) {
         String encoded = xmlEncode(ufTerm);
         currentConcept.addToAltLabel(encoded);
-        return "  <skos:altLabel>"+encoded+"</skos:altLabel>\n" ;
     }
 
 
-    private String makeSkosBroader(String id, Concept c) {
+    private void makeSkosBroader(String id, Concept c) {
         c.addToBroader(id);
-        return "  <skos:broader rdf:resource=\"#"+id+"\"/>\n" ;
     }
-    private String openConcept(Integer id) {
-        return "<skos:Concept rdf:ID=\""+id+"\">\n";
-    }
-
-    private String makeConceptId(Integer id) {
-        return "  <hwcv_sc:concept_id>"+id+"</hwcv_sc:concept_id>\n";
-    }
-
-    private String makeRdfsLabel(String label) {
-        String l2 = xmlEncode(label);
-        return "  <rdfs:label>"+l2+"</rdfs:label>\n";
-    }
-
-
-
-
-
-
 
     private Map readFiles() {
         Map parentIdToFileContent = new HashMap();
@@ -369,13 +299,7 @@ public class ThesaurusParser {
        return parentIdToFileContent;
     }
 
-    private void readHeaderIntoOutput(StringBuffer output) {
-        List<String> srcFile = readFile(RDF_HEADER_FILENAME);
-        Iterator i = srcFile.iterator();
-        while(i.hasNext()) {
-            output.append(i.next());
-        }
-    }
+
 
     private List<String> readFile(String name) {
         BufferedReader in = null;

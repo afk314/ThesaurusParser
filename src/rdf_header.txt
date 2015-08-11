@@ -32,7 +32,7 @@
   <skos:Concept rdf:ID="HWCV_10000">
     <hwcv_sc:concept_id>HWCV_10000</hwcv_sc:concept_id>
     <rdfs:label>Condition</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <skos:broader rdf:resource="#HWCV_00000"/>    
     <hwcv_sc:has_symptom rdf:resource="#HWCV_10001"/>
     <hwcv_sc:has_treatment rdf:resource="#HWCV_10002"/>    
     <hwcv_sc:diagnosed_by rdf:resource="#HWCV_10003"/>        
@@ -48,42 +48,42 @@
   <skos:Concept rdf:ID="HWCV_10001">
     <hwcv_sc:concept_id>HWCV_10001</hwcv_sc:concept_id>
     <rdfs:label>Symptom</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <skos:broader rdf:resource="#HWCV_00000"/>    
     <hwcv_sc:symptom_of rdf:resource="#HWCV_10000"/>
   </skos:Concept>
   
   <skos:Concept rdf:ID="HWCV_10002">
     <hwcv_sc:concept_id>HWCV_10002</hwcv_sc:concept_id>
     <rdfs:label>Treatment</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <skos:broader rdf:resource="#HWCV_00000"/>    
     <hwcv_sc:treats rdf:resource="#HWCV_10000"/>
   </skos:Concept>
   
   <skos:Concept rdf:ID="HWCV_10300">
     <hwcv_sc:concept_id>HWCV_10300</hwcv_sc:concept_id>
     <rdfs:label>Medication</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_10002"/>		
+    <skos:broader rdf:resource="#HWCV_10002"/>    
     <hwcv_sc:treats rdf:resource="#HWCV_10000"/>
   </skos:Concept>
   
   <skos:Concept rdf:ID="HWCV_10301">
     <hwcv_sc:concept_id>HWCV_10301</hwcv_sc:concept_id>
     <rdfs:label>Procedure</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_10002"/>		
+    <skos:broader rdf:resource="#HWCV_10002"/>    
     <hwcv_sc:treats rdf:resource="#HWCV_10000"/>
   </skos:Concept>
   
   <skos:Concept rdf:ID="HWCV_10003">
     <hwcv_sc:concept_id>HWCV_10003</hwcv_sc:concept_id>
     <rdfs:label>Test</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <skos:broader rdf:resource="#HWCV_00000"/>    
     <hwcv_sc:diagnoses rdf:resource="#HWCV_10000"/>
   </skos:Concept>
   
   <skos:Concept rdf:ID="HWCV_10004">
     <hwcv_sc:concept_id>HWCV_10004</hwcv_sc:concept_id>
     <rdfs:label>Body System</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <skos:broader rdf:resource="#HWCV_00000"/>    
     <hwcv_sc:affected_by rdf:resource="#HWCV_10000"/>
     <hwcv_sc:has_part rdf:resource="#HWCV_10005"/>
   </skos:Concept>
@@ -91,7 +91,7 @@
   <skos:Concept rdf:ID="HWCV_10005">
     <hwcv_sc:concept_id>HWCV_10005</hwcv_sc:concept_id>
     <rdfs:label>Body Part</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <skos:broader rdf:resource="#HWCV_00000"/>    
     <hwcv_sc:affected_by rdf:resource="#HWCV_10000"/>
     <hwcv_sc:part_of rdf:resource="#HWCV_10004"/>
   </skos:Concept>
@@ -99,27 +99,29 @@
   <skos:Concept rdf:ID="HWCV_10006">
     <hwcv_sc:concept_id>HWCV_10006</hwcv_sc:concept_id>
     <rdfs:label>Causal Factor</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <skos:broader rdf:resource="#HWCV_00000"/>    
     <hwcv_sc:causes rdf:resource="#HWCV_10000"/>
   </skos:Concept>
   
   <skos:Concept rdf:ID="HWCV_10007">
     <hwcv_sc:concept_id>HWCV_10007</hwcv_sc:concept_id>
     <rdfs:label>Wellness</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <skos:broader rdf:resource="#HWCV_00000"/>    
     <hwcv_sc:helps_prevent rdf:resource="#HWCV_10000"/>
   </skos:Concept>
   
   <skos:Concept rdf:ID="HWCV_10009">
     <hwcv_sc:concept_id>HWCV_10009</hwcv_sc:concept_id>
     <rdfs:label>Specialty</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_00000"/>		
+    <skos:broader rdf:resource="#HWCV_00000"/>    
     <hwcv_sc:concerned_with rdf:resource="#HWCV_10000"/>
   </skos:Concept>
   
   <skos:Concept rdf:ID="HWCV_10010">
     <hwcv_sc:concept_id>HWCV_10010</hwcv_sc:concept_id>
     <rdfs:label>Complication</rdfs:label>
-    <skos:broader rdf:resource="#HWCV_10000"/>		
+    <skos:broader rdf:resource="#HWCV_10000"/>    
     <hwcv_sc:complication_of rdf:resource="#HWCV_10000"/>
   </skos:Concept>
+
+  <!--  Instances -->

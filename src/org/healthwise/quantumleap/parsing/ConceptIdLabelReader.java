@@ -1,8 +1,10 @@
 package org.healthwise.quantumleap.parsing;
 
+import org.healthwise.quantumleap.parsing.beans.Facet;
 import org.healthwise.quantumleap.parsing.beans.TestsFacetMatches;
 import org.supercsv.cellprocessor.Optional;
 import org.supercsv.cellprocessor.constraint.NotNull;
+import org.supercsv.cellprocessor.constraint.Unique;
 import org.supercsv.cellprocessor.ift.CellProcessor;
 import org.supercsv.io.CsvBeanReader;
 import org.supercsv.io.ICsvBeanReader;
@@ -11,19 +13,22 @@ import org.supercsv.prefs.CsvPreference;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by akimball on 8/8/15.
  */
 public class ConceptIdLabelReader {
 
-    private final String CSV = "tfm.csv";
-    private List<TestsFacetMatches> lines = new ArrayList<TestsFacetMatches>();
+    private final String CSV = "conceptIdToLabel.csv";
+    private Map<String, String> labelToIdMap = new HashMap<String, String>();
+
     /**
      * An example of reading using CsvBeanReader.
      */
-    public  List<TestsFacetMatches> readWithCsvBeanReader() throws Exception {
+    public  Map<String, String> readWithCsvBeanReader() throws Exception {
 
         ICsvBeanReader beanReader = null;
         try {
@@ -36,11 +41,9 @@ public class ConceptIdLabelReader {
             final String[] header = beanReader.getHeader(true);
             final CellProcessor[] processors = getProcessors();
 
-            TestsFacetMatches tfm;
-            while( (tfm = beanReader.read(TestsFacetMatches.class, header, processors)) != null ) {
-                lines.add(tfm);
-                System.out.println(String.format("conceptId=%s, conceptName=%s", beanReader.getLineNumber(),
-                        beanReader.getRowNumber(), tfm));
+            Facet facet;
+            while( (facet = beanReader.read(Facet.class, header, processors)) != null ) {
+                labelToIdMap.put(facet.getFacetValueLabel(), facet.getFacetValueId());
             }
 
         }
@@ -49,7 +52,7 @@ public class ConceptIdLabelReader {
                 beanReader.close();
             }
         }
-        return lines;
+        return labelToIdMap;
     }
 
     /**
@@ -63,16 +66,9 @@ public class ConceptIdLabelReader {
 
 
         final CellProcessor[] processors = new CellProcessor[] {
-                new NotNull(), // comboId (must be unique)
-                new NotNull(), // facetId
                 new NotNull(), // facetName
-                new NotNull(), // conceptId
-                new NotNull(), // conceptName
-                new Optional(), // rdId
-                new Optional(), // dmaps
-                new Optional(), // rdLabel
-                new Optional(), // rdType
-
+                new Unique(), // facetValueId
+                new NotNull(), // facetValueLabel
         };
 
         return processors;

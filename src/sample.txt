@@ -1,0 +1,44 @@
+## Reviewed by Maria Essig for accuracy in January 2014.
+## Reviewed by Tracy Landauer for plain language in February 2014.
+
+# UF:Used For
+# NF:Not For
+# SA:Subject Area
+# BT:Broader Term
+# NT:Narrower Term
+# RT:Related Term
+# USE:Use
+# SN:Scope Note
+# TT:Top Term
+# DEF:Definition
+# EX:Example
+# ABV:Abbreviation
+# DEV:Device
+# PRO:Procedure
+# MED:Medication
+# SMP:Symptom
+# WEL:Wellness
+# CL:Clinical Label
+# CEL:Canadian English Label
+# FCT:Records membership in other facets (polyhierarchy)
+# AZ:Label for browsing A-Z lists
+
+Testicular Exam
+  AZ:Testicular Exam
+  CL:Testicular Exam
+  CEL:Testicular Examination
+  UF:Testicular Examination
+  UF:Testicular Self-Exam
+  UF:Testicular Self-Examination
+  NT:Fake Term Narrower
+  BT:Fake Term Broader
+  SN:A cool scope note
+  DEF:Here is the definition
+Fake Term Broader
+  TT:Lab Tests
+  AZ:Culture, Stool
+  CL:Culture, Stool
+Fake Term Narrower
+  TT:Lab Tests
+  AZ:Culture, Stool
+  CL:Culture, Stool

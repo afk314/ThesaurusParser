@@ -2463,7 +2463,7 @@ Creatine Kinase (CK) Test
   TT:Lab Tests
   UF:Creatine Kinase Test
   UF:Creatine Phosphokinase (CPK) Test
-Body Fluids Tests
+Body Fluid Tests
   TT:Lab Tests
   UF:Body Fluids Analysis
   UF:Body Fluid Analysis

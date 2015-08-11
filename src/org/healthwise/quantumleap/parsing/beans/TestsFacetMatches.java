@@ -15,6 +15,10 @@ public class TestsFacetMatches {
     private String dmaps;
     private String rdLabel;
     private String rdType;
+    private String cuiMap;
+    private String documentToCui;
+    private String scopeNotes;
+    private String lifecycleStage;
 
 
     public String getComboId() {
@@ -87,5 +91,37 @@ public class TestsFacetMatches {
 
     public void setRdType(String rdType) {
         this.rdType = rdType;
+    }
+
+    public String getCuiMap() {
+        return cuiMap;
+    }
+
+    public void setCuiMap(String cuiMap) {
+        this.cuiMap = cuiMap;
+    }
+
+    public String getDocumentToCui() {
+        return documentToCui;
+    }
+
+    public void setDocumentToCui(String documentToCui) {
+        this.documentToCui = documentToCui;
+    }
+
+    public String getScopeNotes() {
+        return scopeNotes;
+    }
+
+    public void setScopeNotes(String scopeNotes) {
+        this.scopeNotes = scopeNotes;
+    }
+
+    public String getLifecycleStage() {
+        return lifecycleStage;
+    }
+
+    public void setLifecycleStage(String lifecycleStage) {
+        this.lifecycleStage = lifecycleStage;
     }
 }
