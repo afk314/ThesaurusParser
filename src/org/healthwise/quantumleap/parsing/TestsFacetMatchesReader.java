@@ -77,9 +77,13 @@ public class TestsFacetMatchesReader {
                 new NotNull(), // conceptId
                 new NotNull(), // conceptName
                 new Optional(), // rdId
-                new Optional(), // dmaps
                 new Optional(), // rdLabel
                 new Optional(), // rdType
+                new Optional(), // cuiMap
+                new Optional(), // documentToCuiMap
+                new Optional(), // scopeNotes
+                new NotNull(), // lifecyceStage
+
 
         };
 

@@ -11,7 +11,7 @@ public class Runner {
     // Boilerplate RDF to append at the top
     private final String RDF_HEADER_FILENAME = "rdf_header.txt";
     // Outtput filename
-    private final String RDF_OUTPUT_FILENAME = "/Users/akimball/Dev/ontology-out/hwcv-generated-tests.rdf";
+    private final String RDF_OUTPUT_FILENAME = "/Users/akimball/dev/onto-out/hwcv-generated-tests.rdf";
 
     Map<Integer, Concept> idToConcepts;
     Map<String, Concept> conceptIdToConcepts;
