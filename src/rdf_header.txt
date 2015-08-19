@@ -20,8 +20,8 @@
 >
   <owl:Ontology rdf:about="">
     <owl:versionInfo>$Id: HW_Concept_Data.owl, Ver 1.0, July 04, 2015, Mohamed Keshk. $</owl:versionInfo>
-    <owl:imports rdf:resource="file:/C:/1HW/HW_Concept_Schema.owl"/>
-    <owl:imports rdf:resource="file:/C:/1HW/skos.owl"/>
+    <owl:imports rdf:resource="HW_Concept_Schema.owl"/>
+    <owl:imports rdf:resource="skos.owl"/>
   </owl:Ontology>
 
   <skos:Concept rdf:ID="HWCV_00000">
