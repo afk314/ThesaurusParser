@@ -47,8 +47,8 @@ public class TestsFacetMatchesReader {
             TestsFacetMatches tfm;
             while( (tfm = beanReader.read(TestsFacetMatches.class, header, processors)) != null ) {
                 lines.add(tfm);
-                System.out.println(String.format("conceptId=%s, conceptName=%s", beanReader.getLineNumber(),
-                        beanReader.getRowNumber(), tfm));
+                //System.out.println(String.format("conceptId=%s, conceptName=%s", beanReader.getLineNumber(),
+                //        beanReader.getRowNumber(), tfm));
             }
 
         }
@@ -77,9 +77,13 @@ public class TestsFacetMatchesReader {
                 new NotNull(), // conceptId
                 new NotNull(), // conceptName
                 new Optional(), // rdId
-                new Optional(), // dmaps
                 new Optional(), // rdLabel
                 new Optional(), // rdType
+                new Optional(), // cuiMap
+                new Optional(), // documentToCuiMap
+                new Optional(), // scopeNotes
+                new NotNull(), // lifecyceStage
+
 
         };
 

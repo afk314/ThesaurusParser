@@ -11,7 +11,7 @@ public class Runner {
     // Boilerplate RDF to append at the top
     private final String RDF_HEADER_FILENAME = "rdf_header.txt";
     // Outtput filename
-    private final String RDF_OUTPUT_FILENAME = "/Users/akimball/Dev/ontology-out/hwcv-generated-tests.rdf";
+    private final String RDF_OUTPUT_FILENAME = "/Users/akimball/dev/onto-out/HW_Concept.rdf";
 
     Map<Integer, Concept> idToConcepts;
     Map<String, Concept> conceptIdToConcepts;
@@ -106,10 +106,10 @@ public class Runner {
                     System.out.println("Error");
                 }
                 if (currentTFM.getRdLabel() != null) {
-                    c.addToScopeNotes("RD Label is " + currentTFM.getRdLabel());
+                    c.setRdLabel(currentTFM.getRdLabel());
                 }
                 if (currentTFM.getRdType() != null) {
-                    c.addToScopeNotes("RD Type is " + currentTFM.getRdType());
+                    c.setRdType(currentTFM.getRdType());
                 }
             }
         }

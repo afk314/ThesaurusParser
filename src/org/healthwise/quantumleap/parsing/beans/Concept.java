@@ -10,10 +10,14 @@ import java.util.List;
 public class Concept {
 
 
+
     private final String HWNS = "hwcv_sc";
     private final String CONCEPT_ID = "concept_id";
-    private final String RD_ID = "rd_id";
-    private final String FACET_VALUE_ID = "facet_value_id";
+    private final String RD_ID = "legacy_rd_id";
+    private final String RD_TYPE = "legacy_rd_type";
+    private final String RD_LABEL = "legacy_rd_label";
+    private final String FACET_VALUE_ID = "legacy_facet_id";
+    private final String SYNONYM = "legacy_synonym";
 
     private Integer id;
     private String label;
@@ -21,8 +25,10 @@ public class Concept {
     private List narrower  = new ArrayList();
     private List related  = new ArrayList();
     private List scopeNotes  = new ArrayList();
-    private List<String> altLabel = new ArrayList<String>();
+    private List<String> legacySynonym = new ArrayList<String>();
     private String rdId;
+    private String rdLabel;
+    private String rdType;
     private String facetId;
     private String definition;
 
@@ -110,12 +116,28 @@ public class Concept {
     }
 
 
-    public List<String> getAltLabel() {
-        return altLabel;
+    public List<String> getLegacySynonym() {
+        return legacySynonym;
+    }
+
+    public String getRdType() {
+        return rdType;
+    }
+
+    public void setRdType(String rdType) {
+        this.rdType = rdType;
+    }
+
+    public String getRdLabel() {
+        return rdLabel;
+    }
+
+    public void setRdLabel(String rdLabel) {
+        this.rdLabel = rdLabel;
     }
 
     public void addToAltLabel(String altLabel) {
-        this.altLabel.add(altLabel);
+        this.legacySynonym.add(altLabel);
     }
 
     public String render() {
@@ -138,11 +160,11 @@ public class Concept {
                 out.append("    <skos:narrower rdf:resource=\"#HWCV_"+narrowerId+"\"/>\n");
             }
         }
-        if (this.getAltLabel().size() > 0) {
-            iter = this.getAltLabel().iterator();
+        if (this.getLegacySynonym().size() > 0) {
+            iter = this.getLegacySynonym().iterator();
             while (iter.hasNext()) {
-                String altLabel = (String) iter.next();
-                out.append("    <skos:altLabel>"+altLabel+"</skos:altLabel>\n");
+                String someSynonym = (String) iter.next();
+                out.append("    <hwcv_sc:"+SYNONYM+">"+someSynonym+"</hwcv_sc:"+SYNONYM+">\n");
             }
         }
         if (this.getScopeNote().size() > 0) {
@@ -162,6 +184,10 @@ public class Concept {
 
         if (this.getFacetId() != null) {
             out.append("    <"+HWNS+":"+FACET_VALUE_ID+">"+getFacetId()+"</"+HWNS+":"+FACET_VALUE_ID+">\n");
+        }
+
+        if (this.getRdLabel() != null) {
+            out.append("    <"+HWNS+":"+RD_LABEL+">"+getRdLabel()+"</"+HWNS+":"+RD_LABEL+">\n");
         }
 
 
