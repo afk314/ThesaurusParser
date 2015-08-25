@@ -1,8 +1,6 @@
-package org.healthwise.quantumleap.parsing;
+package org.healthwise.quantumleap.parsing.readers;
 
-import org.healthwise.quantumleap.parsing.beans.Facet;
-import org.healthwise.quantumleap.parsing.beans.TestsFacetMatches;
-import org.supercsv.cellprocessor.Optional;
+import org.healthwise.quantumleap.parsing.beans.FacetBean;
 import org.supercsv.cellprocessor.constraint.NotNull;
 import org.supercsv.cellprocessor.constraint.Unique;
 import org.supercsv.cellprocessor.ift.CellProcessor;
@@ -12,9 +10,7 @@ import org.supercsv.prefs.CsvPreference;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -41,8 +37,8 @@ public class ConceptIdLabelReader {
             final String[] header = beanReader.getHeader(true);
             final CellProcessor[] processors = getProcessors();
 
-            Facet facet;
-            while( (facet = beanReader.read(Facet.class, header, processors)) != null ) {
+            FacetBean facet;
+            while( (facet = beanReader.read(FacetBean.class, header, processors)) != null ) {
                 labelToIdMap.put(facet.getFacetValueLabel(), facet.getFacetValueId());
             }
 

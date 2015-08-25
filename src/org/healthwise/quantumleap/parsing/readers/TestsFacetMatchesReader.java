@@ -1,23 +1,15 @@
-package org.healthwise.quantumleap.parsing;
+package org.healthwise.quantumleap.parsing.readers;
 
-import org.healthwise.quantumleap.parsing.beans.TestsFacetMatches;
+import org.healthwise.quantumleap.parsing.beans.FacetMatchesCsvBean;
 import org.supercsv.cellprocessor.Optional;
-import org.supercsv.cellprocessor.ParseBool;
-import org.supercsv.cellprocessor.ParseDate;
-import org.supercsv.cellprocessor.ParseInt;
-import org.supercsv.cellprocessor.constraint.LMinMax;
 import org.supercsv.cellprocessor.constraint.NotNull;
-import org.supercsv.cellprocessor.constraint.StrRegEx;
-import org.supercsv.cellprocessor.constraint.UniqueHashCode;
 import org.supercsv.cellprocessor.ift.CellProcessor;
 import org.supercsv.io.CsvBeanReader;
 import org.supercsv.io.ICsvBeanReader;
 import org.supercsv.prefs.CsvPreference;
 
-import java.io.FileReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,11 +19,11 @@ import java.util.List;
 public class TestsFacetMatchesReader {
 
     private final String CSV = "tfm.csv";
-    private List<TestsFacetMatches> lines = new ArrayList<TestsFacetMatches>();
+    private List<FacetMatchesCsvBean> lines = new ArrayList<FacetMatchesCsvBean>();
     /**
      * An example of reading using CsvBeanReader.
      */
-    public  List<TestsFacetMatches> readWithCsvBeanReader() throws Exception {
+    public  List<FacetMatchesCsvBean> readWithCsvBeanReader() throws Exception {
 
         ICsvBeanReader beanReader = null;
         try {
@@ -44,8 +36,8 @@ public class TestsFacetMatchesReader {
             final String[] header = beanReader.getHeader(true);
             final CellProcessor[] processors = getProcessors();
 
-            TestsFacetMatches tfm;
-            while( (tfm = beanReader.read(TestsFacetMatches.class, header, processors)) != null ) {
+            FacetMatchesCsvBean tfm;
+            while( (tfm = beanReader.read(FacetMatchesCsvBean.class, header, processors)) != null ) {
                 lines.add(tfm);
                 //System.out.println(String.format("conceptId=%s, conceptName=%s", beanReader.getLineNumber(),
                 //        beanReader.getRowNumber(), tfm));

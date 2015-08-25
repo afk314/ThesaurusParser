@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by akimball on 8/8/15.
  */
-public class Concept {
+public class ConceptBean {
 
 
 
@@ -40,7 +40,7 @@ public class Concept {
         this.definition = definition;
     }
 
-    public Concept(Integer id, String label) {
+    public ConceptBean(Integer id, String label) {
         this.id = id;
         this.label = label;
     }
