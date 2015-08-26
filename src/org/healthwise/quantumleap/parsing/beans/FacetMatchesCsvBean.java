@@ -3,7 +3,7 @@ package org.healthwise.quantumleap.parsing.beans;
 /**
  * Created by akimball on 8/8/15.
  */
-public class TestsFacetMatches {
+public class FacetMatchesCsvBean {
 
     // comboId,facetId,facetName,conceptId,conceptName,rdId,dmaps,rdLabel,rdType
     private String comboId;

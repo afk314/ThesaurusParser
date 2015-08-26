@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by akimball on 8/8/15.
  */
-public class Concept {
+public class ConceptBean {
 
 
 
@@ -15,6 +15,7 @@ public class Concept {
     private final String CONCEPT_ID = "concept_id";
     private final String RD_ID = "legacy_rd_id";
     private final String RD_TYPE = "legacy_rd_type";
+    private final String LIFECYCLE = "lifecycle_stage";
     private final String RD_LABEL = "legacy_rd_label";
     private final String FACET_VALUE_ID = "legacy_facet_id";
     private final String SYNONYM = "legacy_synonym";
@@ -31,6 +32,15 @@ public class Concept {
     private String rdType;
     private String facetId;
     private String definition;
+    private String lifecycleStage;
+
+    public String getLifecycleStage() {
+        return lifecycleStage;
+    }
+
+    public void setLifecycleStage(String lifecycleStage) {
+        this.lifecycleStage = lifecycleStage;
+    }
 
     public String getDefinition() {
         return definition;
@@ -40,7 +50,7 @@ public class Concept {
         this.definition = definition;
     }
 
-    public Concept(Integer id, String label) {
+    public ConceptBean(Integer id, String label) {
         this.id = id;
         this.label = label;
     }
@@ -189,6 +199,10 @@ public class Concept {
         if (this.getRdLabel() != null) {
             out.append("    <"+HWNS+":"+RD_LABEL+">"+getRdLabel()+"</"+HWNS+":"+RD_LABEL+">\n");
         }
+
+
+            out.append("    <"+HWNS+":"+LIFECYCLE+">"+getLifecycleStage()+"</"+HWNS+":"+LIFECYCLE+">\n");
+
 
 
         out.append("  </skos:Concept>\n\n");
