@@ -1,7 +1,9 @@
 package org.healthwise.quantumleap.parsing;
 
 import org.apache.commons.lang3.StringEscapeUtils;
-import org.healthwise.quantumleap.parsing.beans.Concept;
+import org.healthwise.quantumleap.parsing.beans.BlacklistLabelBean;
+import org.healthwise.quantumleap.parsing.beans.ConceptBean;
+import org.healthwise.quantumleap.parsing.readers.ConditionsBlacklistReader;
 
 import java.io.*;
 import java.util.*;
@@ -10,7 +12,7 @@ public class ThesaurusParser {
 
     private Map facetFileToTypeMap;
 
-    private Map<Integer, Concept> idConceptMap = new HashMap<Integer, Concept>();
+    private Map<Integer, ConceptBean> idConceptMap = new HashMap<Integer, ConceptBean>();
 
     // Thesaurus files - you'll need to add these to the fileSetup method
     private final String TEST_THESAURUS_FILE = "tests.txt";
@@ -34,6 +36,8 @@ public class ThesaurusParser {
 
     // Map where key=FV label and value=HWCV id
     private Map labelToIdMap;
+
+
 
     // Will hold the overall FACET for any idividual, its parent.  IE parent for angiogram is the concept id for TEST
     private String parent = "10003";
@@ -79,13 +83,13 @@ public class ThesaurusParser {
         facetFileToTypeMap = new HashMap();
         //facetFileToTypeMap.put(SAMPLE_FILE, "31415");
         facetFileToTypeMap.put(TEST_THESAURUS_FILE, "10003");
-        //facetFileToTypeMap.put(PROCEDURE_THESAURUS_FILE, "10301");
-        //facetFileToTypeMap.put(CONDITIONS_THESAURUS_FILE, "10000");
-        //facetFileToTypeMap.put(WELLNESS_THESAURUS_FILE, "10007");
+        facetFileToTypeMap.put(PROCEDURE_THESAURUS_FILE, "10301");
+        facetFileToTypeMap.put(CONDITIONS_THESAURUS_FILE, "10000");
+        facetFileToTypeMap.put(WELLNESS_THESAURUS_FILE, "10007");
     }
 
     // Iterate over the thesaurus files and build the corresponding RDF
-    public Map<Integer, Concept> buildRDF() throws IOException {
+    public Map<Integer, ConceptBean> buildRDF() throws IOException {
         //System.out.println("here we buildRDF!!!!");
         setup();
 
@@ -119,6 +123,7 @@ public class ThesaurusParser {
         resetCount();
         //readHeaderIntoOutput(output);
         thesaurusFileSetup();
+
     }
 
 
@@ -136,11 +141,13 @@ public class ThesaurusParser {
             if (inputLine.isEmpty()) continue;
             if (!inputLine.startsWith(" ")) {
                 // We have a new concept
-                Concept currentConcept = new Concept(getIdCounter(), inputLine);
-                idConceptMap.put(getIdCounter(), currentConcept);
-                getLabelToIdMap().put(inputLine, getIdCounter());
+                if (!Runner.blacklistedLabels.contains(inputLine)) {
+                    ConceptBean currentConceptBean = new ConceptBean(getIdCounter(), inputLine);
+                    idConceptMap.put(getIdCounter(), currentConceptBean);
+                    getLabelToIdMap().put(inputLine, getIdCounter());
 
-                setIdCounter(getIdCounter() + 1);
+                    setIdCounter(getIdCounter() + 1);
+                }
             }
         }
     }
@@ -157,9 +164,10 @@ public class ThesaurusParser {
         // build the ID Map first
         buildIds(sb);
 
-        Concept currentConcept = null;
+        ConceptBean currentConceptBean = null;
 
         Iterator iter = sb.iterator();
+        boolean skip = false;
         while (iter.hasNext()) {
             String inputLine = (String)iter.next();
             inputLine = inputLine.replaceAll("\\n", "");
@@ -170,12 +178,22 @@ public class ThesaurusParser {
 
             // The file is space sensitive - we are looking for top level concepts that start at index 0
             if (!inputLine.startsWith(" ")) {
+                if (Runner.blacklistedLabels.contains(inputLine)) {
+
+                    //System.out.println("Skipping this concept: " + inputLine);
+                    skip=true;
+                } else {
+                    //System.out.println("Using this concept: " + inputLine);
+                    skip = false;
+                    currentConceptBean = buildBaseTriples(inputLine, parentId);
+
+                }
 
 
-                currentConcept = buildBaseTriples(inputLine, parentId);
             } else {
                 // We are indented, so we are working with properties of a concept that we've already created
-                if (inputLine.trim().isEmpty()) {
+                if (inputLine.trim().isEmpty() || skip) {
+                    //System.out.println("Skipping this concept: " + inputLine);
                     continue;
                 }
 
@@ -190,20 +208,20 @@ public class ThesaurusParser {
 
                 String value = line[1].trim();
                 if (relationType.equals("BT")) {
-                    makeSkosBroaderTerm(value, currentConcept);
+                    makeSkosBroaderTerm(value, currentConceptBean);
 
                 } else if (relationType.equals("NT")) {
-                    makeSkosNarrowerTerm(value, currentConcept);
+                    makeSkosNarrowerTerm(value, currentConceptBean);
 
                 } else if (relationType.equals("RT")) {
-                    makeSkosRelatedTerm(value, currentConcept);
+                    makeSkosRelatedTerm(value, currentConceptBean);
 
                 } else if (relationType.equals("SN")) {
-                    buildScopeNote(value, currentConcept);
+                    buildScopeNote(value, currentConceptBean);
                 } else if (relationType.equals("UF")) {
-                    buildUsedFor(value, currentConcept);
+                    buildUsedFor(value, currentConceptBean);
                 } else if (relationType.equals("DEF")) {
-                    buildDefinition(value, currentConcept);
+                    buildDefinition(value, currentConceptBean);
                 } else if (relationType.equals("ABV")) {
                         // ABV is not used not used
                 } else if (relationType.equals("CL")) {
@@ -220,10 +238,10 @@ public class ThesaurusParser {
 
 
 
-    private Concept buildBaseTriples(String label, String parentId) {
+    private ConceptBean buildBaseTriples(String label, String parentId) {
         StringBuffer b = new StringBuffer();
         Integer id = getIdForLabel(label);
-        Concept c = idConceptMap.get(id);
+        ConceptBean c = idConceptMap.get(id);
         if (c == null) {
             throw new RuntimeException("Failed to find: "+label);
         }
@@ -240,19 +258,19 @@ public class ThesaurusParser {
 
 
 
-    private void makeSkosBroaderTerm(String term, Concept c) {
+    private void makeSkosBroaderTerm(String term, ConceptBean c) {
         Integer id = getIdForLabel(term);
         c.addToBroader(id+"");
     }
 
 
 
-    private void makeSkosNarrowerTerm(String term, Concept c) {
+    private void makeSkosNarrowerTerm(String term, ConceptBean c) {
         Integer id = getIdForLabel(term);
         c.addToNarrower(id+"");
     }
 
-    private void makeSkosRelatedTerm(String term, Concept c) {
+    private void makeSkosRelatedTerm(String term, ConceptBean c) {
         Integer id = getIdForLabel(term);
         c.addToRelated(id+"");
 
@@ -262,7 +280,7 @@ public class ThesaurusParser {
         return StringEscapeUtils.escapeXml11(someString);
     }
 
-    private void buildScopeNote(String note, Concept c) {
+    private void buildScopeNote(String note, ConceptBean c) {
         String out = xmlEncode(note);
         try {
             c.addToScopeNotes(out);
@@ -271,18 +289,18 @@ public class ThesaurusParser {
         }
     }
 
-    private void buildDefinition(String def, Concept currentConcept) {
+    private void buildDefinition(String def, ConceptBean currentConceptBean) {
         String encoded = xmlEncode(def);
-        currentConcept.setDefinition(encoded);
+        currentConceptBean.setDefinition(encoded);
     }
 
-    private void buildUsedFor(String ufTerm, Concept currentConcept) {
+    private void buildUsedFor(String ufTerm, ConceptBean currentConceptBean) {
         String encoded = xmlEncode(ufTerm);
-        currentConcept.addToAltLabel(encoded);
+        currentConceptBean.addToAltLabel(encoded);
     }
 
 
-    private void makeSkosBroader(String id, Concept c) {
+    private void makeSkosBroader(String id, ConceptBean c) {
         c.addToBroader(id);
     }
 

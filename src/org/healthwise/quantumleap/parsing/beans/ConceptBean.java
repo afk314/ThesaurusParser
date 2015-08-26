@@ -15,6 +15,7 @@ public class ConceptBean {
     private final String CONCEPT_ID = "concept_id";
     private final String RD_ID = "legacy_rd_id";
     private final String RD_TYPE = "legacy_rd_type";
+    private final String LIFECYCLE = "lifecycle_stage";
     private final String RD_LABEL = "legacy_rd_label";
     private final String FACET_VALUE_ID = "legacy_facet_id";
     private final String SYNONYM = "legacy_synonym";
@@ -31,6 +32,15 @@ public class ConceptBean {
     private String rdType;
     private String facetId;
     private String definition;
+    private String lifecycleStage;
+
+    public String getLifecycleStage() {
+        return lifecycleStage;
+    }
+
+    public void setLifecycleStage(String lifecycleStage) {
+        this.lifecycleStage = lifecycleStage;
+    }
 
     public String getDefinition() {
         return definition;
@@ -189,6 +199,10 @@ public class ConceptBean {
         if (this.getRdLabel() != null) {
             out.append("    <"+HWNS+":"+RD_LABEL+">"+getRdLabel()+"</"+HWNS+":"+RD_LABEL+">\n");
         }
+
+
+            out.append("    <"+HWNS+":"+LIFECYCLE+">"+getLifecycleStage()+"</"+HWNS+":"+LIFECYCLE+">\n");
+
 
 
         out.append("  </skos:Concept>\n\n");

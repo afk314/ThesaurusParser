@@ -16,9 +16,9 @@ import java.util.List;
 /**
  * Created by akimball on 8/8/15.
  */
-public class ProceduresFacetMatchesReader {
+public class WellnessFacetMatchesReader {
 
-    private final String CSV = "pfm.csv";
+    private final String CSV = "wfm.csv";
     private List<FacetMatchesCsvBean> lines = new ArrayList<FacetMatchesCsvBean>();
     /**
      * An example of reading using CsvBeanReader.
@@ -63,8 +63,8 @@ public class ProceduresFacetMatchesReader {
 
 
         final CellProcessor[] processors = new CellProcessor[] {
-                new NotNull(), // comboId (must be unique)
-                new NotNull(), // facetId
+                new Optional(), // comboId (must be unique)
+                new Optional(), // facetId
                 new NotNull(), // facetName
                 new NotNull(), // conceptId
                 new NotNull(), // conceptName

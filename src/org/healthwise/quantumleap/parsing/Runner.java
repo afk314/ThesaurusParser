@@ -1,7 +1,8 @@
 package org.healthwise.quantumleap.parsing;
 
-import org.healthwise.quantumleap.parsing.beans.Concept;
-import org.healthwise.quantumleap.parsing.beans.TestsFacetMatches;
+import org.healthwise.quantumleap.parsing.beans.ConceptBean;
+import org.healthwise.quantumleap.parsing.beans.FacetMatchesCsvBean;
+import org.healthwise.quantumleap.parsing.readers.*;
 
 import java.io.*;
 import java.util.*;
@@ -13,12 +14,16 @@ public class Runner {
     // Outtput filename
     private final String RDF_OUTPUT_FILENAME = "/Users/akimball/dev/onto-out/HW_Concept.rdf";
 
-    Map<Integer, Concept> idToConcepts;
-    Map<String, Concept> conceptIdToConcepts;
-    List<TestsFacetMatches> tfmList;
+    Map<Integer, ConceptBean> idToConcepts;
+    Map<String, ConceptBean> conceptIdToConcepts;
+    public static List<String> blacklistedLabels = new ArrayList();
+
+    //List<FacetMatchesCsvBean> fmList;
 
     public static void main(String[] args) throws Exception {
         Runner runner = new Runner();
+        ConditionsBlacklistReader cbr = new ConditionsBlacklistReader();
+        blacklistedLabels = cbr.readWithCsvBeanReader();
         runner.start();
     }
 
@@ -32,11 +37,15 @@ public class Runner {
 
     private void start() throws Exception {
         idToConcepts = getConcepts();
-        tfmList = getTestsFacetMatches();
+
+
+        List<FacetMatchesCsvBean> all = buildFacetMapingList();
+
+
         this.addFacetIdsToConcepts();
         this.conceptIdToConcepts = buildConceptIdToConceptMap();
 
-        this.merge();
+        this.merge(all);
 
         StringBuffer output = new StringBuffer();
         readHeaderIntoOutput(output);
@@ -46,11 +55,19 @@ public class Runner {
 
     }
 
+    private List<FacetMatchesCsvBean> buildFacetMapingList() throws Exception {
+        List<FacetMatchesCsvBean> all = new ArrayList<FacetMatchesCsvBean>();
+        all.addAll(getTestsFacetMatches());
+        all.addAll(getProceduresFacetMatches());
+        all.addAll(getWellnessFacetMatches());
+        return all;
+    }
+
     private void render(StringBuffer output) {
         Iterator<Integer> iter = idToConcepts.keySet().iterator();
         while (iter.hasNext()) {
             Integer id = iter.next();
-            Concept c = idToConcepts.get(id);
+            ConceptBean c = idToConcepts.get(id);
             output.append(c.render());
         }
     }
@@ -61,38 +78,42 @@ public class Runner {
         Map<String, String> facetLabelToIdMap = getFacetLabelToIdMap();
         while (iter.hasNext()) {
             Integer id = iter.next();
-            Concept c = idToConcepts.get(id);
+            ConceptBean c = idToConcepts.get(id);
             String label = c.getLabel();
-            String fidpId = facetLabelToIdMap.get(label);
-            if (fidpId == null || fidpId.isEmpty()) {
-                System.out.println("Can't find an id for label: "+label);
-                fidpId="MISSING";
+            if (Runner.blacklistedLabels.contains(label)) {
+                System.out.println("Skipping: "+label);
+            } else {
+                String fidpId = facetLabelToIdMap.get(label);
+                if (fidpId == null || fidpId.isEmpty()) {
+                    System.out.println("Can't find an id for label: " + label);
+                    fidpId = "MISSING";
+                }
+                c.setFacetId(fidpId);
             }
-            c.setFacetId(fidpId);
         }
     }
 
-    private Map<String, Concept> buildConceptIdToConceptMap() {
-        Map<String, Concept> cIdMap = new HashMap();
+    private Map<String, ConceptBean> buildConceptIdToConceptMap() {
+        Map<String, ConceptBean> cIdMap = new HashMap();
         Set keys = idToConcepts.keySet();
         Iterator iter = keys.iterator();
         while (iter.hasNext()) {
             Integer id = (Integer) iter.next();
-            Concept c = idToConcepts.get(id);
+            ConceptBean c = idToConcepts.get(id);
             cIdMap.put(c.getFacetId(), c);
 
         }
         return cIdMap;
     }
 
-    private void merge() throws Exception {
+    private void merge(List<FacetMatchesCsvBean> all) throws Exception {
         // Iterate over every TFM object.  Find the corresponding concept, and sync changes.
-        Iterator<TestsFacetMatches> iter = getTestsFacetMatches().iterator();
+        Iterator<FacetMatchesCsvBean> iter = all.iterator();
         while (iter.hasNext()) {
-            TestsFacetMatches currentTFM = iter.next();
+            FacetMatchesCsvBean currentTFM = iter.next();
             String rdid = currentTFM.getRdId();
             String conceptId = currentTFM.getConceptId();
-            Concept c = conceptIdToConcepts.get(conceptId);
+            ConceptBean c = conceptIdToConcepts.get(conceptId);
             if (c == null) {
                 System.out.println("Can't find a concept for id: "+conceptId);
             } else {
@@ -111,24 +132,36 @@ public class Runner {
                 if (currentTFM.getRdType() != null) {
                     c.setRdType(currentTFM.getRdType());
                 }
+                if (currentTFM.getLifecycleStage() == null) {
+                    System.out.println("Whats up? "+currentTFM.getConceptId());
+                }
+                c.setLifecycleStage(currentTFM.getLifecycleStage());
             }
         }
     }
 
-    public Map<Integer, Concept>  getConcepts() throws Exception {
+    public Map<Integer, ConceptBean>  getConcepts() throws Exception {
         ThesaurusParser parser = new ThesaurusParser();
         return parser.buildRDF();
 
     }
 
-    public List<TestsFacetMatches> getTestsFacetMatches() throws Exception {
+    public List<FacetMatchesCsvBean> getTestsFacetMatches() throws Exception {
         TestsFacetMatchesReader testFacetMap = new TestsFacetMatchesReader();
         return testFacetMap.readWithCsvBeanReader();
     }
 
+    public List<FacetMatchesCsvBean> getProceduresFacetMatches() throws Exception {
+        ProceduresFacetMatchesReader proceduresFacetMap = new ProceduresFacetMatchesReader();
+        return proceduresFacetMap.readWithCsvBeanReader();
+    }
     public Map<String, String> getFacetLabelToIdMap() throws Exception {
         ConceptIdLabelReader conceptReader = new ConceptIdLabelReader();
         return conceptReader.readWithCsvBeanReader();
+    }
+    public List<FacetMatchesCsvBean> getWellnessFacetMatches() throws Exception {
+        WellnessFacetMatchesReader wellnessFacetMap = new WellnessFacetMatchesReader();
+        return wellnessFacetMap.readWithCsvBeanReader();
     }
 
     private List<String> readFile(String name) {

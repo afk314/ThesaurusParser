@@ -1,8 +1,9 @@
 package org.healthwise.quantumleap.parsing.readers;
 
-import org.healthwise.quantumleap.parsing.beans.FacetMatchesCsvBean;
-import org.supercsv.cellprocessor.Optional;
+import org.healthwise.quantumleap.parsing.beans.BlacklistLabelBean;
+import org.healthwise.quantumleap.parsing.beans.FacetBean;
 import org.supercsv.cellprocessor.constraint.NotNull;
+import org.supercsv.cellprocessor.constraint.Unique;
 import org.supercsv.cellprocessor.ift.CellProcessor;
 import org.supercsv.io.CsvBeanReader;
 import org.supercsv.io.ICsvBeanReader;
@@ -11,19 +12,22 @@ import org.supercsv.prefs.CsvPreference;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by akimball on 8/8/15.
  */
-public class ProceduresFacetMatchesReader {
+public class ConditionsBlacklistReader {
 
-    private final String CSV = "pfm.csv";
-    private List<FacetMatchesCsvBean> lines = new ArrayList<FacetMatchesCsvBean>();
+    private final String CSV = "conditionsThesaurusBlacklist.csv";
+    private List<String> blacklistedLabels = new ArrayList<String>();
+
     /**
      * An example of reading using CsvBeanReader.
      */
-    public  List<FacetMatchesCsvBean> readWithCsvBeanReader() throws Exception {
+    public List<String> readWithCsvBeanReader() throws Exception {
 
         ICsvBeanReader beanReader = null;
         try {
@@ -36,11 +40,9 @@ public class ProceduresFacetMatchesReader {
             final String[] header = beanReader.getHeader(true);
             final CellProcessor[] processors = getProcessors();
 
-            FacetMatchesCsvBean tfm;
-            while( (tfm = beanReader.read(FacetMatchesCsvBean.class, header, processors)) != null ) {
-                lines.add(tfm);
-//                System.out.println(String.format("conceptId=%s, conceptName=%s", beanReader.getLineNumber(),
-//                        beanReader.getRowNumber(), tfm));
+            BlacklistLabelBean blackBean;
+            while( (blackBean = beanReader.read(BlacklistLabelBean.class, header, processors)) != null ) {
+                blacklistedLabels.add(blackBean.getBlacklistedLabel());
             }
 
         }
@@ -49,7 +51,7 @@ public class ProceduresFacetMatchesReader {
                 beanReader.close();
             }
         }
-        return lines;
+        return blacklistedLabels;
     }
 
     /**
@@ -63,20 +65,7 @@ public class ProceduresFacetMatchesReader {
 
 
         final CellProcessor[] processors = new CellProcessor[] {
-                new NotNull(), // comboId (must be unique)
-                new NotNull(), // facetId
-                new NotNull(), // facetName
-                new NotNull(), // conceptId
-                new NotNull(), // conceptName
-                new Optional(), // rdId
-                new Optional(), // rdLabel
-                new Optional(), // rdType
-                new Optional(), // cuiMap
-                new Optional(), // documentToCuiMap
-                new Optional(), // scopeNotes
-                new NotNull(), // lifecyceStage
-
-
+                new NotNull(), // blacklistedLabel
         };
 
         return processors;
