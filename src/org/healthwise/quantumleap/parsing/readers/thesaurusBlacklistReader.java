@@ -1,9 +1,7 @@
 package org.healthwise.quantumleap.parsing.readers;
 
 import org.healthwise.quantumleap.parsing.beans.BlacklistLabelBean;
-import org.healthwise.quantumleap.parsing.beans.FacetBean;
 import org.supercsv.cellprocessor.constraint.NotNull;
-import org.supercsv.cellprocessor.constraint.Unique;
 import org.supercsv.cellprocessor.ift.CellProcessor;
 import org.supercsv.io.CsvBeanReader;
 import org.supercsv.io.ICsvBeanReader;
@@ -12,16 +10,14 @@ import org.supercsv.prefs.CsvPreference;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by akimball on 8/8/15.
  */
-public class ConditionsBlacklistReader {
+public class thesaurusBlacklistReader {
 
-    private final String CSV = "conditionsThesaurusBlacklist.csv";
+    private final String CSV = "thesaurusBlacklist.csv";
     private List<String> blacklistedLabels = new ArrayList<String>();
 
     /**
