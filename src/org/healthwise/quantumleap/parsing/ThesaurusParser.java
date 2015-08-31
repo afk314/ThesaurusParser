@@ -246,9 +246,14 @@ public class ThesaurusParser {
             throw new RuntimeException("Failed to find: "+label);
         }
         makeSkosBroader(parentId, c);
+        addTopConcept(parentId, c);
         return c;
     }
 
+    private void addTopConcept(String term, ConceptBean c) {
+        Integer id = getIdForLabel(term);
+        c.addTopConcept("id+");
+    }
 
 
     private Integer getIdForLabel(String label) {

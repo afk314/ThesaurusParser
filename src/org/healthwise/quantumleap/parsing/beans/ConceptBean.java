@@ -26,6 +26,7 @@ public class ConceptBean {
     private List narrower  = new ArrayList();
     private List related  = new ArrayList();
     private List scopeNotes  = new ArrayList();
+    private List topConcepts  = new ArrayList();
     private List<String> legacySynonym = new ArrayList<String>();
     private String rdId;
     private String rdLabel;
@@ -33,6 +34,15 @@ public class ConceptBean {
     private String facetId;
     private String definition;
     private String lifecycleStage;
+
+
+    public List getTopConcepts() {
+        return topConcepts;
+    }
+
+    public void setTopConcepts(List topConcepts) {
+        this.topConcepts = topConcepts;
+    }
 
     public String getLifecycleStage() {
         return lifecycleStage;
@@ -73,6 +83,10 @@ public class ConceptBean {
 
     public void addToBroader(String idOfBroader) {
         broader.add(idOfBroader);
+    }
+
+    public void addTopConcept(String idOfTopConcept) {
+        topConcepts.add(idOfTopConcept);
     }
 
     public List getBroader() {
@@ -156,6 +170,14 @@ public class ConceptBean {
         out.append("  <skos:Concept rdf:ID=\"HWCV_"+getId()+"\">\n");
         out.append("    <"+HWNS+":"+CONCEPT_ID+">HWCV_"+getId()+"</"+HWNS+":"+CONCEPT_ID+">\n");
         out.append("    <rdfs:label>"+getLabel()+"</rdfs:label>\n");
+
+        if (getTopConcepts().size() > 0) {
+            iter = this.getBroader().iterator();
+            while (iter.hasNext()) {
+                String topConceptId = (String) iter.next();
+                out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + topConceptId + "\"/>\n");
+            }
+        }
         if (this.getBroader().size() > 0) {
             iter = this.getBroader().iterator();
             while (iter.hasNext()) {
