@@ -1,9 +1,7 @@
 package org.healthwise.quantumleap.parsing;
 
 import org.apache.commons.lang3.StringEscapeUtils;
-import org.healthwise.quantumleap.parsing.beans.BlacklistLabelBean;
 import org.healthwise.quantumleap.parsing.beans.ConceptBean;
-import org.healthwise.quantumleap.parsing.readers.ConditionsBlacklistReader;
 
 import java.io.*;
 import java.util.*;
@@ -81,7 +79,6 @@ public class ThesaurusParser {
     // Setup which files to run
     private void thesaurusFileSetup() {
         facetFileToTypeMap = new HashMap();
-        //facetFileToTypeMap.put(SAMPLE_FILE, "31415");
         facetFileToTypeMap.put(TEST_THESAURUS_FILE, "10003");
         facetFileToTypeMap.put(PROCEDURE_THESAURUS_FILE, "10301");
         facetFileToTypeMap.put(CONDITIONS_THESAURUS_FILE, "10000");
@@ -213,7 +210,8 @@ public class ThesaurusParser {
                 } else if (relationType.equals("NT")) {
                     makeSkosNarrowerTerm(value, currentConceptBean);
 
-                } else if (relationType.equals("RT")) {
+                } else if (relationType.equals("RT") || relationType.equals("PRO")
+                        || relationType.equals("MED") || relationType.equals("WEL") || relationType.equals("DEV")) {
                     makeSkosRelatedTerm(value, currentConceptBean);
 
                 } else if (relationType.equals("SN")) {
@@ -223,9 +221,9 @@ public class ThesaurusParser {
                 } else if (relationType.equals("DEF")) {
                     buildDefinition(value, currentConceptBean);
                 } else if (relationType.equals("ABV")) {
-                        // ABV is not used not used
+                      buildAbbreviation(value, currentConceptBean);
                 } else if (relationType.equals("CL")) {
-                        // CL is not used not used
+                        buildClinicalLabel(value, currentConceptBean);
                 }
                 thisRun++;
 
@@ -265,19 +263,23 @@ public class ThesaurusParser {
 
     private void makeSkosBroaderTerm(String term, ConceptBean c) {
         Integer id = getIdForLabel(term);
-        c.addToBroader(id+"");
+        c.addToBroader(id + "");
     }
 
 
 
     private void makeSkosNarrowerTerm(String term, ConceptBean c) {
         Integer id = getIdForLabel(term);
-        c.addToNarrower(id+"");
+        c.addToNarrower(id + "");
     }
+
+
 
     private void makeSkosRelatedTerm(String term, ConceptBean c) {
         Integer id = getIdForLabel(term);
-        c.addToRelated(id+"");
+        if (id != null) {
+            c.addToRelated(id + "");
+        }
 
     }
 
@@ -299,7 +301,20 @@ public class ThesaurusParser {
         currentConceptBean.setDefinition(encoded);
     }
 
+    private void buildClinicalLabel(String cl, ConceptBean currentConceptBean) {
+        if (!currentConceptBean.getLabel().equals(cl)) {
+            String encoded = xmlEncode(cl);
+            currentConceptBean.addClinicalLabel(encoded);
+        }
+    }
+
+    private void buildAbbreviation(String def, ConceptBean currentConceptBean) {
+        String encoded = xmlEncode(def);
+        currentConceptBean.addAbbreviations(encoded);
+    }
+
     private void buildUsedFor(String ufTerm, ConceptBean currentConceptBean) {
+
         String encoded = xmlEncode(ufTerm);
         currentConceptBean.addToAltLabel(encoded);
     }

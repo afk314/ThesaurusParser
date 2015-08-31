@@ -732,7 +732,7 @@ Cystocele (Bladder Prolapse) Surgery
   UF:Bladder Prolapse Surgery
   UF:Repair of Cystocele
   UF:Repair of Bladder Prolapse
-Dilation and Curettage (D&C)
+Dilation and Curettage (DC)
   TT:Procedure
   AZ:Dilation and Curettage 
   CL:Dilation and Curettage 
@@ -3210,7 +3210,7 @@ Biopsy (General)
   TT:Procedure
   AZ:Biopsy (General)
   CL:Biopsy (Unspecified)
-Parenteral Nutrition
+Total Parenteral Nutrition (TPN)
   TT:Procedure
   AZ:Nutrition, Parenteral
   CL:

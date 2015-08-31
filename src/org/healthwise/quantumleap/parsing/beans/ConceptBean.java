@@ -19,15 +19,21 @@ public class ConceptBean {
     private final String RD_LABEL = "legacy_rd_label";
     private final String FACET_VALUE_ID = "legacy_facet_id";
     private final String SYNONYM = "legacy_synonym";
+    private final String ABBREVIATION = "legacy_abbreviation";
+    private final String CLINICAL_LABEL = "legacy_clinical_label";
+
 
     private Integer id;
     private String label;
-    private List broader = new ArrayList();
-    private List narrower  = new ArrayList();
-    private List related  = new ArrayList();
-    private List scopeNotes  = new ArrayList();
-    private List topConcepts  = new ArrayList();
+    private List<String> broader = new ArrayList();
+    private List<String> narrower  = new ArrayList();
+    private List<String> related  = new ArrayList();
+    private List<String> scopeNotes  = new ArrayList();
+    private List<String> topConcepts  = new ArrayList();
+    private List<String> abbreviations = new ArrayList();
+    private List<String> clinicalLabels = new ArrayList();
     private List<String> legacySynonym = new ArrayList<String>();
+    //private List<String> relatedLinks = new ArrayList<String>();
     private String rdId;
     private String rdLabel;
     private String rdType;
@@ -35,6 +41,30 @@ public class ConceptBean {
     private String definition;
     private String lifecycleStage;
 
+
+//    public List<String> getRelatedLinks() {
+//        return relatedLinks;
+//    }
+//
+//    public void addRelatedLink(String relatedLink) {
+//        this.relatedLinks.add(relatedLink);
+//    }
+
+    public List getClinicalLabels() {
+        return clinicalLabels;
+    }
+
+    public void addClinicalLabel(String clinicalLabel) {
+        clinicalLabels.add(clinicalLabel);
+    }
+
+    public List getAbbreviations() {
+        return abbreviations;
+    }
+
+    public void addAbbreviations(String abbreviation) {
+        this.abbreviations.add(abbreviation);
+    }
 
     public List getTopConcepts() {
         return topConcepts;
@@ -178,6 +208,16 @@ public class ConceptBean {
                 out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + topConceptId + "\"/>\n");
             }
         }
+
+        if (getRelated().size() > 0) {
+            iter = this.getRelated().iterator();
+            while (iter.hasNext()) {
+                String someLink = (String) iter.next();
+                out.append("    <skos:related rdf:resource=\"#HWCV_" + someLink + "\"/>\n");
+            }
+        }
+
+
         if (this.getBroader().size() > 0) {
             iter = this.getBroader().iterator();
             while (iter.hasNext()) {
@@ -199,6 +239,25 @@ public class ConceptBean {
                 out.append("    <hwcv_sc:"+SYNONYM+">"+someSynonym+"</hwcv_sc:"+SYNONYM+">\n");
             }
         }
+
+
+        if (this.getAbbreviations().size() > 0) {
+            iter = this.getAbbreviations().iterator();
+            while (iter.hasNext()) {
+                String abv = (String) iter.next();
+                out.append("    <hwcv_sc:"+ABBREVIATION+">"+abv+"</hwcv_sc:"+ABBREVIATION+">\n");
+            }
+        }
+
+        if (this.getClinicalLabels().size() > 0) {
+            iter = this.getClinicalLabels().iterator();
+            while (iter.hasNext()) {
+                String clLabel = (String) iter.next();
+                out.append("    <hwcv_sc:"+CLINICAL_LABEL+">"+clLabel+"</hwcv_sc:"+CLINICAL_LABEL+">\n");
+            }
+        }
+
+
         if (this.getScopeNote().size() > 0) {
             iter = this.getScopeNote().iterator();
             while (iter.hasNext()) {

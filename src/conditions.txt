@@ -3401,7 +3401,7 @@ Ligament Sprains
   SA:Orth
   NT:Medial Collateral Ligament (MCL) Injury
   NT:ACL Injury
-Water on the Brain (Hydrocephalus)
+Hydrocephalus
   SA:Card
   CL:Hydrocephalus
   UF:Water on the Brain
@@ -3730,7 +3730,7 @@ Juvenile-Onset Diabetes
   UF:Juvenile DM
   UF:Juvenile Diabetes Mellitus
   NF:Diabetes in Children
-Diabetes, Type 1
+Diabetes Type 1
   SA:Diab
   ABV:IDDM
   CL:Diabetes, Type 1
@@ -3748,7 +3748,7 @@ Diabetes, Type 1
   UF:DM in Children
   UF:Diabetes Mellitus in Children
   NF:Metformin
-Diabetes, Type 2
+Diabetes Type 2
   SA:Diab
   ABV:NIDDM
   CL:Diabetes Mellitus, Type 2 (NIDDM)

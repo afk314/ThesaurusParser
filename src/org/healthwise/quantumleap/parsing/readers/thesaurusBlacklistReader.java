@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * Created by akimball on 8/8/15.
  */
-public class thesaurusBlacklistReader {
+public class ThesaurusBlacklistReader {
 
     private final String CSV = "thesaurusBlacklist.csv";
     private List<String> blacklistedLabels = new ArrayList<String>();

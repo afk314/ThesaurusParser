@@ -1834,7 +1834,7 @@ Lung Cancer Screening
   AZ:Cancer Screening, Lung
   CL:Cancer Screening, Lung
   UF:Screening for Lung Cancer
-Colon Cancer Gene Test
+Colon Cancer Genetic Testing
   TT:Lab Tests
   AZ:Gene Test, Colon Cancer
   CL:Gene Test, Colon Cancer

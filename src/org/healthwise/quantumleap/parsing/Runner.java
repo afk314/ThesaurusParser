@@ -22,7 +22,7 @@ public class Runner {
 
     public static void main(String[] args) throws Exception {
         Runner runner = new Runner();
-        ConditionsBlacklistReader cbr = new ConditionsBlacklistReader();
+        ThesaurusBlacklistReader cbr = new ThesaurusBlacklistReader();
         blacklistedLabels = cbr.readWithCsvBeanReader();
         runner.start();
     }
