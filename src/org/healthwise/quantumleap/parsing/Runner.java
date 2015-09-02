@@ -60,6 +60,7 @@ public class Runner {
         all.addAll(getTestsFacetMatches());
         all.addAll(getProceduresFacetMatches());
         all.addAll(getWellnessFacetMatches());
+        all.addAll(getConditionsFacetMatches());
         return all;
     }
 
@@ -149,6 +150,11 @@ public class Runner {
 
     public List<FacetMatchesCsvBean> getTestsFacetMatches() throws Exception {
         TestsFacetMatchesReader testFacetMap = new TestsFacetMatchesReader();
+        return testFacetMap.readWithCsvBeanReader();
+    }
+
+    public List<FacetMatchesCsvBean> getConditionsFacetMatches() throws Exception {
+        ConditionsFacetMatchesReader testFacetMap = new ConditionsFacetMatchesReader();
         return testFacetMap.readWithCsvBeanReader();
     }
 
