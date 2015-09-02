@@ -21,6 +21,8 @@ public class ConceptBean {
     private final String SYNONYM = "legacy_synonym";
     private final String ABBREVIATION = "legacy_abbreviation";
     private final String CLINICAL_LABEL = "legacy_clinical_label";
+    private final String RELEVANT_CUI = "legacy_rel_cui";
+    private final String RELEVANT_DOC = "legacy_rel_doc";
 
 
     private Integer id;
@@ -29,10 +31,48 @@ public class ConceptBean {
     private List<String> narrower  = new ArrayList();
     private List<String> related  = new ArrayList();
     private List<String> scopeNotes  = new ArrayList();
+    private List<String> notes  = new ArrayList();
     private List<String> topConcepts  = new ArrayList();
     private List<String> abbreviations = new ArrayList();
     private List<String> clinicalLabels = new ArrayList();
     private List<String> legacySynonym = new ArrayList<String>();
+    private List<String> cuis = new ArrayList<String>();
+    private List<String> docs = new ArrayList<String>();
+
+    public List<String> getCuis() {
+        return cuis;
+    }
+
+    public void addCui(String cui) {
+        this.cuis.add(cui);
+    }
+
+    public List<String> getDocs() {
+        return docs;
+    }
+
+    public void addDoc(String doc) {
+        this.docs.add(doc);
+    }
+
+    public List<String> getNotes() {
+        return notes;
+    }
+
+    public void addToNotes(String note) {
+        this.notes.add(note);
+    }
+
+
+    public List<String> getLegacyCanadianSynonym() {
+        return legacyCanadianSynonym;
+    }
+
+    public void addLegacyCanadianSynonym(String lcg) {
+        this.legacyCanadianSynonym.add(lcg);
+    }
+
+    private List<String> legacyCanadianSynonym = new ArrayList<String>();
     //private List<String> relatedLinks = new ArrayList<String>();
     private String rdId;
     private String rdLabel;
@@ -190,8 +230,12 @@ public class ConceptBean {
         this.rdLabel = rdLabel;
     }
 
-    public void addToAltLabel(String altLabel) {
-        this.legacySynonym.add(altLabel);
+    public void addToAltLabel(String altLabel, String locale) {
+        if (locale.equals("en-us")) {
+            this.legacySynonym.add(altLabel);
+        } else {
+            this.legacyCanadianSynonym.add(altLabel);
+        }
     }
 
     public String render() {
@@ -240,6 +284,14 @@ public class ConceptBean {
             }
         }
 
+        if (this.getLegacyCanadianSynonym().size() > 0) {
+            iter = this.getLegacyCanadianSynonym().iterator();
+            while (iter.hasNext()) {
+                String someSynonym = (String) iter.next();
+                out.append("    <hwcv_sc:"+SYNONYM+" xml:lang=\"en-ca\">"+someSynonym+"</hwcv_sc:"+SYNONYM+">\n");
+            }
+        }
+
 
         if (this.getAbbreviations().size() > 0) {
             iter = this.getAbbreviations().iterator();
@@ -257,6 +309,22 @@ public class ConceptBean {
             }
         }
 
+        if (this.getCuis().size() > 0) {
+            iter = this.getCuis().iterator();
+            while (iter.hasNext()) {
+                String cui = (String) iter.next();
+                out.append("    <hwcv_sc:"+RELEVANT_CUI+">"+cui+"</hwcv_sc:"+RELEVANT_CUI+">\n");
+            }
+        }
+
+        if (this.getDocs().size() > 0) {
+            iter = this.getDocs().iterator();
+            while (iter.hasNext()) {
+                String doc = (String) iter.next();
+                out.append("    <hwcv_sc:"+RELEVANT_DOC+">"+doc+"</hwcv_sc:"+RELEVANT_DOC+">\n");
+            }
+        }
+
 
         if (this.getScopeNote().size() > 0) {
             iter = this.getScopeNote().iterator();
@@ -265,6 +333,15 @@ public class ConceptBean {
                 out.append("    <skos:scopeNote>"+scopeNote+"</skos:scopeNote>\n");
             }
         }
+
+        if (this.getNotes().size() > 0) {
+            iter = this.getNotes().iterator();
+            while (iter.hasNext()) {
+                String note = (String) iter.next();
+                out.append("    <skos:note>"+note+"</skos:note>\n");
+            }
+        }
+
         if (this.getDefinition() != null) {
             out.append("    <skos:definition>"+getDefinition()+"</skos:definition>\n");
         }

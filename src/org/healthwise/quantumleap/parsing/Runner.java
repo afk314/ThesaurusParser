@@ -87,7 +87,7 @@ public class Runner {
                 String fidpId = facetLabelToIdMap.get(label);
                 if (fidpId == null || fidpId.isEmpty()) {
                     System.out.println("Can't find an id for label: " + label);
-                    fidpId = "MISSING";
+                    fidpId = "null";
                 }
                 c.setFacetId(fidpId);
             }
@@ -134,9 +134,32 @@ public class Runner {
                 if (currentTFM.getRdType() != null) {
                     c.setRdType(currentTFM.getRdType());
                 }
-                if (currentTFM.getLifecycleStage() == null) {
-                    System.out.println("Whats up? "+currentTFM.getConceptId());
+
+
+                if (currentTFM.getCuiMap() != null) {
+                    String[] split = currentTFM.getCuiMap().split(",");
+                    for (int i = 0; i < split.length; i++) {
+                        String aCui = split[i];
+                        c.addCui(aCui.trim());
+                    }
                 }
+
+                if (currentTFM.getDocumentToCui() != null) {
+                    String[] split = currentTFM.getDocumentToCui().split(",");
+                    for (int i = 0; i < split.length; i++) {
+                        String aDoc = split[i];
+                        c.addDoc(aDoc.trim());
+                    }
+                }
+
+               
+
+                if (currentTFM.getScopeNotes() != null) {
+                    c.addToNotes(currentTFM.getScopeNotes());
+                }
+
+
+
                 c.setLifecycleStage(currentTFM.getLifecycleStage());
             }
         }

@@ -217,13 +217,15 @@ public class ThesaurusParser {
                 } else if (relationType.equals("SN")) {
                     buildScopeNote(value, currentConceptBean);
                 } else if (relationType.equals("UF")) {
-                    buildUsedFor(value, currentConceptBean);
+                    buildUsedFor(value, currentConceptBean, "en-us");
                 } else if (relationType.equals("DEF")) {
                     buildDefinition(value, currentConceptBean);
                 } else if (relationType.equals("ABV")) {
                       buildAbbreviation(value, currentConceptBean);
                 } else if (relationType.equals("CL")) {
                         buildClinicalLabel(value, currentConceptBean);
+                } else if (relationType.equals("CEL")) {
+                    buildUsedFor(value, currentConceptBean, "en-ca");
                 }
                 thisRun++;
 
@@ -313,10 +315,10 @@ public class ThesaurusParser {
         currentConceptBean.addAbbreviations(encoded);
     }
 
-    private void buildUsedFor(String ufTerm, ConceptBean currentConceptBean) {
+    private void buildUsedFor(String ufTerm, ConceptBean currentConceptBean, String locale) {
 
         String encoded = xmlEncode(ufTerm);
-        currentConceptBean.addToAltLabel(encoded);
+        currentConceptBean.addToAltLabel(encoded, locale);
     }
 
 
