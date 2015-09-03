@@ -9,14 +9,13 @@ import java.util.*;
 
 public class Runner {
 
+    public static List<String> blacklistedLabels = new ArrayList();
     // Boilerplate RDF to append at the top
     private final String RDF_HEADER_FILENAME = "rdf_header.txt";
     // Outtput filename
     private final String RDF_OUTPUT_FILENAME = "/Users/akimball/dev/onto-out/HW_Concept.rdf";
-
     Map<Integer, ConceptBean> idToConcepts;
     Map<String, ConceptBean> conceptIdToConcepts;
-    public static List<String> blacklistedLabels = new ArrayList();
 
     //List<FacetMatchesCsvBean> fmList;
 
@@ -152,7 +151,6 @@ public class Runner {
                     }
                 }
 
-               
 
                 if (currentTFM.getScopeNotes() != null) {
                     c.addToNotes(currentTFM.getScopeNotes());

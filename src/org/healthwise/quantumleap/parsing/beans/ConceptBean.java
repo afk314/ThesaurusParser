@@ -38,6 +38,19 @@ public class ConceptBean {
     private List<String> legacySynonym = new ArrayList<String>();
     private List<String> cuis = new ArrayList<String>();
     private List<String> docs = new ArrayList<String>();
+    private List<String> legacyCanadianSynonym = new ArrayList<String>();
+    //private List<String> relatedLinks = new ArrayList<String>();
+    private String rdId;
+    private String rdLabel;
+    private String rdType;
+    private String facetId;
+    private String definition;
+    private String lifecycleStage;
+
+    public ConceptBean(Integer id, String label) {
+        this.id = id;
+        this.label = label;
+    }
 
     public List<String> getCuis() {
         return cuis;
@@ -63,23 +76,9 @@ public class ConceptBean {
         this.notes.add(note);
     }
 
-
     public List<String> getLegacyCanadianSynonym() {
         return legacyCanadianSynonym;
     }
-
-    public void addLegacyCanadianSynonym(String lcg) {
-        this.legacyCanadianSynonym.add(lcg);
-    }
-
-    private List<String> legacyCanadianSynonym = new ArrayList<String>();
-    //private List<String> relatedLinks = new ArrayList<String>();
-    private String rdId;
-    private String rdLabel;
-    private String rdType;
-    private String facetId;
-    private String definition;
-    private String lifecycleStage;
 
 
 //    public List<String> getRelatedLinks() {
@@ -89,6 +88,10 @@ public class ConceptBean {
 //    public void addRelatedLink(String relatedLink) {
 //        this.relatedLinks.add(relatedLink);
 //    }
+
+    public void addLegacyCanadianSynonym(String lcg) {
+        this.legacyCanadianSynonym.add(lcg);
+    }
 
     public List getClinicalLabels() {
         return clinicalLabels;
@@ -128,11 +131,6 @@ public class ConceptBean {
 
     public void setDefinition(String definition) {
         this.definition = definition;
-    }
-
-    public ConceptBean(Integer id, String label) {
-        this.id = id;
-        this.label = label;
     }
 
     public Integer getId() {
@@ -246,7 +244,7 @@ public class ConceptBean {
         out.append("    <rdfs:label>"+getLabel()+"</rdfs:label>\n");
 
         if (getTopConcepts().size() > 0) {
-            iter = this.getBroader().iterator();
+            iter = this.getTopConcepts().iterator();
             while (iter.hasNext()) {
                 String topConceptId = (String) iter.next();
                 out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + topConceptId + "\"/>\n");
@@ -267,6 +265,10 @@ public class ConceptBean {
             while (iter.hasNext()) {
                 String broaderId = (String) iter.next();
                 out.append("    <skos:broader rdf:resource=\"#HWCV_" + broaderId + "\"/>\n");
+            }
+        } else {
+            if (topConcepts.size() > 0) {
+                out.append("    <skos:broader rdf:resource=\"#HWCV_" + getTopConcepts().get(0) + "\"/>\n");
             }
         }
         if (this.getNarrower().size() > 0) {
@@ -313,7 +315,8 @@ public class ConceptBean {
             iter = this.getCuis().iterator();
             while (iter.hasNext()) {
                 String cui = (String) iter.next();
-                out.append("    <hwcv_sc:"+RELEVANT_CUI+">"+cui+"</hwcv_sc:"+RELEVANT_CUI+">\n");
+                out.append("    <hwl:hasCUI rdf:resource=\"#" + cui + "\"/>\n");
+                //out.append("    <hwcv_sc:"+RELEVANT_CUI+">"+cui+"</hwcv_sc:"+RELEVANT_CUI+">\n");
             }
         }
 
@@ -321,7 +324,9 @@ public class ConceptBean {
             iter = this.getDocs().iterator();
             while (iter.hasNext()) {
                 String doc = (String) iter.next();
-                out.append("    <hwcv_sc:"+RELEVANT_DOC+">"+doc+"</hwcv_sc:"+RELEVANT_DOC+">\n");
+                //out.append("    <hwcv_sc:"+RELEVANT_DOC+">"+doc+"</hwcv_sc:"+RELEVANT_DOC+">\n");
+                //out.append("    <hwcv_sc:"+RELEVANT_DOC+">"+doc+"</hwcv_sc:"+RELEVANT_DOC+">\n");
+                // http://www.healthwise.org/concept/concept_schema#
             }
         }
 
@@ -347,16 +352,18 @@ public class ConceptBean {
         }
 
         if (this.getRdId() != null) {
-            out.append("    <"+HWNS+":"+RD_ID+">"+getRdId()+"</"+HWNS+":"+RD_ID+">\n");
+            out.append("    <hwl:hasRdId rdf:resource=\"#" + getRdId() + "\"/>\n");
+            //out.append("    <"+HWNS+":"+RD_ID+">"+getRdId()+"</"+HWNS+":"+RD_ID+">\n");
         }
 
         if (this.getFacetId() != null) {
-            out.append("    <"+HWNS+":"+FACET_VALUE_ID+">"+getFacetId()+"</"+HWNS+":"+FACET_VALUE_ID+">\n");
+            out.append("    <hwl:hasFacetId rdf:resource=\"#" + getFacetId() + "\"/>\n");
+            //out.append("    <"+HWNS+":"+FACET_VALUE_ID+">"+getFacetId()+"</"+HWNS+":"+FACET_VALUE_ID+">\n");
         }
 
-        if (this.getRdLabel() != null) {
-            out.append("    <"+HWNS+":"+RD_LABEL+">"+getRdLabel()+"</"+HWNS+":"+RD_LABEL+">\n");
-        }
+//        if (this.getRdLabel() != null) {
+//            out.append("    <"+HWNS+":"+RD_LABEL+">"+getRdLabel()+"</"+HWNS+":"+RD_LABEL+">\n");
+//        }
 
 
             out.append("    <"+HWNS+":"+LIFECYCLE+">"+getLifecycleStage()+"</"+HWNS+":"+LIFECYCLE+">\n");

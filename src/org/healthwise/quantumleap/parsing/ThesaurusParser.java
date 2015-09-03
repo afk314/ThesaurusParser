@@ -8,27 +8,19 @@ import java.util.*;
 
 public class ThesaurusParser {
 
-    private Map facetFileToTypeMap;
-
-    private Map<Integer, ConceptBean> idConceptMap = new HashMap<Integer, ConceptBean>();
-
+    // ID mgmt
+    // Where to start handing out the ids
+    private final static int ID_START = 20000;
     // Thesaurus files - you'll need to add these to the fileSetup method
     private final String TEST_THESAURUS_FILE = "tests.txt";
     private final String SAMPLE_FILE = "sample.txt";
     private final String PROCEDURE_THESAURUS_FILE = "procedures.txt";
     private final String CONDITIONS_THESAURUS_FILE = "conditions.txt";
     private final String WELLNESS_THESAURUS_FILE = "wellness.txt";
-
-
-
     // Outtput filename
     private final String RDF_OUTPUT_FILENAME = "hwcv-generated.owl";
-
-
-    // ID mgmt
-    // Where to start handing out the ids
-    private final static int ID_START = 20000;
-
+    private Map facetFileToTypeMap;
+    private Map<Integer, ConceptBean> idConceptMap = new HashMap<Integer, ConceptBean>();
     // Used to maintain counter state
     private int idCounter = 0;
 
@@ -208,7 +200,7 @@ public class ThesaurusParser {
                     makeSkosBroaderTerm(value, currentConceptBean);
 
                 } else if (relationType.equals("NT")) {
-                    makeSkosNarrowerTerm(value, currentConceptBean);
+                    makeSkosNarrowerTerm(value, currentConceptBean, value);
 
                 } else if (relationType.equals("RT") || relationType.equals("PRO")
                         || relationType.equals("MED") || relationType.equals("WEL") || relationType.equals("DEV")) {
@@ -245,14 +237,13 @@ public class ThesaurusParser {
         if (c == null) {
             throw new RuntimeException("Failed to find: "+label);
         }
-        makeSkosBroader(parentId, c);
+        //makeSkosBroader(parentId, c);
         addTopConcept(parentId, c);
         return c;
     }
 
-    private void addTopConcept(String term, ConceptBean c) {
-        Integer id = getIdForLabel(term);
-        c.addTopConcept("id+");
+    private void addTopConcept(String parentId, ConceptBean c) {
+        c.addTopConcept(parentId);
     }
 
 
@@ -269,10 +260,17 @@ public class ThesaurusParser {
     }
 
 
-
-    private void makeSkosNarrowerTerm(String term, ConceptBean c) {
+    private void makeSkosNarrowerTerm(String term, ConceptBean c, String current) {
+        // Translate a thesuarus NT where a hasNarrower b to b hasBroader a
         Integer id = getIdForLabel(term);
-        c.addToNarrower(id + "");
+        ConceptBean targetConcept = idConceptMap.get(id);
+        if (targetConcept == null) {
+            System.out.println("Failed: " + term);
+        } else {
+            targetConcept.addToBroader(c.getId() + "");
+        }
+
+        //c.addToNarrower(id + "");
     }
 
 

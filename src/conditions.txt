@@ -1074,7 +1074,7 @@ Obesity and Overweight
   CL:Obesity and Overweight
   UF:Overweight
   UF:Obesity
-  RT:Diabetes, Type 2
+  RT:Diabetes Type 2
 Abnormal Weight Gain
   CL:Abnormal Weight Gain
 Abnormal Weight Loss
@@ -3725,7 +3725,7 @@ Juvenile-Onset Diabetes
   SA:Diab
   SA:Peds
   ABV:JOD
-  CL:Diabetes, Juvenile-Onset (JOD)
+  CL:Diabetes Juvenile-Onset (JOD)
   UF:Juvenile-Onset Diabetes (JOD)
   UF:Juvenile DM
   UF:Juvenile Diabetes Mellitus
@@ -3733,7 +3733,7 @@ Juvenile-Onset Diabetes
 Diabetes Type 1
   SA:Diab
   ABV:IDDM
-  CL:Diabetes, Type 1
+  CL:Diabetes Type 1
   UF:Type 1 Diabetes
   UF:Diabetes Mellitus, Type 1 (IDDM)
   UF:Diabetes Mellitus, Type 1
@@ -3752,9 +3752,9 @@ Diabetes Type 2
   SA:Diab
   ABV:NIDDM
   CL:Diabetes Mellitus, Type 2 (NIDDM)
-  UF:Diabetes, Type 2
+  UF:Diabetes Type 2
   UF:Diabetes Mellitus, Type 2
-  UF:Diabetes, Type 2
+  UF:Diabetes Type 2
   UF:Type 2 Diabetes Mellitus
   UF:Type 2 DM
   UF:Diabetes Mellitus Type 2
@@ -3765,7 +3765,7 @@ Diabetes Type 2
   NF:Diabetes in Children
 Diabetes in Children
   SA:Diab
-  CL:Diabetes, Type 2 (Children)
+  CL:Diabetes Type 2 (Children)
   UF:Type 2 Diabetes in Children
   UF:Children and Diabetes
   UF:Diabetes and Exercise in Children
@@ -3779,8 +3779,8 @@ Diabetes
   UF:Chronic Somogyi Rebound
   UF:Posthypoglycemic Hyperglycemia
   NT:Prediabetes
-  NT:Diabetes, Type 1
-  NT:Diabetes, Type 2
+  NT:Diabetes Type 1
+  NT:Diabetes Type 2
   NT:Gestational Diabetes
   NF:Without Diabetes
   NF:Metformin
@@ -3803,7 +3803,7 @@ Diabetes
 Gestational Diabetes
   SA:Diab
   SA:Opth
-  CL:Diabetes, Gestational
+  CL:DiabetesGestational
 Prediabetes
   SA:Diab
   CL:Prediabetes
