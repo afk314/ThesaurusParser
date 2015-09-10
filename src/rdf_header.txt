@@ -6,6 +6,7 @@
     <!ENTITY owl "http://www.w3.org/2002/07/owl#">
     <!ENTITY DEFAULT "http://www.healthwise.org/concept/concept_data">
     <!ENTITY hwcv_sc "http://www.healthwise.org/concept/concept_schema#">
+    <!ENTITY hw_legacy "http://www.healthwise.org/legacy/concept_schema#">
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
 ]>
 <rdf:RDF
@@ -16,6 +17,7 @@
     xmlns = "&DEFAULT;#"
     xml:base = "&DEFAULT;"
     xmlns:hwcv_sc = "&hwcv_sc;"
+    xmlns:hw_legacy = "&hw_legacy;"
     xmlns:skos = "&skos;"
 >
   <owl:Ontology rdf:about="">
