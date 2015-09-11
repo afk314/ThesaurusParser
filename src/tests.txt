@@ -380,12 +380,6 @@ Biophysical Profile (BPP) Test
   UF:BPP Test
   UF:Biophysical Profile
   UF:BPP (Biophysical Profile) Test
-Neonatal Intensive Care Unit (NICU) Tests
-  TT:Lab Tests
-  AZ:Neonatal Intensive Care Unit (NICU) Tests
-  CL:Neonatal Intensive Care Unit (NICU) Tests
-  UF:NICU Tests
-  UF:Neonatal Intensive Care Unit Tests
 Prenatal Tests and Screening
   TT:Lab Tests
   AZ:Prenatal Tests and Screening

@@ -231,13 +231,16 @@ public class ThesaurusParser {
 
 
     private ConceptBean buildBaseTriples(String label, String parentId) {
+        if (label.startsWith("Endoscopic Retrograde")) {
+            System.out.println("Watch!");
+        }
         StringBuffer b = new StringBuffer();
         Integer id = getIdForLabel(label);
         ConceptBean c = idConceptMap.get(id);
         if (c == null) {
             throw new RuntimeException("Failed to find: "+label);
         }
-        //makeSkosBroader(parentId, c);
+        makeSkosBroader(parentId, c);
         addTopConcept(parentId, c);
         return c;
     }

@@ -13,16 +13,11 @@ public class ConceptBean {
 
     private final String HWNS = "hwcv_sc";
     private final String CONCEPT_ID = "concept_id";
-    private final String RD_ID = "legacy_rd_id";
-    private final String RD_TYPE = "legacy_rd_type";
     private final String LIFECYCLE = "lifecycle_stage";
-    private final String RD_LABEL = "legacy_rd_label";
-    private final String FACET_VALUE_ID = "legacy_facet_id";
     private final String SYNONYM = "legacy_synonym";
     private final String ABBREVIATION = "abbreviation";
     private final String CLINICAL_LABEL = "clinical_label";
-    private final String RELEVANT_CUI = "legacy_rel_cui";
-    private final String RELEVANT_DOC = "legacy_rel_doc";
+
 
 
     private Integer id;
@@ -79,15 +74,6 @@ public class ConceptBean {
     public List<String> getLegacyCanadianSynonym() {
         return legacyCanadianSynonym;
     }
-
-
-//    public List<String> getRelatedLinks() {
-//        return relatedLinks;
-//    }
-//
-//    public void addRelatedLink(String relatedLink) {
-//        this.relatedLinks.add(relatedLink);
-//    }
 
     public void addLegacyCanadianSynonym(String lcg) {
         this.legacyCanadianSynonym.add(lcg);
@@ -237,6 +223,11 @@ public class ConceptBean {
     }
 
     public String render() {
+
+        if (this.getLabel().startsWith("Endoscopic Retrograde")) {
+            System.out.println("me");
+        }
+
         Iterator iter;
         StringBuffer out = new StringBuffer();
         out.append("  <skos:Concept rdf:ID=\"HWCV_"+getId()+"\">\n");
@@ -264,16 +255,41 @@ public class ConceptBean {
 
 
         if (this.getBroader().size() > 0) {
-            iter = this.getBroader().iterator();
-            while (iter.hasNext()) {
-                String broaderId = (String) iter.next();
-                out.append("    <skos:broader rdf:resource=\"#HWCV_" + broaderId + "\"/>\n");
+            // if we only have one broader
+            if (this.getBroader().size() == 1) {
+                out.append("    <skos:broader rdf:resource=\"#HWCV_" + this.getBroader().get(0) + "\"/>\n");
+                out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + this.getBroader().get(0) + "\"/>\n");
+            } else {
+                // we have more than one
+                iter = this.getBroader().iterator();
+                while (iter.hasNext()) {
+                    String broaderId = (String) iter.next();
+                    Integer broaderAsInt = Integer.parseInt(broaderId);
+                    if (broaderAsInt > 19999) {
+                        out.append("    <skos:broader rdf:resource=\"#HWCV_" + broaderId + "\"/>\n");
+                    } else {
+                        out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + broaderId + "\"/>\n");
+                    }
+                }
             }
-        } else {
-            if (getTopConcept() != null) {
-                out.append("    <skos:broader rdf:resource=\"#HWCV_" + getTopConcept() + "\"/>\n");
-            }
+
         }
+//        if (this.getBroader().size() > 0) {
+//            iter = this.getBroader().iterator();
+//            while (iter.hasNext()) {
+//                String broaderId = (String) iter.next();
+//                Integer broaderAsInt = Integer.parseInt(broaderId);
+//                if (broaderAsInt > 19999) {
+//                    out.append("    <skos:broader rdf:resource=\"#HWCV_" + broaderId + "\"/>\n");
+//                } else {
+//                    out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + broaderId + "\"/>\n");
+//                }
+//            }
+//        } else {
+//            if (getTopConcept() != null) {
+//                out.append("    <skos:broader rdf:resource=\"#HWCV_" + getTopConcept() + "\"/>\n");
+//            }
+//        }
         if (this.getNarrower().size() > 0) {
             iter = this.getNarrower().iterator();
             while (iter.hasNext()) {
@@ -285,7 +301,7 @@ public class ConceptBean {
             iter = this.getLegacySynonym().iterator();
             while (iter.hasNext()) {
                 String someSynonym = (String) iter.next();
-                out.append("    <hwcv_sc:"+SYNONYM+">"+someSynonym+"</hwcv_sc:"+SYNONYM+">\n");
+                out.append("    <skos:altLabel>" + someSynonym + "</skos:altLabel>\n");
             }
         }
 
@@ -293,7 +309,7 @@ public class ConceptBean {
             iter = this.getLegacyCanadianSynonym().iterator();
             while (iter.hasNext()) {
                 String someSynonym = (String) iter.next();
-                out.append("    <hwcv_sc:"+SYNONYM+" xml:lang=\"en-ca\">"+someSynonym+"</hwcv_sc:"+SYNONYM+">\n");
+                out.append("    <skos:altLabel xml:lang=\"en-ca\">" + someSynonym + "</skos:altLabel>\n");
             }
         }
 
@@ -358,17 +374,10 @@ public class ConceptBean {
 
 
         if (this.getFacetId() != null) {
-//            out.append("    <hwl:hasFacetId rdf:resource=\"#" + getFacetId() + "\"/>\n");
             out.append("    <hw_legacy:has_facet_id rdf:resource=\"#" + getFacetId() + "\"/>\n");
         }
 
-
-//        if (this.getRdLabel() != null) {
-//            out.append("    <"+HWNS+":"+RD_LABEL+">"+getRdLabel()+"</"+HWNS+":"+RD_LABEL+">\n");
-//        }
-
-
-            out.append("    <"+HWNS+":"+LIFECYCLE+">"+getLifecycleStage()+"</"+HWNS+":"+LIFECYCLE+">\n");
+        out.append("    <" + HWNS + ":" + LIFECYCLE + ">" + getLifecycleStage() + "</" + HWNS + ":" + LIFECYCLE + ">\n");
 
 
 

@@ -115,6 +115,7 @@ public class Runner {
             String conceptId = currentTFM.getConceptId();
             ConceptBean c = conceptIdToConcepts.get(conceptId);
 
+
             if (c == null) {
                 System.out.println("Can't find a concept for id: "+conceptId);
             } else {
