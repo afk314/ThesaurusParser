@@ -334,7 +334,7 @@ public class ConceptBean {
             iter = this.getCuis().iterator();
             while (iter.hasNext()) {
                 String cui = (String) iter.next();
-                out.append("    <hw_legacy:has_relevant_cui rdf:resource=\"#" + cui + "\"/>\n");
+                out.append("    <hw_legacy:has_relevant_cui rdf:resource=\"http://www.healthwise.org/legacy/concept_schema#" + cui + "\"/>\n");
             }
         }
 
@@ -342,12 +342,12 @@ public class ConceptBean {
             iter = this.getDocs().iterator();
             while (iter.hasNext()) {
                 String doc = (String) iter.next();
-                out.append("    <hw_legacy:has_relevant_hwid rdf:resource=\"#" + doc + "\"/>\n");
+                out.append("    <hw_legacy:has_relevant_hwid rdf:resource=\"http://www.healthwise.org/legacy/concept_schema#" + doc + "\"/>\n");
             }
         }
 
         if (this.getRdId() != null) {
-            out.append("    <hw_legacy:has_rd_id rdf:resource=\"#" + getRdId() + "\"/>\n");
+            out.append("    <hw_legacy:has_rd_id rdf:resource=\"http://www.healthwise.org/legacy/concept_schema#" + getRdId() + "\"/>\n");
         }
 
 
@@ -372,9 +372,8 @@ public class ConceptBean {
         }
 
 
-
-        if (this.getFacetId() != null) {
-            out.append("    <hw_legacy:has_facet_id rdf:resource=\"#" + getFacetId() + "\"/>\n");
+        if (this.getFacetId() != null || !this.getFacetId().equals("null")) {
+            out.append("    <hw_legacy:has_facet_id rdf:resource=\"http://www.healthwise.org/legacy/concept_schema#" + getFacetId() + "\"/>\n");
         }
 
         out.append("    <" + HWNS + ":" + LIFECYCLE + ">" + getLifecycleStage() + "</" + HWNS + ":" + LIFECYCLE + ">\n");

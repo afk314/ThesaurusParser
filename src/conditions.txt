@@ -5924,22 +5924,18 @@ Heart Attack
 Arteriosclerosis
   SA:Card
   CL:Arteriosclerosis
-  NT:Hardening of the Arteries (Atherosclerosis)
   DEF:Any hardening (and loss of elasticity) of medium or large arteries.
 Arteriolosclerosis
   SA:Card
   CL:Arteriolosclerosis
   DEF:Any hardening (and loss of elasticity) of arterioles (small arteries).
-Hardening of the Arteries (Atherosclerosis)
+Atherosclerosis
   SA:Card
   CL:Atherosclerosis
   UF:Atherosclerosis
   UF:Arteriosclerotic Vascular Disease (ASVD)
   UF:Arteriosclerotic Vascular Disease
   UF:Hardening of the Arteries
-  NT:Arteriosclerosis
-  NT:Arteriolosclerosis
-  NF:Coronary Artery Disease (CAD)
   RT:High Cholesterol
   RT:Peripheral Artery Disease (PAD)
   RT:Heart Disease
