@@ -52,7 +52,9 @@ public class ConceptBean {
     }
 
     public void addCui(String cui) {
-        this.cuis.add(cui);
+        if (!(cui == null && cui.equals("null"))) {
+            this.cuis.add(cui);
+        }
     }
 
     public List<String> getDocs() {
@@ -190,7 +192,10 @@ public class ConceptBean {
     }
 
     public void setFacetId(String facetId) {
-        this.facetId = facetId;
+        if (facetId != null && !facetId.equals("null")) {
+            this.facetId = facetId;
+        }
+
     }
 
 
@@ -258,7 +263,7 @@ public class ConceptBean {
             // if we only have one broader
             if (this.getBroader().size() == 1) {
                 out.append("    <skos:broader rdf:resource=\"#HWCV_" + this.getBroader().get(0) + "\"/>\n");
-                out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + this.getBroader().get(0) + "\"/>\n");
+                //out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + this.getBroader().get(0) + "\"/>\n");
             } else {
                 // we have more than one
                 iter = this.getBroader().iterator();
@@ -268,7 +273,7 @@ public class ConceptBean {
                     if (broaderAsInt > 19999) {
                         out.append("    <skos:broader rdf:resource=\"#HWCV_" + broaderId + "\"/>\n");
                     } else {
-                        out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + broaderId + "\"/>\n");
+                        //out.append("    <skos:hasTopConcept rdf:resource=\"#HWCV_" + broaderId + "\"/>\n");
                     }
                 }
             }
@@ -334,7 +339,7 @@ public class ConceptBean {
             iter = this.getCuis().iterator();
             while (iter.hasNext()) {
                 String cui = (String) iter.next();
-                out.append("    <hw_legacy:has_relevant_cui rdf:resource=\"http://www.healthwise.org/legacy/concept_schema#" + cui + "\"/>\n");
+                out.append("    <hw_legacy:has_cui rdf:resource=\"http://www.healthwise.org/legacy/concept_data#" + cui + "\"/>\n");
             }
         }
 
@@ -342,12 +347,12 @@ public class ConceptBean {
             iter = this.getDocs().iterator();
             while (iter.hasNext()) {
                 String doc = (String) iter.next();
-                out.append("    <hw_legacy:has_relevant_hwid rdf:resource=\"http://www.healthwise.org/legacy/concept_schema#" + doc + "\"/>\n");
+                out.append("    <hw_legacy:has_hwid rdf:resource=\"http://www.healthwise.org/legacy/concept_data#" + doc + "\"/>\n");
             }
         }
 
         if (this.getRdId() != null) {
-            out.append("    <hw_legacy:has_rd_id rdf:resource=\"http://www.healthwise.org/legacy/concept_schema#" + getRdId() + "\"/>\n");
+            out.append("    <hw_legacy:has_rd rdf:resource=\"http://www.healthwise.org/legacy/concept_data#" + getRdId() + "\"/>\n");
         }
 
 
@@ -372,11 +377,16 @@ public class ConceptBean {
         }
 
 
-        if (this.getFacetId() != null || !this.getFacetId().equals("null")) {
-            out.append("    <hw_legacy:has_facet_id rdf:resource=\"http://www.healthwise.org/legacy/concept_schema#" + getFacetId() + "\"/>\n");
+        if (this.getFacetId() != null && !this.getFacetId().equals("null")) {
+
+            out.append("    <hw_legacy:has_facet rdf:resource=\"http://www.healthwise.org/legacy/concept_data#" + getFacetId() + "\"/>\n");
         }
 
-        out.append("    <" + HWNS + ":" + LIFECYCLE + ">" + getLifecycleStage() + "</" + HWNS + ":" + LIFECYCLE + ">\n");
+        if (getLifecycleStage() == null || getLifecycleStage().equals("null")) {
+            out.append("    <" + HWNS + ":" + LIFECYCLE + ">" + "unkown" + "</" + HWNS + ":" + LIFECYCLE + ">\n");
+        } else {
+            out.append("    <" + HWNS + ":" + LIFECYCLE + ">" + getLifecycleStage() + "</" + HWNS + ":" + LIFECYCLE + ">\n");
+        }
 
 
 
